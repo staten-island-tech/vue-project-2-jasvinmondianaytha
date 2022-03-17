@@ -1,3 +1,7 @@
+<script setup>
+import { RouterLink, RouterView } from 'vue-router'
+</script>
+
 <template>
     <div class="navbar">
         <div class="nav-container">
@@ -8,6 +12,11 @@
                 <div class="nav-link-wrapper">
                     <div class="nav-link">
                         <RouterLink to="/">HOME</RouterLink>
+                    </div>
+                </div>
+                <div class="nav-link-wrapper">
+                    <div class="nav-link">
+                        <RouterLink to="/about">ABOUT</RouterLink>
                     </div>
                 </div>
             </div>
