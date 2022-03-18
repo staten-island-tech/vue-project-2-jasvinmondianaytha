@@ -19,6 +19,11 @@ import { RouterLink, RouterView } from 'vue-router'
                         <RouterLink to="/about">ABOUT</RouterLink>
                     </div>
                 </div>
+                <div class="nav-link-wrapper">
+                    <div class="nav-link">
+                        <RouterLink to="/about">LOGIN</RouterLink>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -32,7 +37,7 @@ import { RouterLink, RouterView } from 'vue-router'
     padding-left: 5%;
     font-size: 1.5rem;
     letter-spacing: 0.1rem;
-    background-color: var(--blue);
+    background-color: aliceblue;
 }
 .nav-logo-wrapper {
     margin-bottom: 1rem;
@@ -64,7 +69,6 @@ import { RouterLink, RouterView } from 'vue-router'
 }
 .nav-link a {
     font-size: 1.5rem;
-    color: var(--yellow);
     text-decoration: none;
 }
 </style>
