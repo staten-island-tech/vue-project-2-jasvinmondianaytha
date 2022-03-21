@@ -6,7 +6,7 @@ import { RouterLink, RouterView } from "vue-router";
   <div class="navbar">
     <div class="nav-container">
       <h1 class="nav-logo-wrapper">
-        <RouterLink to="/"
+        <RouterLink to="/game"
           ><img src="@/assets/battler.png" alt="" class="nav-image" width="180"
         /></RouterLink>
       </h1>
