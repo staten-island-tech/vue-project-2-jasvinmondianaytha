@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "firebase": "^9.6.9",
-    "pinia": "^2.0.11",
     "vue": "^3.2.31",
     "vue-router": "^4.0.12",
     "vuex": "^4.0.2"
