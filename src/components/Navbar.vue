@@ -1,5 +1,23 @@
-<script setup>
+<script>
 import { RouterLink, RouterView } from "vue-router";
+import { useStore } from "vuex";
+import { computed } from "vue";
+import { useRouter } from "vue-router";
+export default {
+  setup() {
+    const store = useStore();
+    const router = useRouter();
+    const handleClick = () => {
+      store.dispatch("logout");
+      router.push("/login");
+    };
+    return {
+      handleClick,
+      user: computed(() => store.state.user),
+      authIsReady: computed(() => store.state.authIsReady),
+    };
+  },
+};
 </script>
 
 <template>
@@ -21,18 +39,18 @@ import { RouterLink, RouterView } from "vue-router";
             <RouterLink to="/about">ABOUT</RouterLink>
           </div>
         </div>
-        <div class="nav-link-wrapper">
+        <div v-if="!user" class="nav-link-wrapper" id="logged-out">
           <div class="nav-link">
             <RouterLink to="/login">LOGIN</RouterLink>
           </div>
         </div>
-        <div class="nav-link-wrapper">
+        <div v-if="!user" class="nav-link-wrapper" id="logged-out">
           <div class="nav-link">
             <RouterLink to="/signup">SIGN UP</RouterLink>
           </div>
         </div>
-        <div class="nav-link-wrapper">
-          <button>Logout</button>
+        <div v-if="user" class="nav-link-wrapper" id="logged=in">
+          <button class="logout" @click="handleClick">Logout</button>
         </div>
       </div>
     </div>

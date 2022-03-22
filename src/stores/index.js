@@ -1,14 +1,23 @@
-import { defineStore } from "pinia";
 import { createStore } from "vuex";
 import { auth } from "../firebase/config";
+import {
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+  signOut,
+  onAuthStateChanged,
+} from "firebase/auth";
 
 const store = createStore({
   state: {
     user: null,
+    authIsReady: false,
   },
   mutations: {
     setUser(state, payload) {
       state.user = payload;
+    },
+    setAuthIsReady(state, payload) {
+      state.authIsReady = payload;
     },
   },
   actions: {
@@ -18,20 +27,24 @@ const store = createStore({
         email,
         password
       );
+      if (res) {
+        context.commit("setUser", res.user);
+      } else {
+        throw new Error("could not complete signup");
+      }
+    },
+    async login(context, { email, password }) {
+      const res = await signInWithEmailAndPassword(auth, email, password);
+      if (res) {
+        context.commit("setUser", res.user);
+      } else {
+        throw new Error("could not complete login");
+      }
+    },
+    async logout(context) {
+      await signOut(auth);
+      context.commit("setUser", null);
     },
   },
 });
-export const useCounterStore = defineStore({
-  id: "counter",
-  state: () => ({
-    counter: 0,
-  }),
-  getters: {
-    doubleCount: (state) => state.counter * 2,
-  },
-  actions: {
-    increment() {
-      this.counter++;
-    },
-  },
-});
+export default store;
