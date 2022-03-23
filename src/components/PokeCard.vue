@@ -2,7 +2,7 @@
     <article class="pokemon-card">
         <div class="pokemon-container">
             <div class="poke-media-container">
-                <img src="https://play.pokemonshowdown.com/sprites/gen1/abra.png" alt />
+                <img src="https://play.pokemonshowdown.com/sprites/gen1/abra.png" />
             </div>
             <pre class="poke-info-container">
 <span class="type-fire">Abra</span> @ Choice Specs  
