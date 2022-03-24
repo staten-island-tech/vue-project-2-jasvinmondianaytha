@@ -23,24 +23,24 @@ Timid Nature
       tenetur ratione non inventore recusandae? Reiciendis optio recusandae ex
       dolor quia totam.
     </div>
-    <button @click="ok()"></button>
+    <button @click="handeClick"></button>
   </article>
 </template>
 
 <script>
 import { ref } from "vue";
+import { useStore } from "vuex";
 export default {
   setup() {
+    const store = useStore();
     const result = ref(null);
     fetch("https://pokeapi.co/api/v2/pokemon?limit=151&offset=0")
       .then((response) => response.json())
       .then((data) => (result.value = data));
+    const handleClick = () => {
+      store.dispatch("Poke");
+    };
     return { result };
-  },
-  methods: {
-    ok() {
-      console.log(this.result.results);
-    },
   },
 };
 </script>

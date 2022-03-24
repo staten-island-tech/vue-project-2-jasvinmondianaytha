@@ -11,6 +11,8 @@ const store = createStore({
   state: {
     user: null,
     authIsReady: false,
+    pokemon: null,
+    type: null,
   },
   mutations: {
     setUser(state, payload) {
@@ -18,6 +20,12 @@ const store = createStore({
     },
     setAuthIsReady(state, payload) {
       state.authIsReady = payload;
+    },
+    findPoke(state, payload) {
+      state.pokemon = payload;
+    },
+    identifyType(state, payload) {
+      state.type = payload;
     },
   },
   actions: {
@@ -45,6 +53,18 @@ const store = createStore({
       await signOut(auth);
       context.commit("setUser", null);
     },
+    async Poke(array, pokeName) {
+      array.forEach((result) => {
+        result.results.forEach((pokemon) => {
+          console.log(pokemon);
+        });
+      });
+    },
   },
+});
+const unsub = onAuthStateChanged(auth, (user) => {
+  store.commit("setAuthIsReady", true);
+  store.commit("setUser", user);
+  unsub();
 });
 export default store;
