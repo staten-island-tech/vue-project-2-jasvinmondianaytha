@@ -53,11 +53,10 @@ const store = createStore({
       await signOut(auth);
       context.commit("setUser", null);
     },
-    async Poke(array, pokeName) {
-      array.forEach((result) => {
-        result.results.forEach((pokemon) => {
-          console.log(pokemon);
-        });
+    async getPokeName() {
+      const data = await result.results;
+      data.forEach((element) => {
+        console.log(element.name);
       });
     },
   },

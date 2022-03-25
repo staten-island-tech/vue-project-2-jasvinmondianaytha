@@ -23,12 +23,13 @@ Timid Nature
       tenetur ratione non inventore recusandae? Reiciendis optio recusandae ex
       dolor quia totam.
     </div>
-    <button @click="handeClick"></button>
+    <button @click="getPokeName()">Get Names</button>
+    <button @click="getPokeArray()">Get stats</button>
   </article>
 </template>
 
 <script>
-import { ref } from "vue";
+import { ref, VueElement } from "vue";
 import { useStore } from "vuex";
 export default {
   setup() {
@@ -37,10 +38,28 @@ export default {
     fetch("https://pokeapi.co/api/v2/pokemon?limit=151&offset=0")
       .then((response) => response.json())
       .then((data) => (result.value = data));
-    const handleClick = () => {
-      store.dispatch("Poke");
-    };
+    console.log(result);
     return { result };
+  },
+  methods: {
+    // gets pokemon 1-151 names
+    async getPokeName() {
+      const data = await this.result.results;
+      data.forEach((element) => {
+        console.log(element.name);
+      });
+    },
+    // gets pokemon stat array
+    async getPokeArray() {
+      const data = await this.result.results;
+      data.forEach((element) => {
+        const stats = ref(null);
+        fetch(element.url)
+          .then((pokestat) => pokestat.json())
+          .then((info) => (stats.value = info));
+        console.log(stats);
+      });
+    },
   },
 };
 </script>
