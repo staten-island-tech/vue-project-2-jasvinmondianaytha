@@ -29,37 +29,13 @@ Timid Nature
 </template>
 
 <script>
-import { ref, VueElement } from "vue";
-import { useStore } from "vuex";
+import pokemons from "../assets/pokemon.json";
 export default {
   setup() {
-    const store = useStore();
-    const result = ref(null);
-    fetch("https://pokeapi.co/api/v2/pokemon?limit=151&offset=0")
-      .then((response) => response.json())
-      .then((data) => (result.value = data));
-    console.log(result);
-    return { result };
+    return { pokemons };
   },
   methods: {
-    // gets pokemon 1-151 names
-    async getPokeName() {
-      const data = await this.result.results;
-      data.forEach((element) => {
-        console.log(element.name);
-      });
-    },
-    // gets pokemon stat array
-    async getPokeArray() {
-      const data = await this.result.results;
-      data.forEach((element) => {
-        const stats = ref(null);
-        fetch(element.url)
-          .then((pokestat) => pokestat.json())
-          .then((info) => (stats.value = info));
-        console.log(stats);
-      });
-    },
+    getPokeName() {},
   },
 };
 </script>

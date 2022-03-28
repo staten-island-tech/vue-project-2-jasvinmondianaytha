@@ -51,7 +51,7 @@ export default {
         </div>
         <div v-if="user" class="nav-link-wrapper" id="logged=in">
           <h2 v-if="user">Logged in as {{ user.email }}</h2>
-          <button class="logout" @click="handleClick">Logout</button>
+          <p class="logout" @click="handleClick">LOGOUT</p>
         </div>
       </div>
     </div>

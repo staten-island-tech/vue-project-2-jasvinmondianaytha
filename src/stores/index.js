@@ -6,6 +6,7 @@ import {
   signOut,
   onAuthStateChanged,
 } from "firebase/auth";
+import "../assets/pokemon.json";
 
 const store = createStore({
   state: {
@@ -20,12 +21,6 @@ const store = createStore({
     },
     setAuthIsReady(state, payload) {
       state.authIsReady = payload;
-    },
-    findPoke(state, payload) {
-      state.pokemon = payload;
-    },
-    identifyType(state, payload) {
-      state.type = payload;
     },
   },
   actions: {
@@ -52,12 +47,6 @@ const store = createStore({
     async logout(context) {
       await signOut(auth);
       context.commit("setUser", null);
-    },
-    async getPokeName() {
-      const data = await result.results;
-      data.forEach((element) => {
-        console.log(element.name);
-      });
     },
   },
 });
