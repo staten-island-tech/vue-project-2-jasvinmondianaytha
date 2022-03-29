@@ -1,5 +1,4 @@
 <script>
-import { RouterLink, RouterView } from "vue-router";
 import { useStore } from "vuex";
 import { computed } from "vue";
 import { useRouter } from "vue-router";
@@ -37,6 +36,11 @@ export default {
         <div class="nav-link-wrapper">
           <div class="nav-link">
             <RouterLink to="/about">ABOUT</RouterLink>
+          </div>
+        </div>
+        <div class="nav-link-wrapper">
+          <div class="nav-link">
+            <RouterLink to="/pokedex">POKEDEX</RouterLink>
           </div>
         </div>
         <div v-if="!user" class="nav-link-wrapper" id="logged-out">
