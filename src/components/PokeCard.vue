@@ -1,19 +1,19 @@
 <template>
   <div class="pokemon-card">
     <img :src="sprite" class="pokemon-sprite" />
-    <p class="pokedex-number">#{{ dex }}</p>
+    <p class="pokedex-number">#{{ id }}</p>
     <h1 class="pokemon-name">{{ name }}</h1>
-    <h2 class="pokemon-type">{{ type }}</h2>
+    <h2 class="pokemon-type">{{ type1 }}, {{ type2 }}</h2>
   </div>
 </template>
 
 <script>
 export default {
-  setup() {},
   props: {
     name: String,
     id: Number,
-    type: String,
+    type1: String,
+    type2: String,
     sprite: String,
   },
 };
@@ -21,16 +21,9 @@ export default {
 
 <style scoped>
 .pokemon-card {
-  display: flex;
-  flex-direction: column;
+  margin: 1rem;
 }
-.pokemon-container {
-  display: flex;
-}
-.poke-media-container img {
-  width: 15rem;
-}
-.desc {
-  width: 16rem;
+.pokemon-sprite {
+  size: 100px;
 }
 </style>

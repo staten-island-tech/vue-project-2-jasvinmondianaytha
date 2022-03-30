@@ -1,18 +1,33 @@
 <template>
-  <div>
+  <div class="flexbox">
     <PokeCard
       v-for="pokemon in pokemons"
       :key="pokemon"
-      :dex="pokemon.id"
-      :type="pokemon.type"
+      :name="pokemon.name.english"
+      :id="pokemon.id"
+      :type1="pokemon.type[0]"
+      :type2="pokemon.type[1]"
       :sprite="pokemon.sprite"
     ></PokeCard>
   </div>
 </template>
 
-<script setup>
+<script>
 import PokeCard from "../components/PokeCard.vue";
 import pokemons from "../assets/pokemon.json";
+export default {
+  setup() {
+    return pokemons;
+  },
+  components: {
+    PokeCard,
+  },
+};
 </script>
 
-<style></style>
+<style>
+.flexbox {
+  display: flex;
+  flex: row wrap;
+}
+</style>

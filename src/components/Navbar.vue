@@ -103,4 +103,10 @@ export default {
   font-size: 1.5rem;
   text-decoration: none;
 }
+.logout {
+  cursor: pointer;
+}
+.logout:hover {
+  text-decoration: underline;
+}
 </style>
