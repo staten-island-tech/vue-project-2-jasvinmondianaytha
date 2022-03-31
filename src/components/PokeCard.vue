@@ -3,7 +3,7 @@
     <img :src="sprite" class="pokemon-sprite" />
     <p class="pokedex-number">#{{ id }}</p>
     <h1 class="pokemon-name">{{ name }}</h1>
-    <h2 class="pokemon-type">{{ type1 }}, {{ type2 }}</h2>
+    <h2 class="pokemon-type">{{ type1 }} {{ type2 }}</h2>
   </div>
 </template>
 
@@ -22,8 +22,12 @@ export default {
 <style scoped>
 .pokemon-card {
   margin: 1rem;
+  border-style: groove;
 }
 .pokemon-sprite {
-  size: 100px;
+  width: 100px;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
 }
 </style>

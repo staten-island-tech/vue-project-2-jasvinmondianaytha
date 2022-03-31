@@ -6,14 +6,11 @@ import {
   signOut,
   onAuthStateChanged,
 } from "firebase/auth";
-import "../assets/pokemon.json";
 
 const store = createStore({
   state: {
     user: null,
     authIsReady: false,
-    pokemon: null,
-    type: null,
   },
   mutations: {
     setUser(state, payload) {
