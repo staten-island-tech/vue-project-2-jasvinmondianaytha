@@ -19,6 +19,7 @@
     <label for="gen2">Gen 2</label>
     <br />
     <span>Picked: {{ picked }}</span>
+    <button @click="Gen1()">Gen1</button>
   </div>
   <div class="pokebox">
     <DexCard
@@ -36,14 +37,15 @@ import DexCard from "../components/DexCard.vue";
 import pokemons from "../assets/pokemon.json";
 export default {
   setup() {
-    return pokemons;
+    const pokedex = [];
+    return pokedex, pokemons;
   },
   components: {
     DexCard,
   },
   methods: {
     Gen1() {
-      const pokedex = [];
+      this.pokedex.push(this.pokemons);
     },
   },
 };
