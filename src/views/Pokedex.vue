@@ -1,64 +1,59 @@
 <template>
-  <button @click="handleClick1">Generation 1</button>
-  <button @click="handleClick2">Generation 2</button>
-  <button @click="handleClick3">Generation 3</button>
-  <button @click="handleClick4">Generation 4</button>
-  <button @click="handleClick5">Generation 5</button>
-  <button @click="handleClick6">Generation 6</button>
-  <button @click="handleClick7">Generation 7</button>
-  <button @click="handleClick8">Generation 8</button>
+  <div class="generations">
+    <input
+      name="pick-gen"
+      type="radio"
+      id="gen1"
+      value="Gen1"
+      v-model="picked"
+    />
+    <label for="gen1">Gen 1</label>
+    <br />
+    <input
+      name="pick-gen"
+      type="radio"
+      id="gen2"
+      value="Gen2"
+      v-model="picked"
+    />
+    <label for="gen2">Gen 2</label>
+    <br />
+    <span>Picked: {{ picked }}</span>
+  </div>
+  <div class="pokebox">
+    <DexCard
+      v-for="pokemon in pokemons"
+      :key="pokemon"
+      :name="pokemon.name.english"
+      :id="pokemon.id"
+      :sprite="pokemon.sprite"
+    ></DexCard>
+  </div>
 </template>
 
 <script>
-import PokeCard from "../components/PokeCard.vue";
-import { useRouter } from "vue-router";
+import DexCard from "../components/DexCard.vue";
+import pokemons from "../assets/pokemon.json";
 export default {
   setup() {
-    const router = useRouter();
-    const handleClick1 = () => {
-      router.push("/gen1");
-    };
-    const handleClick2 = () => {
-      router.push("/gen2");
-    };
-    const handleClick3 = () => {
-      router.push("/gen3");
-    };
-    const handleClick4 = () => {
-      router.push("/gen4");
-    };
-    const handleClick5 = () => {
-      router.push("/gen5");
-    };
-    const handleClick6 = () => {
-      router.push("/gen6");
-    };
-    const handleClick7 = () => {
-      router.push("/gen7");
-    };
-    const handleClick8 = () => {
-      router.push("/gen8");
-    };
-    return {
-      handleClick1,
-      handleClick2,
-      handleClick3,
-      handleClick4,
-      handleClick5,
-      handleClick6,
-      handleClick7,
-      handleClick8,
-      router,
-    };
+    return pokemons;
   },
   components: {
-    PokeCard,
+    DexCard,
+  },
+  methods: {
+    Gen1() {
+      const pokedex = [];
+    },
   },
 };
 </script>
 
 <style>
-button {
-  margin: 2rem;
+.pokebox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
 }
 </style>

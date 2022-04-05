@@ -1,13 +1,9 @@
 <template>
-  <div></div>
+  <div><PokemonCard /></div>
 </template>
 
-<script>
-export default {
-  setup() {
-    return {};
-  },
-};
+<script setup>
+import PokemonCard from "../components/PokemonCard.vue";
 </script>
 
 <style></style>

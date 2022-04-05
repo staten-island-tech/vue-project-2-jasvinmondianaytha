@@ -34,46 +34,6 @@ const router = createRouter({
       name: "pokedex",
       component: () => import("../views/Pokedex.vue"),
     },
-    {
-      path: "/gen1",
-      name: "gen1",
-      component: () => import("../views/Gen1.vue"),
-    },
-    {
-      path: "/gen2",
-      name: "gen2",
-      component: () => import("../views/Gen2.vue"),
-    },
-    {
-      path: "/gen3",
-      name: "gen3",
-      component: () => import("../views/Gen3.vue"),
-    },
-    {
-      path: "/gen4",
-      name: "gen4",
-      component: () => import("../views/Gen4.vue"),
-    },
-    {
-      path: "/gen5",
-      name: "gen5",
-      component: () => import("../views/Gen5.vue"),
-    },
-    {
-      path: "/gen6",
-      name: "gen6",
-      component: () => import("../views/Gen6.vue"),
-    },
-    {
-      path: "/gen7",
-      name: "gen7",
-      component: () => import("../views/Gen7.vue"),
-    },
-    {
-      path: "/gen8",
-      name: "gen8",
-      component: () => import("../views/Gen8.vue"),
-    },
   ],
 });
 
