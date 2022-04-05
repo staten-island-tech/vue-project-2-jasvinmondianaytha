@@ -1,10 +1,5 @@
-<script setup>
-import PokemonCard from '@/components/PokemonCard.vue';
-
-</script>
+<script setup></script>
 
 <template>
-  <main>
-    <PokemonCard />
-  </main>
+  <main></main>
 </template>
