@@ -21,7 +21,7 @@
                     "Speed": 45
                   },
                   "species": "Seed Pokemon",
-                  "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun\u2019s rays, the seed grows progressively larger.",
+                  "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
                   "evolution": {
                     "next": [
                       [
@@ -75,7 +75,7 @@
                     "Speed": 60
                   },
                   "species": "Seed Pokemon",
-                  "description": "There is a bud on this Pokemon\u2019s back. To support its weight, Ivysaur\u2019s legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it\u2019s a sign that the bud will bloom into a large flower soon.",
+                  "description": "There is a bud on this Pokemon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.",
                   "evolution": {
                     "prev": [
                       "1",
@@ -133,7 +133,7 @@
                     "Speed": 80
                   },
                   "species": "Seed Pokemon",
-                  "description": "There is a large flower on Venusaur\u2019s back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower\u2019s aroma soothes the emotions of people.",
+                  "description": "There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.",
                   "evolution": {
                     "prev": [
                       "2",
@@ -346,7 +346,7 @@
                     "Speed": 43
                   },
                   "species": "Tiny Turtle Pokemon",
-                  "description": "Squirtle\u2019s shell is not merely used for protection. The shell\u2019s rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokemon to swim at high speeds.",
+                  "description": "Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokemon to swim at high speeds.",
                   "evolution": {
                     "next": [
                       [
@@ -399,7 +399,7 @@
                     "Speed": 58
                   },
                   "species": "Turtle Pokemon",
-                  "description": "Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokemon\u2019s toughness as a battler.",
+                  "description": "Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokemon's toughness as a battler.",
                   "evolution": {
                     "prev": [
                       "7",
@@ -559,7 +559,7 @@
                     "Speed": 30
                   },
                   "species": "Cocoon Pokemon",
-                  "description": "Its hard shell doesn\u2019t crack a bit even if Pikipek pecks at it, but it will tip over, spilling out its insides.",
+                  "description": "Its hard shell doesn't crack a bit even if Pikipek pecks at it, but it will tip over, spilling out its insides.",
                   "evolution": {
                     "prev": [
                       "10",
@@ -1103,7 +1103,7 @@
                     "Speed": 70
                   },
                   "species": "Tiny Bird Pokemon",
-                  "description": "Due to its short wings, it can\u2019t fly long distances. It wanders about restlessly and pecks at bug Pokemon.",
+                  "description": "Due to its short wings, it can't fly long distances. It wanders about restlessly and pecks at bug Pokemon.",
                   "evolution": {
                     "next": [
                       [
@@ -1318,7 +1318,7 @@
                     "Speed": 90
                   },
                   "species": "Mouse Pokemon",
-                  "description": "While sleeping, it generates electricity in the sacs in its cheeks. If it\u2019s not getting enough sleep, it will be able to use only weak electricity.",
+                  "description": "While sleeping, it generates electricity in the sacs in its cheeks. If it's not getting enough sleep, it will be able to use only weak electricity.",
                   "evolution": {
                     "prev": [
                       "172",
@@ -1375,7 +1375,7 @@
                     "Speed": 110
                   },
                   "species": "Mouse Pokemon",
-                  "description": "Because so many Trainers like the way Pikachu looks, you don\u2019t see this Pokemon very often.",
+                  "description": "Because so many Trainers like the way Pikachu looks, you don't see this Pokemon very often.",
                   "evolution": {
                     "prev": [
                       "25",
@@ -1478,7 +1478,7 @@
                     "Speed": 65
                   },
                   "species": "Mouse Pokemon",
-                  "description": "Thanks to its thick claws, it\u2019s good at climbing trees. There are plenty of Sandslash that park themselves in trees and go right to sleep.",
+                  "description": "Thanks to its thick claws, it's good at climbing trees. There are plenty of Sandslash that park themselves in trees and go right to sleep.",
                   "evolution": {
                     "prev": [
                       "27",
@@ -1646,7 +1646,7 @@
                     "Speed": 76
                   },
                   "species": "Drill Pokemon",
-                  "description": "Nidoqueen\u2019s body is encased in extremely hard scales. It is adept at sending foes flying with harsh tackles. This Pokemon is at its strongest when it is defending its young.",
+                  "description": "Nidoqueen's body is encased in extremely hard scales. It is adept at sending foes flying with harsh tackles. This Pokemon is at its strongest when it is defending its young.",
                   "evolution": {
                     "prev": [
                       "30",
@@ -1700,7 +1700,7 @@
                     "Speed": 50
                   },
                   "species": "Poison Pin Pokemon",
-                  "description": "Nidoran\u2642 has developed muscles for moving its ears. Thanks to them, the ears can be freely moved in any direction. Even the slightest sound does not escape this Pokemon\u2019s notice.",
+                  "description": "Nidoran\u2642 has developed muscles for moving its ears. Thanks to them, the ears can be freely moved in any direction. Even the slightest sound does not escape this Pokemon's notice.",
                   "evolution": {
                     "next": [
                       [
@@ -1819,7 +1819,7 @@
                     "Speed": 85
                   },
                   "species": "Drill Pokemon",
-                  "description": "Nidoking\u2019s thick tail packs enormously destructive power. With one swing, it can topple a metal transmission tower. Once this Pokemon goes on a rampage, there is no stopping it.",
+                  "description": "Nidoking's thick tail packs enormously destructive power. With one swing, it can topple a metal transmission tower. Once this Pokemon goes on a rampage, there is no stopping it.",
                   "evolution": {
                     "prev": [
                       "33",
@@ -1934,7 +1934,7 @@
                     "Speed": 60
                   },
                   "species": "Fairy Pokemon",
-                  "description": "Some scientists believe that it gazes intently at the sky on nights with a full moon because it\u2019s homesick.",
+                  "description": "Some scientists believe that it gazes intently at the sky on nights with a full moon because it's homesick.",
                   "evolution": {
                     "prev": [
                       "35",
@@ -1988,7 +1988,7 @@
                     "Speed": 65
                   },
                   "species": "Fox Pokemon",
-                  "description": "It manipulates balls of fire to catch its prey. If you raise one from when it\u2019s young, it will grow close to you like a puppy Pokemon.",
+                  "description": "It manipulates balls of fire to catch its prey. If you raise one from when it's young, it will grow close to you like a puppy Pokemon.",
                   "evolution": {
                     "next": [
                       [
@@ -2091,7 +2091,7 @@
                     "Speed": 20
                   },
                   "species": "Balloon Pokemon",
-                  "description": "The songs they sing are totally different depending on the region they live in. Some even sound like they\u2019re shouting!",
+                  "description": "The songs they sing are totally different depending on the region they live in. Some even sound like they're shouting!",
                   "evolution": {
                     "prev": [
                       "174",
@@ -2207,7 +2207,7 @@
                     "Speed": 55
                   },
                   "species": "Bat Pokemon",
-                  "description": "Their skin is so thin that they\u2019ll be burned if sunlight hits them. When it gets cold out, they gather together to warm one another\u2019s bodies.",
+                  "description": "Their skin is so thin that they'll be burned if sunlight hits them. When it gets cold out, they gather together to warm one another's bodies.",
                   "evolution": {
                     "next": [
                       [
@@ -2317,7 +2317,7 @@
                     "Speed": 30
                   },
                   "species": "Weed Pokemon",
-                  "description": "Oddish searches for fertile, nutrient-rich soil, then plants itself. During the daytime, while it is planted, this Pokemon\u2019s feet are thought to change shape and become similar to the roots of trees.",
+                  "description": "Oddish searches for fertile, nutrient-rich soil, then plants itself. During the daytime, while it is planted, this Pokemon's feet are thought to change shape and become similar to the roots of trees.",
                   "evolution": {
                     "next": [
                       [
@@ -2431,7 +2431,7 @@
                     "Speed": 50
                   },
                   "species": "Flower Pokemon",
-                  "description": "Vileplume has the world\u2019s largest petals. They are used to attract prey that are then doused with toxic spores. Once the prey are immobilized, this Pokemon catches and devours them.",
+                  "description": "Vileplume has the world's largest petals. They are used to attract prey that are then doused with toxic spores. Once the prey are immobilized, this Pokemon catches and devours them.",
                   "evolution": {
                     "prev": [
                       "44",
@@ -2763,7 +2763,7 @@
                     "Speed": 120
                   },
                   "species": "Mole Pokemon",
-                  "description": "Dugtrio\u2019s heads are sleek and smooth and incredibly hard. It can dig through any soil with its headbutts.",
+                  "description": "Dugtrio's heads are sleek and smooth and incredibly hard. It can dig through any soil with its headbutts.",
                   "evolution": {
                     "prev": [
                       "50",
@@ -2817,7 +2817,7 @@
                     "Speed": 90
                   },
                   "species": "Scratch Cat Pokemon",
-                  "description": "It loves coins, so if you give it one, you can make friends with Meowth easily. But it\u2019s fickle, so you can\u2019t count on that friendship lasting.",
+                  "description": "It loves coins, so if you give it one, you can make friends with Meowth easily. But it's fickle, so you can't count on that friendship lasting.",
                   "evolution": {
                     "next": [
                       [
@@ -2873,7 +2873,7 @@
                     "Speed": 115
                   },
                   "species": "Classy Cat Pokemon",
-                  "description": "This Pokemon is popular with rich people. It\u2019s also targeted by hunters who are after the jewel in its forehead.",
+                  "description": "This Pokemon is popular with rich people. It's also targeted by hunters who are after the jewel in its forehead.",
                   "evolution": {
                     "prev": [
                       "52",
@@ -3205,7 +3205,7 @@
                     "Speed": 95
                   },
                   "species": "Legendary Pokemon",
-                  "description": "There are so many old tales about them that they\u2019re called legendary Pokemon, but there are way more of them around than you\u2019d expect.",
+                  "description": "There are so many old tales about them that they're called legendary Pokemon, but there are way more of them around than you'd expect.",
                   "evolution": {
                     "prev": [
                       "58",
@@ -3434,7 +3434,7 @@
                     "Speed": 90
                   },
                   "species": "Psi Pokemon",
-                  "description": "It can read others\u2019 minds and will teleport away when danger approaches. You must clear your mind if you want to catch it.",
+                  "description": "It can read others' minds and will teleport away when danger approaches. You must clear your mind if you want to catch it.",
                   "evolution": {
                     "next": [
                       [
@@ -3490,7 +3490,7 @@
                     "Speed": 105
                   },
                   "species": "Psi Pokemon",
-                  "description": "It possesses strong mental capabilities, but its psychic powers are halved when it\u2019s not holding a silver spoon.",
+                  "description": "It possesses strong mental capabilities, but its psychic powers are halved when it's not holding a silver spoon.",
                   "evolution": {
                     "prev": [
                       "63",
@@ -3604,7 +3604,7 @@
                     "Speed": 35
                   },
                   "species": "Superpower Pokemon",
-                  "description": "It likes food that\u2019s highly nutritious because its instincts drive it to build muscle efficiently.",
+                  "description": "It likes food that's highly nutritious because its instincts drive it to build muscle efficiently.",
                   "evolution": {
                     "next": [
                       [
@@ -3720,7 +3720,7 @@
                     "Speed": 55
                   },
                   "species": "Superpower Pokemon",
-                  "description": "With four arms, it can attack and defend simultaneously. It\u2019s said to have mastered every martial art in the world.",
+                  "description": "With four arms, it can attack and defend simultaneously. It's said to have mastered every martial art in the world.",
                   "evolution": {
                     "prev": [
                       "67",
@@ -3775,7 +3775,7 @@
                     "Speed": 40
                   },
                   "species": "Flower Pokemon",
-                  "description": "Bellsprout\u2019s thin and flexible body lets it bend and sway to avoid any attack, however strong it may be. From its mouth, this Pokemon spits a corrosive fluid that melts even iron.",
+                  "description": "Bellsprout's thin and flexible body lets it bend and sway to avoid any attack, however strong it may be. From its mouth, this Pokemon spits a corrosive fluid that melts even iron.",
                   "evolution": {
                     "next": [
                       [
@@ -3993,7 +3993,7 @@
                     "Speed": 100
                   },
                   "species": "Jellyfish Pokemon",
-                  "description": "It communicates with others of its kind by lighting up the red orbs on its head. When the orbs are blinking, it\u2019s a warning sign.",
+                  "description": "It communicates with others of its kind by lighting up the red orbs on its head. When the orbs are blinking, it's a warning sign.",
                   "evolution": {
                     "prev": [
                       "72",
@@ -4331,7 +4331,7 @@
                     "Speed": 15
                   },
                   "species": "Dopey Pokemon",
-                  "description": "Although their tails, which fall off naturally, can easily be found lying around, they\u2019re a precious ingredient for cooking.",
+                  "description": "Although their tails, which fall off naturally, can easily be found lying around, they're a precious ingredient for cooking.",
                   "evolution": {
                     "next": [
                       [
@@ -4393,7 +4393,7 @@
                     "Speed": 30
                   },
                   "species": "Hermit Crab Pokemon",
-                  "description": "Shellder, in its greed to suck out more and more sweetness from Slowbro\u2019s tail, has metamorphosed into a spiral-shaped shell.",
+                  "description": "Shellder, in its greed to suck out more and more sweetness from Slowbro's tail, has metamorphosed into a spiral-shaped shell.",
                   "evolution": {
                     "prev": [
                       "79",
@@ -4567,7 +4567,7 @@
                     "Speed": 60
                   },
                   "species": "Wild Duck Pokemon",
-                  "description": "Farfetch\u2019d is always seen with a stalk from a plant of some sort. Apparently, there are good stalks and bad stalks. This Pokemon has been known to fight with others over stalks.",
+                  "description": "Farfetch'd is always seen with a stalk from a plant of some sort. Apparently, there are good stalks and bad stalks. This Pokemon has been known to fight with others over stalks.",
                   "evolution": {},
                   "profile": {
                     "height": "0.8 m",
@@ -4618,7 +4618,7 @@
                     "Speed": 75
                   },
                   "species": "Twin Bird Pokemon",
-                  "description": "Doduo\u2019s two heads contain completely identical brains. A scientific study reported that on rare occasions, there will be examples of this Pokemon possessing different sets of brains.",
+                  "description": "Doduo's two heads contain completely identical brains. A scientific study reported that on rare occasions, there will be examples of this Pokemon possessing different sets of brains.",
                   "evolution": {
                     "next": [
                       [
@@ -4675,7 +4675,7 @@
                     "Speed": 110
                   },
                   "species": "Triple Bird Pokemon",
-                  "description": "Apparently, the heads aren\u2019t the only parts of the body that Dodrio has three of. It has three sets of hearts and lungs as well, so it is capable of running long distances without rest.",
+                  "description": "Apparently, the heads aren't the only parts of the body that Dodrio has three of. It has three sets of hearts and lungs as well, so it is capable of running long distances without rest.",
                   "evolution": {
                     "prev": [
                       "84",
@@ -4729,7 +4729,7 @@
                     "Speed": 45
                   },
                   "species": "Sea Lion Pokemon",
-                  "description": "Thanks to its thick fat, cold seas don\u2019t bother it at all, but it gets tired pretty easily in warm waters.",
+                  "description": "Thanks to its thick fat, cold seas don't bother it at all, but it gets tired pretty easily in warm waters.",
                   "evolution": {
                     "next": [
                       [
@@ -4842,7 +4842,7 @@
                     "Speed": 25
                   },
                   "species": "Sludge Pokemon",
-                  "description": "The wastewater coming from factories is clean these days, so Grimer have nothing to eat. They\u2019re said to be on the verge of extinction.",
+                  "description": "The wastewater coming from factories is clean these days, so Grimer have nothing to eat. They're said to be on the verge of extinction.",
                   "evolution": {
                     "next": [
                       [
@@ -4898,7 +4898,7 @@
                     "Speed": 50
                   },
                   "species": "Sludge Pokemon",
-                  "description": "Because they scatter germs everywhere, they\u2019ve long been targeted for extermination, leading to a steep decline in their population.",
+                  "description": "Because they scatter germs everywhere, they've long been targeted for extermination, leading to a steep decline in their population.",
                   "evolution": {
                     "prev": [
                       "88",
@@ -5064,7 +5064,7 @@
                     "Speed": 80
                   },
                   "species": "Gas Pokemon",
-                  "description": "Poisonous gas comprises 95% of its body. It\u2019s said that the remaining 5% is made up of the souls of those who died from the gas.",
+                  "description": "Poisonous gas comprises 95% of its body. It's said that the remaining 5% is made up of the souls of those who died from the gas.",
                   "evolution": {
                     "next": [
                       [
@@ -5113,7 +5113,7 @@
                     "Speed": 95
                   },
                   "species": "Gas Pokemon",
-                  "description": "It\u2019s dangerous to go outside alone on nights when you\u2019re feeling sad. Haunter will catch you, and you won\u2019t be able to go back home.",
+                  "description": "It's dangerous to go outside alone on nights when you're feeling sad. Haunter will catch you, and you won't be able to go back home.",
                   "evolution": {
                     "prev": [
                       "92",
@@ -5166,7 +5166,7 @@
                     "Speed": 110
                   },
                   "species": "Shadow Pokemon",
-                  "description": "Even your home isn\u2019t safe. Gengar will lurk in whatever dark corner of a room it can find and wait for its chance to catch its prey.",
+                  "description": "Even your home isn't safe. Gengar will lurk in whatever dark corner of a room it can find and wait for its chance to catch its prey.",
                   "evolution": {
                     "prev": [
                       "93",
@@ -5269,7 +5269,7 @@
                     "Speed": 42
                   },
                   "species": "Hypnosis Pokemon",
-                  "description": "It puts its prey to sleep and devours their dreams. It seems that bad dreams taste sour, so Drowzee doesn\u2019t particularly like eating them.",
+                  "description": "It puts its prey to sleep and devours their dreams. It seems that bad dreams taste sour, so Drowzee doesn't particularly like eating them.",
                   "evolution": {
                     "next": [
                       [
@@ -5325,7 +5325,7 @@
                     "Speed": 67
                   },
                   "species": "Hypnosis Pokemon",
-                  "description": "There are some Hypno that assist doctors with patients who can\u2019t sleep at night in hospitals.",
+                  "description": "There are some Hypno that assist doctors with patients who can't sleep at night in hospitals.",
                   "evolution": {
                     "prev": [
                       "96",
@@ -5545,7 +5545,7 @@
                     "Speed": 150
                   },
                   "species": "Ball Pokemon",
-                  "description": "One of Electrode\u2019s characteristics is its attraction to electricity. It is a problematical Pokemon that congregates mostly at electrical power plants to feed on electricity that has just been generated.",
+                  "description": "One of Electrode's characteristics is its attraction to electricity. It is a problematical Pokemon that congregates mostly at electrical power plants to feed on electricity that has just been generated.",
                   "evolution": {
                     "prev": [
                       "100",
@@ -5703,7 +5703,7 @@
                     "Speed": 35
                   },
                   "species": "Lonely Pokemon",
-                  "description": "It wears its mother\u2019s skull on its head, so no one knows what its bare face looks like. However, it\u2019s clear that it\u2019s always crying.",
+                  "description": "It wears its mother's skull on its head, so no one knows what its bare face looks like. However, it's clear that it's always crying.",
                   "evolution": {
                     "next": [
                       [
@@ -5813,7 +5813,7 @@
                     "Speed": 87
                   },
                   "species": "Kicking Pokemon",
-                  "description": "Hitmonlee\u2019s legs freely contract and stretch. Using these springlike legs, it bowls over foes with devastating kicks. After battle, it rubs down its legs and loosens the muscles to overcome fatigue.",
+                  "description": "Hitmonlee's legs freely contract and stretch. Using these springlike legs, it bowls over foes with devastating kicks. After battle, it rubs down its legs and loosens the muscles to overcome fatigue.",
                   "evolution": {
                     "prev": [
                       "236",
@@ -5921,7 +5921,7 @@
                     "Speed": 30
                   },
                   "species": "Licking Pokemon",
-                  "description": "It licks filth clean with its tongue. Whatever it licks always stinks afterward, so whether it\u2019s really clean is...questionable.",
+                  "description": "It licks filth clean with its tongue. Whatever it licks always stinks afterward, so whether it's really clean is...questionable.",
                   "evolution": {
                     "next": [
                       [
@@ -6072,7 +6072,7 @@
                     "Speed": 25
                   },
                   "species": "Spikes Pokemon",
-                  "description": "Rhyhorn\u2019s brain is very small. It is so dense, while on a run it forgets why it started running in the first place. It apparently remembers sometimes if it demolishes something.",
+                  "description": "Rhyhorn's brain is very small. It is so dense, while on a run it forgets why it started running in the first place. It apparently remembers sometimes if it demolishes something.",
                   "evolution": {
                     "next": [
                       [
@@ -6251,7 +6251,7 @@
                     "Speed": 60
                   },
                   "species": "Vine Pokemon",
-                  "description": "Tangela\u2019s vines snap off easily if they are grabbed. This happens without pain, allowing it to make a quick getaway. The lost vines are replaced by newly grown vines the very next day.",
+                  "description": "Tangela's vines snap off easily if they are grabbed. This happens without pain, allowing it to make a quick getaway. The lost vines are replaced by newly grown vines the very next day.",
                   "evolution": {
                     "next": [
                       [
@@ -6307,7 +6307,7 @@
                     "Speed": 90
                   },
                   "species": "Parent Pokemon",
-                  "description": "You shouldn\u2019t get close to the child when it\u2019s playing outside its mother\u2019s pouch. Its mother is always nearby watching over it.",
+                  "description": "You shouldn't get close to the child when it's playing outside its mother's pouch. Its mother is always nearby watching over it.",
                   "evolution": {},
                   "profile": {
                     "height": "2.2 m",
@@ -6530,7 +6530,7 @@
                     "Speed": 68
                   },
                   "species": "Goldfish Pokemon",
-                  "description": "To attract females, males dance on the river\u2019s floor. The females gather around the male that dances most gracefully.",
+                  "description": "To attract females, males dance on the river's floor. The females gather around the male that dances most gracefully.",
                   "evolution": {
                     "prev": [
                       "118",
@@ -6696,7 +6696,7 @@
                     "Speed": 90
                   },
                   "species": "Barrier Pokemon",
-                  "description": "It creates invisible walls with its pantomiming. If you don\u2019t act impressed, it will attack you with a double slap!",
+                  "description": "It creates invisible walls with its pantomiming. If you don't act impressed, it will attack you with a double slap!",
                   "evolution": {
                     "prev": [
                       "439",
@@ -6751,7 +6751,7 @@
                     "Speed": 105
                   },
                   "species": "Mantis Pokemon",
-                  "description": "Some call it a ninja. Its movements\u2014 imperceptibly quick\u2014are sufficient to cleave the air in two. It\u2019s very popular in Alola.",
+                  "description": "Some call it a ninja. Its movements\u2014 imperceptibly quick\u2014are sufficient to cleave the air in two. It's very popular in Alola.",
                   "evolution": {
                     "next": [
                       [
@@ -6862,7 +6862,7 @@
                     "Speed": 105
                   },
                   "species": "Electric Pokemon",
-                  "description": "While it\u2019s often blamed for power outages, the truth is the cause of outages is more often an error on the part of the electric company.",
+                  "description": "While it's often blamed for power outages, the truth is the cause of outages is more often an error on the part of the electric company.",
                   "evolution": {
                     "prev": [
                       "239",
@@ -6974,7 +6974,7 @@
                     "Speed": 85
                   },
                   "species": "Stag Beetle Pokemon",
-                  "description": "Although it\u2019s tough, it can\u2019t handle cold well. When night falls, it buries itself in leafage and sleeps.",
+                  "description": "Although it's tough, it can't handle cold well. When night falls, it buries itself in leafage and sleeps.",
                   "evolution": {},
                   "profile": {
                     "height": "1.5 m",
@@ -7072,7 +7072,7 @@
                     "Speed": 80
                   },
                   "species": "Fish Pokemon",
-                  "description": "Thanks to their strong hold on life, dirty water doesn\u2019t bother them at all. They live in waters all over the world!",
+                  "description": "Thanks to their strong hold on life, dirty water doesn't bother them at all. They live in waters all over the world!",
                   "evolution": {
                     "next": [
                       [
@@ -7178,7 +7178,7 @@
                     "Speed": 60
                   },
                   "species": "Transport Pokemon",
-                  "description": "They\u2019ve been so cherished that there\u2019s now an overabundance. The fish Pokemon population has declined in waters with too many Lapras.",
+                  "description": "They've been so cherished that there's now an overabundance. The fish Pokemon population has declined in waters with too many Lapras.",
                   "evolution": {},
                   "profile": {
                     "height": "2.5 m",
@@ -7228,7 +7228,7 @@
                     "Speed": 48
                   },
                   "species": "Transform Pokemon",
-                  "description": "It transforms into whatever it sees. If the thing it\u2019s transforming into isn\u2019t right in front of it, Ditto relies on its memory\u2014so sometimes it fails.",
+                  "description": "It transforms into whatever it sees. If the thing it's transforming into isn't right in front of it, Ditto relies on its memory\u2014so sometimes it fails.",
                   "evolution": {},
                   "profile": {
                     "height": "0.3 m",
@@ -7407,7 +7407,7 @@
                     "Speed": 130
                   },
                   "species": "Lightning Pokemon",
-                  "description": "Its fur stands on end, becoming like needles it fires at enemies. Once they\u2019re weakened, it finishes them off with a 10,000 volt shock.",
+                  "description": "Its fur stands on end, becoming like needles it fires at enemies. Once they're weakened, it finishes them off with a 10,000 volt shock.",
                   "evolution": {
                     "prev": [
                       "133",
@@ -7841,7 +7841,7 @@
                     "Speed": 30
                   },
                   "species": "Sleeping Pokemon",
-                  "description": "It has no interest in anything other than eating. Even if you climb up on its stomach while it\u2019s napping, it doesn\u2019t seem to mind at all!",
+                  "description": "It has no interest in anything other than eating. Even if you climb up on its stomach while it's napping, it doesn't seem to mind at all!",
                   "evolution": {
                     "prev": [
                       "446",
@@ -8033,7 +8033,7 @@
                     "Speed": 50
                   },
                   "species": "Dragon Pokemon",
-                  "description": "It sheds its skin\u2014almost on a daily basis\u2014and grows larger. Its skin is soft just after it\u2019s been shed.",
+                  "description": "It sheds its skin\u2014almost on a daily basis\u2014and grows larger. Its skin is soft just after it's been shed.",
                   "evolution": {
                     "next": [
                       [
@@ -8086,7 +8086,7 @@
                     "Speed": 70
                   },
                   "species": "Dragon Pokemon",
-                  "description": "Some say that if you see it at the start of the year, flying through the sky and twisting its body, you\u2019ll be healthy all year long.",
+                  "description": "Some say that if you see it at the start of the year, flying through the sky and twisting its body, you'll be healthy all year long.",
                   "evolution": {
                     "prev": [
                       "147",
@@ -8144,7 +8144,7 @@
                     "Speed": 80
                   },
                   "species": "Dragon Pokemon",
-                  "description": "You\u2019ll often hear tales of this kindhearted Pokemon rescuing people or Pokemon that are drowning.",
+                  "description": "You'll often hear tales of this kindhearted Pokemon rescuing people or Pokemon that are drowning.",
                   "evolution": {
                     "prev": [
                       "148",
@@ -8195,7 +8195,7 @@
                     "Speed": 130
                   },
                   "species": "Genetic Pokemon",
-                  "description": "Mewtwo is a Pokemon that was created by genetic manipulation. However, even though the scientific power of humans created this Pokemon\u2019s body, they failed to endow Mewtwo with a compassionate heart.",
+                  "description": "Mewtwo is a Pokemon that was created by genetic manipulation. However, even though the scientific power of humans created this Pokemon's body, they failed to endow Mewtwo with a compassionate heart.",
                   "evolution": {},
                   "profile": {
                     "height": "2 m",
@@ -8334,7 +8334,7 @@
                     "Speed": 60
                   },
                   "species": "Leaf Pokemon",
-                  "description": "Bayleef\u2019s neck is ringed by curled-up leaves. Inside each tubular leaf is a small shoot of a tree. The fragrance of this shoot makes people peppy.",
+                  "description": "Bayleef's neck is ringed by curled-up leaves. Inside each tubular leaf is a small shoot of a tree. The fragrance of this shoot makes people peppy.",
                   "evolution": {
                     "prev": [
                       "152",
@@ -8391,7 +8391,7 @@
                     "Speed": 80
                   },
                   "species": "Herb Pokemon",
-                  "description": "The fragrance of Meganium\u2019s flower soothes and calms emotions. In battle, this Pokemon gives off more of its becalming scent to blunt the foe\u2019s fighting spirit.",
+                  "description": "The fragrance of Meganium's flower soothes and calms emotions. In battle, this Pokemon gives off more of its becalming scent to blunt the foe's fighting spirit.",
                   "evolution": {
                     "prev": [
                       "153",
@@ -8600,7 +8600,7 @@
                     "Speed": 43
                   },
                   "species": "Big Jaw Pokemon",
-                  "description": "Despite the smallness of its body, Totodile\u2019s jaws are very powerful. While the Pokemon may think it is just playfully nipping, its bite has enough power to cause serious injury.",
+                  "description": "Despite the smallness of its body, Totodile's jaws are very powerful. While the Pokemon may think it is just playfully nipping, its bite has enough power to cause serious injury.",
                   "evolution": {
                     "next": [
                       [
@@ -8929,7 +8929,7 @@
                     "Speed": 70
                   },
                   "species": "Owl Pokemon",
-                  "description": "When it turns its head entirely upside down, you know it\u2019s troubled by something. If you don\u2019t leave it be, it will peck you.",
+                  "description": "When it turns its head entirely upside down, you know it's troubled by something. If you don't leave it be, it will peck you.",
                   "evolution": {
                     "prev": [
                       "163",
@@ -9096,7 +9096,7 @@
                     "Speed": 30
                   },
                   "species": "String Spit Pokemon",
-                  "description": "Although the poison from its fangs isn\u2019t that strong, it\u2019s potent enough to weaken prey that gets caught in its web.",
+                  "description": "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web.",
                   "evolution": {
                     "next": [
                       [
@@ -9208,7 +9208,7 @@
                     "Speed": 130
                   },
                   "species": "Bat Pokemon",
-                  "description": "It feeds on the blood of living people and Pokemon. If it can\u2019t drink any blood for even a short while, it becomes weak and unable to fly.",
+                  "description": "It feeds on the blood of living people and Pokemon. If it can't drink any blood for even a short while, it becomes weak and unable to fly.",
                   "evolution": {
                     "prev": [
                       "42",
@@ -9316,7 +9316,7 @@
                     "Speed": 67
                   },
                   "species": "Light Pokemon",
-                  "description": "It lives far down in the depths of the ocean. It blinds its prey with light, using the moment they\u2019re dazzled to swallow them whole.",
+                  "description": "It lives far down in the depths of the ocean. It blinds its prey with light, using the moment they're dazzled to swallow them whole.",
                   "evolution": {
                     "prev": [
                       "170",
@@ -9370,7 +9370,7 @@
                     "Speed": 60
                   },
                   "species": "Tiny Mouse Pokemon",
-                  "description": "It has electric sacs in its cheeks. When they\u2019re fully charged, Pichu plays very energetically.",
+                  "description": "It has electric sacs in its cheeks. When they're fully charged, Pichu plays very energetically.",
                   "evolution": {
                     "next": [
                       [
@@ -9479,7 +9479,7 @@
                     "Speed": 15
                   },
                   "species": "Balloon Pokemon",
-                  "description": "Left to its own devices, it will constantly practice singing. You should make it take a break so it doesn\u2019t hurt its throat.",
+                  "description": "Left to its own devices, it will constantly practice singing. You should make it take a break so it doesn't hurt its throat.",
                   "evolution": {
                     "next": [
                       [
@@ -9654,7 +9654,7 @@
                     "Speed": 70
                   },
                   "species": "Tiny Bird Pokemon",
-                  "description": "The look in its eyes gives the impression that it\u2019s carefully observing you. If you approach it, Natu will hop away.",
+                  "description": "The look in its eyes gives the impression that it's carefully observing you. If you approach it, Natu will hop away.",
                   "evolution": {
                     "next": [
                       [
@@ -9765,7 +9765,7 @@
                     "Speed": 35
                   },
                   "species": "Wool Pokemon",
-                  "description": "Rubbing its fleece generates electricity. You\u2019ll want to pet it because it\u2019s cute, but if you use your bare hand, you\u2019ll get a painful shock.",
+                  "description": "Rubbing its fleece generates electricity. You'll want to pet it because it's cute, but if you use your bare hand, you'll get a painful shock.",
                   "evolution": {
                     "next": [
                       [
@@ -9977,7 +9977,7 @@
                     "Speed": 40
                   },
                   "species": "Aqua Mouse Pokemon",
-                  "description": "When fishing for food at the edge of a fast-running stream, Marill wraps its tail around the trunk of a tree. This Pokemon\u2019s tail is flexible and configured to stretch.",
+                  "description": "When fishing for food at the edge of a fast-running stream, Marill wraps its tail around the trunk of a tree. This Pokemon's tail is flexible and configured to stretch.",
                   "evolution": {
                     "prev": [
                       "298",
@@ -10261,7 +10261,7 @@
                     "Speed": 80
                   },
                   "species": "Cottonweed Pokemon",
-                  "description": "Skiploom\u2019s flower blossoms when the temperature rises above 64 degrees Fahrenheit. How much the flower opens depends on the temperature. For that reason, this Pokemon is sometimes used as a thermometer.",
+                  "description": "Skiploom's flower blossoms when the temperature rises above 64 degrees Fahrenheit. How much the flower opens depends on the temperature. For that reason, this Pokemon is sometimes used as a thermometer.",
                   "evolution": {
                     "prev": [
                       "187",
@@ -10816,7 +10816,7 @@
                     "Speed": 91
                   },
                   "species": "Darkness Pokemon",
-                  "description": "It searches for shiny things for its boss. Murkrow\u2019s presence is said to be unlucky, so many people detest it.",
+                  "description": "It searches for shiny things for its boss. Murkrow's presence is said to be unlucky, so many people detest it.",
                   "evolution": {
                     "next": [
                       [
@@ -10873,7 +10873,7 @@
                     "Speed": 30
                   },
                   "species": "Royal Pokemon",
-                  "description": "It\u2019s called \u201cthe sage of the sea.\u201d It engages in battles of wits with Oranguru, but the result is usually a draw.",
+                  "description": "It's called \u201cthe sage of the sea.\u201d It engages in battles of wits with Oranguru, but the result is usually a draw.",
                   "evolution": {
                     "prev": [
                       "79",
@@ -10928,7 +10928,7 @@
                     "Speed": 85
                   },
                   "species": "Screech Pokemon",
-                  "description": "What makes it happy is imitating the voices of weeping people and scaring everyone. It doesn\u2019t deal well with folks who aren\u2019t easily frightened.",
+                  "description": "What makes it happy is imitating the voices of weeping people and scaring everyone. It doesn't deal well with folks who aren't easily frightened.",
                   "evolution": {
                     "next": [
                       [
@@ -11017,7 +11017,7 @@
                     "Speed": 33
                   },
                   "species": "Patient Pokemon",
-                  "description": "Wobbuffet does nothing but endure attacks\u2014it won\u2019t attack on its own. However, it won\u2019t endure an attack on its tail. When that happens, the Pokemon will try to take the foe with it using Destiny Bond.",
+                  "description": "Wobbuffet does nothing but endure attacks\u2014it won't attack on its own. However, it won't endure an attack on its tail. When that happens, the Pokemon will try to take the foe with it using Destiny Bond.",
                   "evolution": {
                     "prev": [
                       "360",
@@ -11068,7 +11068,7 @@
                     "Speed": 85
                   },
                   "species": "Long Neck Pokemon",
-                  "description": "Girafarig\u2019s rear head contains a tiny brain that is too small for thinking. However, the rear head doesn\u2019t need to sleep, so it can keep watch over its surroundings 24 hours a day.",
+                  "description": "Girafarig's rear head contains a tiny brain that is too small for thinking. However, the rear head doesn't need to sleep, so it can keep watch over its surroundings 24 hours a day.",
                   "evolution": {},
                   "profile": {
                     "height": "1.5 m",
@@ -11327,7 +11327,7 @@
                     "Speed": 30
                   },
                   "species": "Iron Snake Pokemon",
-                  "description": "Steelix lives even further underground than Onix. This Pokemon is known to dig toward the earth\u2019s core. There are records of this Pokemon reaching a depth of over six-tenths of a mile underground.",
+                  "description": "Steelix lives even further underground than Onix. This Pokemon is known to dig toward the earth's core. There are records of this Pokemon reaching a depth of over six-tenths of a mile underground.",
                   "evolution": {
                     "prev": [
                       "95",
@@ -11381,7 +11381,7 @@
                     "Speed": 30
                   },
                   "species": "Fairy Pokemon",
-                  "description": "In contrast to its appearance, it\u2019s quite timid. When playing with other puppy Pokemon, it sometimes gets bullied.",
+                  "description": "In contrast to its appearance, it's quite timid. When playing with other puppy Pokemon, it sometimes gets bullied.",
                   "evolution": {
                     "next": [
                       [
@@ -11438,7 +11438,7 @@
                     "Speed": 45
                   },
                   "species": "Fairy Pokemon",
-                  "description": "Although it\u2019s popular with young people, Granbull is timid and sensitive, so it\u2019s totally incompetent as a watchdog.",
+                  "description": "Although it's popular with young people, Granbull is timid and sensitive, so it's totally incompetent as a watchdog.",
                   "evolution": {
                     "prev": [
                       "209",
@@ -11544,7 +11544,7 @@
                     "Speed": 65
                   },
                   "species": "Pincer Pokemon",
-                  "description": "Once it has identified something as an enemy, it will continue beating them with its steel-hard pincers until there\u2019s nothing left but scraps.",
+                  "description": "Once it has identified something as an enemy, it will continue beating them with its steel-hard pincers until there's nothing left but scraps.",
                   "evolution": {
                     "prev": [
                       "123",
@@ -11649,7 +11649,7 @@
                     "Speed": 85
                   },
                   "species": "Single Horn Pokemon",
-                  "description": "It roams through forests searching for sweet nectar. Although it boasts fantastic physical strength, it\u2019s not that good at flying.",
+                  "description": "It roams through forests searching for sweet nectar. Although it boasts fantastic physical strength, it's not that good at flying.",
                   "evolution": {},
                   "profile": {
                     "height": "1.5 m",
@@ -11699,7 +11699,7 @@
                     "Speed": 115
                   },
                   "species": "Sharp Claw Pokemon",
-                  "description": "It blends into the dark of night to ambush its prey. Sneasel will attack Sandshrew, but its hard skin can cause Sneasel\u2019s claws to snap off.",
+                  "description": "It blends into the dark of night to ambush its prey. Sneasel will attack Sandshrew, but its hard skin can cause Sneasel's claws to snap off.",
                   "evolution": {
                     "next": [
                       [
@@ -11865,7 +11865,7 @@
                     "Speed": 20
                   },
                   "species": "Lava Pokemon",
-                  "description": "Slugma does not have any blood in its body. Instead, intensely hot magma circulates throughout this Pokemon\u2019s body, carrying essential nutrients and oxygen to its organs.",
+                  "description": "Slugma does not have any blood in its body. Instead, intensely hot magma circulates throughout this Pokemon's body, carrying essential nutrients and oxygen to its organs.",
                   "evolution": {
                     "next": [
                       [
@@ -11922,7 +11922,7 @@
                     "Speed": 30
                   },
                   "species": "Lava Pokemon",
-                  "description": "Magcargo\u2019s body temperature is approximately 18,000 degrees Fahrenheit. Water is vaporized on contact. If this Pokemon is caught in the rain, the raindrops instantly turn into steam, cloaking the area in a thick fog.",
+                  "description": "Magcargo's body temperature is approximately 18,000 degrees Fahrenheit. Water is vaporized on contact. If this Pokemon is caught in the rain, the raindrops instantly turn into steam, cloaking the area in a thick fog.",
                   "evolution": {
                     "prev": [
                       "218",
@@ -12683,7 +12683,7 @@
                     "Speed": 60
                   },
                   "species": "Virtual Pokemon",
-                  "description": "Even though it doesn\u2019t die in the vacuum of space, it can\u2019t move around very well in zero gravity.",
+                  "description": "Even though it doesn't die in the vacuum of space, it can't move around very well in zero gravity.",
                   "evolution": {
                     "prev": [
                       "137",
@@ -12743,7 +12743,7 @@
                     "Speed": 85
                   },
                   "species": "Big Horn Pokemon",
-                  "description": "Stantler\u2019s magnificent antlers were traded at high prices as works of art. As a result, this Pokemon was hunted close to extinction by those who were after the priceless antlers.",
+                  "description": "Stantler's magnificent antlers were traded at high prices as works of art. As a result, this Pokemon was hunted close to extinction by those who were after the priceless antlers.",
                   "evolution": {},
                   "profile": {
                     "height": "1.4 m",
@@ -12960,7 +12960,7 @@
                     "Speed": 65
                   },
                   "species": "Kiss Pokemon",
-                  "description": "Highly perceptive sensors, Smoochum\u2019s lips are kept moist by its daily application of tree sap.",
+                  "description": "Highly perceptive sensors, Smoochum's lips are kept moist by its daily application of tree sap.",
                   "evolution": {
                     "next": [
                       [
@@ -13016,7 +13016,7 @@
                     "Speed": 95
                   },
                   "species": "Electric Pokemon",
-                  "description": "When its horns shine a bluish white, that\u2019s the sign it\u2019s fully charged. You\u2019ll get a shocking jolt if you touch it!",
+                  "description": "When its horns shine a bluish white, that's the sign it's fully charged. You'll get a shocking jolt if you touch it!",
                   "evolution": {
                     "next": [
                       [
@@ -13359,7 +13359,7 @@
                     "Speed": 41
                   },
                   "species": "Rock Skin Pokemon",
-                  "description": "Raised on nutrients it finds in the dirt, it eats roughly a mountain\u2019s worth of dirt before it becomes a pupa.",
+                  "description": "Raised on nutrients it finds in the dirt, it eats roughly a mountain's worth of dirt before it becomes a pupa.",
                   "evolution": {
                     "next": [
                       [
@@ -13516,7 +13516,7 @@
                     "Speed": 110
                   },
                   "species": "Diving Pokemon",
-                  "description": "Lugia\u2019s wings pack devastating power\u2014a light fluttering of its wings can blow apart regular houses. As a result, this Pokemon chooses to live out of sight deep under the sea.",
+                  "description": "Lugia's wings pack devastating power\u2014a light fluttering of its wings can blow apart regular houses. As a result, this Pokemon chooses to live out of sight deep under the sea.",
                   "evolution": {},
                   "profile": {
                     "height": "5.2 m",
@@ -13562,7 +13562,7 @@
                     "Speed": 90
                   },
                   "species": "Rainbow Pokemon",
-                  "description": "Ho-Oh\u2019s feathers glow in seven colors depending on the angle at which they are struck by light. These feathers are said to bring happiness to the bearers. This Pokemon is said to live at the foot of a rainbow.",
+                  "description": "Ho-Oh's feathers glow in seven colors depending on the angle at which they are struck by light. These feathers are said to bring happiness to the bearers. This Pokemon is said to live at the foot of a rainbow.",
                   "evolution": {},
                   "profile": {
                     "height": "3.8 m",
@@ -13863,7 +13863,7 @@
                     "Speed": 55
                   },
                   "species": "Young Fowl Pokemon",
-                  "description": "Combusken battles with the intensely hot flames it spews from its beak and with outstandingly destructive kicks. This Pokemon\u2019s cry is very loud and distracting.",
+                  "description": "Combusken battles with the intensely hot flames it spews from its beak and with outstandingly destructive kicks. This Pokemon's cry is very loud and distracting.",
                   "evolution": {
                     "prev": [
                       "255",
@@ -13920,7 +13920,7 @@
                     "Speed": 80
                   },
                   "species": "Blaze Pokemon",
-                  "description": "Blaziken has incredibly strong legs\u2014it can easily clear a 30-story building in one leap. This Pokemon\u2019s blazing punches leave its foes scorched and blackened.",
+                  "description": "Blaziken has incredibly strong legs\u2014it can easily clear a 30-story building in one leap. This Pokemon's blazing punches leave its foes scorched and blackened.",
                   "evolution": {
                     "prev": [
                       "256",
@@ -14024,7 +14024,7 @@
                     "Speed": 50
                   },
                   "species": "Mud Fish Pokemon",
-                  "description": "Marshtomp is much faster at traveling through mud than it is at swimming. This Pokemon\u2019s hindquarters exhibit obvious development, giving it the ability to walk on just its hind legs.",
+                  "description": "Marshtomp is much faster at traveling through mud than it is at swimming. This Pokemon's hindquarters exhibit obvious development, giving it the ability to walk on just its hind legs.",
                   "evolution": {
                     "prev": [
                       "258",
@@ -14243,7 +14243,7 @@
                     "Speed": 60
                   },
                   "species": "Tiny Raccoon Pokemon",
-                  "description": "The hair on Zigzagoon\u2019s back is bristly. It rubs the hard back hair against trees to leave its territorial markings. This Pokemon may play dead to fool foes in battle.",
+                  "description": "The hair on Zigzagoon's back is bristly. It rubs the hard back hair against trees to leave its territorial markings. This Pokemon may play dead to fool foes in battle.",
                   "evolution": {
                     "next": [
                       [
@@ -14680,7 +14680,7 @@
                     "Speed": 50
                   },
                   "species": "Jolly Pokemon",
-                  "description": "Lombre\u2019s entire body is covered by a slippery, slimy film. It feels horribly unpleasant to be touched by this Pokemon\u2019s hands. Lombre is often mistaken for a human child.",
+                  "description": "Lombre's entire body is covered by a slippery, slimy film. It feels horribly unpleasant to be touched by this Pokemon's hands. Lombre is often mistaken for a human child.",
                   "evolution": {
                     "prev": [
                       "270",
@@ -14742,7 +14742,7 @@
                     "Speed": 70
                   },
                   "species": "Carefree Pokemon",
-                  "description": "Upon hearing an upbeat and cheerful rhythm, the cells in Ludicolo\u2019s body become very energetic and active. Even in battle, this Pokemon will exhibit an amazing amount of power.",
+                  "description": "Upon hearing an upbeat and cheerful rhythm, the cells in Ludicolo's body become very energetic and active. Even in battle, this Pokemon will exhibit an amazing amount of power.",
                   "evolution": {
                     "prev": [
                       "271",
@@ -14855,7 +14855,7 @@
                     "Speed": 60
                   },
                   "species": "Wily Pokemon",
-                  "description": "This Pokemon pulls out the leaf on its head and makes a flute with it. The sound of Nuzleaf\u2019s flute strikes fear and uncertainty in the hearts of people lost in a forest.",
+                  "description": "This Pokemon pulls out the leaf on its head and makes a flute with it. The sound of Nuzleaf's flute strikes fear and uncertainty in the hearts of people lost in a forest.",
                   "evolution": {
                     "prev": [
                       "273",
@@ -14917,7 +14917,7 @@
                     "Speed": 80
                   },
                   "species": "Wicked Pokemon",
-                  "description": "Shiftry\u2019s large fans generate awesome gusts of wind at a speed close to 100 feet per second. The whipped-up wind blows anything away. This Pokemon chooses to live quietly deep in forests.",
+                  "description": "Shiftry's large fans generate awesome gusts of wind at a speed close to 100 feet per second. The whipped-up wind blows anything away. This Pokemon chooses to live quietly deep in forests.",
                   "evolution": {
                     "prev": [
                       "274",
@@ -15026,7 +15026,7 @@
                     "Speed": 125
                   },
                   "species": "Swallow Pokemon",
-                  "description": "Swellow is very conscientious about the upkeep of its glossy wings. Once two Swellow are gathered, they diligently take care of cleaning each other\u2019s wings.",
+                  "description": "Swellow is very conscientious about the upkeep of its glossy wings. Once two Swellow are gathered, they diligently take care of cleaning each other's wings.",
                   "evolution": {
                     "prev": [
                       "276",
@@ -15469,7 +15469,7 @@
                     "Speed": 35
                   },
                   "species": "Mushroom Pokemon",
-                  "description": "If Shroomish senses danger, it shakes its body and scatters spores from the top of its head. This Pokemon\u2019s spores are so toxic, they make trees and weeds wilt.",
+                  "description": "If Shroomish senses danger, it shakes its body and scatters spores from the top of its head. This Pokemon's spores are so toxic, they make trees and weeds wilt.",
                   "evolution": {
                     "next": [
                       [
@@ -15527,7 +15527,7 @@
                     "Speed": 70
                   },
                   "species": "Mushroom Pokemon",
-                  "description": "The seeds ringing Breloom\u2019s tail are made of hardened toxic spores. It is horrible to eat the seeds. Just taking a bite of this Pokemon\u2019s seed will cause your stomach to rumble.",
+                  "description": "The seeds ringing Breloom's tail are made of hardened toxic spores. It is horrible to eat the seeds. Just taking a bite of this Pokemon's seed will cause your stomach to rumble.",
                   "evolution": {
                     "prev": [
                       "285",
@@ -15582,7 +15582,7 @@
                     "Speed": 30
                   },
                   "species": "Slacker Pokemon",
-                  "description": "Slakoth\u2019s heart beats just once a minute. Whatever happens, it is content to loaf around motionless. It is rare to see this Pokemon in motion.",
+                  "description": "Slakoth's heart beats just once a minute. Whatever happens, it is content to loaf around motionless. It is rare to see this Pokemon in motion.",
                   "evolution": {
                     "next": [
                       [
@@ -15729,7 +15729,7 @@
                     "Speed": 40
                   },
                   "species": "Trainee Pokemon",
-                  "description": "Nincada lives underground. It uses its sharp claws to carve the roots of trees and absorb moisture and nutrients. This Pokemon can\u2019t withstand bright sunlight so avoids it.",
+                  "description": "Nincada lives underground. It uses its sharp claws to carve the roots of trees and absorb moisture and nutrients. This Pokemon can't withstand bright sunlight so avoids it.",
                   "evolution": {
                     "next": [
                       [
@@ -15786,7 +15786,7 @@
                     "Speed": 160
                   },
                   "species": "Ninja Pokemon",
-                  "description": "If Ninjask is not trained properly, it will refuse to obey the Trainer and cry loudly continuously. Because of this quality, this Pokemon is said to be one that puts the Trainer\u2019s abilities to the test.",
+                  "description": "If Ninjask is not trained properly, it will refuse to obey the Trainer and cry loudly continuously. Because of this quality, this Pokemon is said to be one that puts the Trainer's abilities to the test.",
                   "evolution": {
                     "prev": [
                       "290",
@@ -15837,7 +15837,7 @@
                     "Speed": 40
                   },
                   "species": "Shed Pokemon",
-                  "description": "Shedinja is a peculiar Pokemon. It seems to appear unsought in a Poke Ball after a Nincada evolves. This bizarre Pokemon is entirely immobile\u2014it doesn\u2019t even breathe.",
+                  "description": "Shedinja is a peculiar Pokemon. It seems to appear unsought in a Poke Ball after a Nincada evolves. This bizarre Pokemon is entirely immobile\u2014it doesn't even breathe.",
                   "evolution": {
                     "prev": [
                       "290",
@@ -16044,7 +16044,7 @@
                     "Speed": 25
                   },
                   "species": "Guts Pokemon",
-                  "description": "There\u2019s a rumor of a traditional recipe for stew that Trainers can use to raise strong Makuhita.",
+                  "description": "There's a rumor of a traditional recipe for stew that Trainers can use to raise strong Makuhita.",
                   "evolution": {
                     "next": [
                       [
@@ -16100,7 +16100,7 @@
                     "Speed": 50
                   },
                   "species": "Arm Thrust Pokemon",
-                  "description": "Hariyama that are big and fat aren\u2019t necessarily strong. There are some small ones that move nimbly and use moves skillfully.",
+                  "description": "Hariyama that are big and fat aren't necessarily strong. There are some small ones that move nimbly and use moves skillfully.",
                   "evolution": {
                     "prev": [
                       "296",
@@ -16155,7 +16155,7 @@
                     "Speed": 20
                   },
                   "species": "Polka Dot Pokemon",
-                  "description": "Azurill\u2019s tail is large and bouncy. It is packed full of the nutrients this Pokemon needs to grow. Azurill can be seen bouncing and playing on its big, rubbery tail.",
+                  "description": "Azurill's tail is large and bouncy. It is packed full of the nutrients this Pokemon needs to grow. Azurill can be seen bouncing and playing on its big, rubbery tail.",
                   "evolution": {
                     "next": [
                       [
@@ -16430,7 +16430,7 @@
                     "Speed": 50
                   },
                   "species": "Deceiver Pokemon",
-                  "description": "It has two mouths. The big jaws on the back of its head can\u2019t taste anything, so that\u2019s the mouth it uses to eat foods it doesn\u2019t like.",
+                  "description": "It has two mouths. The big jaws on the back of its head can't taste anything, so that's the mouth it uses to eat foods it doesn't like.",
                   "evolution": {},
                   "profile": {
                     "height": "0.6 m",
@@ -16654,7 +16654,7 @@
                     "Speed": 60
                   },
                   "species": "Meditate Pokemon",
-                  "description": "Meditite heightens its inner energy through meditation. It survives on just one berry a day. Minimal eating is another aspect of this Pokemon\u2019s training.",
+                  "description": "Meditite heightens its inner energy through meditation. It survives on just one berry a day. Minimal eating is another aspect of this Pokemon's training.",
                   "evolution": {
                     "next": [
                       [
@@ -16957,7 +16957,7 @@
                     "Speed": 85
                   },
                   "species": "Firefly Pokemon",
-                  "description": "Volbeat\u2019s tail glows like a lightbulb. With other Volbeat, it uses its tail to draw geometric shapes in the night sky. This Pokemon loves the sweet aroma given off by Illumise.",
+                  "description": "Volbeat's tail glows like a lightbulb. With other Volbeat, it uses its tail to draw geometric shapes in the night sky. This Pokemon loves the sweet aroma given off by Illumise.",
                   "evolution": {},
                   "profile": {
                     "height": "0.7 m",
@@ -17058,7 +17058,7 @@
                     "Speed": 65
                   },
                   "species": "Thorn Pokemon",
-                  "description": "On extremely rare occasions, a Roselia is said to appear with its flowers in unusual colors. The thorns on this Pokemon\u2019s head contain a vicious poison.",
+                  "description": "On extremely rare occasions, a Roselia is said to appear with its flowers in unusual colors. The thorns on this Pokemon's head contain a vicious poison.",
                   "evolution": {
                     "prev": [
                       "406",
@@ -17119,7 +17119,7 @@
                     "Speed": 40
                   },
                   "species": "Stomach Pokemon",
-                  "description": "Most of Gulpin\u2019s body is made up of its stomach\u2014its heart and brain are very small in comparison. This Pokemon\u2019s stomach contains special enzymes that dissolve anything.",
+                  "description": "Most of Gulpin's body is made up of its stomach\u2014its heart and brain are very small in comparison. This Pokemon's stomach contains special enzymes that dissolve anything.",
                   "evolution": {
                     "next": [
                       [
@@ -17175,7 +17175,7 @@
                     "Speed": 55
                   },
                   "species": "Poison Bag Pokemon",
-                  "description": "Swalot has no teeth, so what it eats, it swallows whole, no matter what. Its cavernous mouth yawns widely. An automobile tire could easily fit inside this Pokemon\u2019s mouth.",
+                  "description": "Swalot has no teeth, so what it eats, it swallows whole, no matter what. Its cavernous mouth yawns widely. An automobile tire could easily fit inside this Pokemon's mouth.",
                   "evolution": {
                     "prev": [
                       "316",
@@ -17283,7 +17283,7 @@
                     "Speed": 95
                   },
                   "species": "Brutal Pokemon",
-                  "description": "It drinks in seawater and jets it from its rear to propel itself. It\u2019s very sensitive to the scent of blood.",
+                  "description": "It drinks in seawater and jets it from its rear to propel itself. It's very sensitive to the scent of blood.",
                   "evolution": {
                     "prev": [
                       "318",
@@ -17446,7 +17446,7 @@
                     "Speed": 35
                   },
                   "species": "Numb Pokemon",
-                  "description": "Numel stores magma of almost 2,200 degrees Fahrenheit within its body. If it gets wet, the magma cools and hardens. In that event, the Pokemon\u2019s body grows heavy and its movements become sluggish.",
+                  "description": "Numel stores magma of almost 2,200 degrees Fahrenheit within its body. If it gets wet, the magma cools and hardens. In that event, the Pokemon's body grows heavy and its movements become sluggish.",
                   "evolution": {
                     "next": [
                       [
@@ -17503,7 +17503,7 @@
                     "Speed": 40
                   },
                   "species": "Eruption Pokemon",
-                  "description": "The humps on Camerupt\u2019s back are formed by a transformation of its bones. They sometimes blast out molten magma. This Pokemon apparently erupts often when it is enraged.",
+                  "description": "The humps on Camerupt's back are formed by a transformation of its bones. They sometimes blast out molten magma. This Pokemon apparently erupts often when it is enraged.",
                   "evolution": {
                     "prev": [
                       "322",
@@ -17606,7 +17606,7 @@
                     "Speed": 60
                   },
                   "species": "Bounce Pokemon",
-                  "description": "Spoink keeps a pearl on top of its head. The pearl functions to amplify this Pokemon\u2019s psychokinetic powers. It is therefore on a constant search for a bigger pearl.",
+                  "description": "Spoink keeps a pearl on top of its head. The pearl functions to amplify this Pokemon's psychokinetic powers. It is therefore on a constant search for a bigger pearl.",
                   "evolution": {
                     "next": [
                       [
@@ -17662,7 +17662,7 @@
                     "Speed": 80
                   },
                   "species": "Manipulate Pokemon",
-                  "description": "Grumpig uses the black pearls on its body to wield its fantastic powers. When it is doing so, it dances bizarrely. This Pokemon\u2019s black pearls are valuable as works of art.",
+                  "description": "Grumpig uses the black pearls on its body to wield its fantastic powers. When it is doing so, it dances bizarrely. This Pokemon's black pearls are valuable as works of art.",
                   "evolution": {
                     "prev": [
                       "325",
@@ -17716,7 +17716,7 @@
                     "Speed": 60
                   },
                   "species": "Spot Panda Pokemon",
-                  "description": "Each Spinda\u2019s spot pattern is different. With its stumbling movements, it evades opponents\u2019 attacks brilliantly!",
+                  "description": "Each Spinda's spot pattern is different. With its stumbling movements, it evades opponents' attacks brilliantly!",
                   "evolution": {},
                   "profile": {
                     "height": "1.1 m",
@@ -18178,7 +18178,7 @@
                     "Speed": 65
                   },
                   "species": "Fang Snake Pokemon",
-                  "description": "Seviper\u2019s swordlike tail serves two purposes\u2014it slashes foes and douses them with secreted poison. This Pokemon will not give up its long-running blood feud with Zangoose.",
+                  "description": "Seviper's swordlike tail serves two purposes\u2014it slashes foes and douses them with secreted poison. This Pokemon will not give up its long-running blood feud with Zangoose.",
                   "evolution": {},
                   "profile": {
                     "height": "2.7 m",
@@ -18225,7 +18225,7 @@
                     "Speed": 70
                   },
                   "species": "Meteorite Pokemon",
-                  "description": "Lunatone becomes active around the time of the full moon. Instead of walking, it moves by floating in midair. The Pokemon\u2019s intimidating red eyes cause all those who see it to become transfixed with fear.",
+                  "description": "Lunatone becomes active around the time of the full moon. Instead of walking, it moves by floating in midair. The Pokemon's intimidating red eyes cause all those who see it to become transfixed with fear.",
                   "evolution": {},
                   "profile": {
                     "height": "1 m",
@@ -18267,7 +18267,7 @@
                     "Speed": 70
                   },
                   "species": "Meteorite Pokemon",
-                  "description": "Sunlight is the source of Solrock\u2019s power. It is said to possess the ability to read the emotions of others. This Pokemon gives off intense heat while rotating its body.",
+                  "description": "Sunlight is the source of Solrock's power. It is said to possess the ability to read the emotions of others. This Pokemon gives off intense heat while rotating its body.",
                   "evolution": {},
                   "profile": {
                     "height": "1.2 m",
@@ -18309,7 +18309,7 @@
                     "Speed": 60
                   },
                   "species": "Whiskers Pokemon",
-                  "description": "Its whiskers are filled with nerves. They can sense smells and flavors just as a person\u2019s nose or tongue would.",
+                  "description": "Its whiskers are filled with nerves. They can sense smells and flavors just as a person's nose or tongue would.",
                   "evolution": {
                     "next": [
                       [
@@ -18630,7 +18630,7 @@
                     "Speed": 23
                   },
                   "species": "Sea Lily Pokemon",
-                  "description": "It sticks to rocks with its powerful suckers and can\u2019t be washed away no matter how rough the surf gets.",
+                  "description": "It sticks to rocks with its powerful suckers and can't be washed away no matter how rough the surf gets.",
                   "evolution": {
                     "next": [
                       [
@@ -18734,7 +18734,7 @@
                     "Speed": 75
                   },
                   "species": "Old Shrimp Pokemon",
-                  "description": "This is one kind of primeval bug Pokemon. With eight wings, it could apparently swim a lot faster than you\u2019d expect.",
+                  "description": "This is one kind of primeval bug Pokemon. With eight wings, it could apparently swim a lot faster than you'd expect.",
                   "evolution": {
                     "next": [
                       [
@@ -18949,7 +18949,7 @@
                     "Speed": 70
                   },
                   "species": "Weather Pokemon",
-                  "description": "Its form changes depending on the weather. The rougher conditions get, the rougher Castform\u2019s disposition!",
+                  "description": "Its form changes depending on the weather. The rougher conditions get, the rougher Castform's disposition!",
                   "evolution": {},
                   "profile": {
                     "height": "0.3 m",
@@ -19036,7 +19036,7 @@
                     "Speed": 45
                   },
                   "species": "Puppet Pokemon",
-                  "description": "There\u2019s a proverb that says, \u201cShun the house where Shuppet gather in the growing dusk.\u201d",
+                  "description": "There's a proverb that says, \u201cShun the house where Shuppet gather in the growing dusk.\u201d",
                   "evolution": {
                     "next": [
                       [
@@ -19198,7 +19198,7 @@
                     "Speed": 25
                   },
                   "species": "Beckon Pokemon",
-                  "description": "Dusclops absorbs anything, however large the object may be. This Pokemon hypnotizes its foe by waving its hands in a macabre manner and by bringing its single eye to bear. The hypnotized foe is made to do Dusclops\u2019s bidding.",
+                  "description": "Dusclops absorbs anything, however large the object may be. This Pokemon hypnotizes its foe by waving its hands in a macabre manner and by bringing its single eye to bear. The hypnotized foe is made to do Dusclops's bidding.",
                   "evolution": {
                     "prev": [
                       "355",
@@ -19513,7 +19513,7 @@
                     "Speed": 80
                   },
                   "species": "Face Pokemon",
-                  "description": "Its actual body is a rock that isn\u2019t particularly hard. Glalie absorbs moisture from the air and drapes itself in an armor of ice.",
+                  "description": "Its actual body is a rock that isn't particularly hard. Glalie absorbs moisture from the air and drapes itself in an armor of ice.",
                   "evolution": {
                     "prev": [
                       "361",
@@ -19627,7 +19627,7 @@
                     "Speed": 45
                   },
                   "species": "Ball Roll Pokemon",
-                  "description": "Sealeo often balances and rolls things on the tip of its nose. While the Pokemon is rolling something, it checks the object\u2019s aroma and texture to determine whether it likes the object or not.",
+                  "description": "Sealeo often balances and rolls things on the tip of its nose. While the Pokemon is rolling something, it checks the object's aroma and texture to determine whether it likes the object or not.",
                   "evolution": {
                     "prev": [
                       "363",
@@ -19744,7 +19744,7 @@
                     "Speed": 32
                   },
                   "species": "Bivalve Pokemon",
-                  "description": "Clamperl\u2019s pearls are exceedingly precious. They can be more than 10 times as costly as Shellder\u2019s pearls.",
+                  "description": "Clamperl's pearls are exceedingly precious. They can be more than 10 times as costly as Shellder's pearls.",
                   "evolution": {
                     "next": [
                       [
@@ -19901,7 +19901,7 @@
                     "Speed": 55
                   },
                   "species": "Longevity Pokemon",
-                  "description": "The reason it hasn\u2019t changed at all in a hundred million years is that it\u2019s apparently already a perfect life-form.",
+                  "description": "The reason it hasn't changed at all in a hundred million years is that it's apparently already a perfect life-form.",
                   "evolution": {},
                   "profile": {
                     "height": "1 m",
@@ -19951,7 +19951,7 @@
                     "Speed": 97
                   },
                   "species": "Rendezvous Pokemon",
-                  "description": "Luvdisc makes its home in coral reefs in warm seas. It especially likes sleeping in the space between Corsola\u2019s branches.",
+                  "description": "Luvdisc makes its home in coral reefs in warm seas. It especially likes sleeping in the space between Corsola's branches.",
                   "evolution": {},
                   "profile": {
                     "height": "0.6 m",
@@ -20105,7 +20105,7 @@
                     "Speed": 100
                   },
                   "species": "Dragon Pokemon",
-                  "description": "Thanks to its fervent wishes, the cells in its body finally mutated, and at last it has its heart\u2019s desire\u2014wings.",
+                  "description": "Thanks to its fervent wishes, the cells in its body finally mutated, and at last it has its heart's desire\u2014wings.",
                   "evolution": {
                     "prev": [
                       "372",
@@ -20316,7 +20316,7 @@
                     "Speed": 50
                   },
                   "species": "Rock Peak Pokemon",
-                  "description": "Regirock\u2019s body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.",
+                  "description": "Regirock's body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.",
                   "evolution": {},
                   "profile": {
                     "height": "1.7 m",
@@ -20576,7 +20576,7 @@
                     "Speed": 90
                   },
                   "species": "Continent Pokemon",
-                  "description": "Through Primal Reversion and with nature\u2019s full power, it will take back its true form. It can cause magma to erupt and expand the landmass of the world.",
+                  "description": "Through Primal Reversion and with nature's full power, it will take back its true form. It can cause magma to erupt and expand the landmass of the world.",
                   "evolution": {},
                   "profile": {
                     "height": "3.5 m",
@@ -21721,7 +21721,7 @@
                     "Speed": 70
                   },
                   "species": "Gleam Eyes Pokemon",
-                  "description": "Luxray\u2019s ability to see through objects comes in handy when it\u2019s scouting for danger.",
+                  "description": "Luxray's ability to see through objects comes in handy when it's scouting for danger.",
                   "evolution": {
                     "prev": [
                       "404",
@@ -22151,7 +22151,7 @@
                     "Speed": 36
                   },
                   "species": "Bagworm Pokemon",
-                  "description": "When Burmy evolved, its cloak became a part of this Pokemon\u2019s body. The cloak is never shed.",
+                  "description": "When Burmy evolved, its cloak became a part of this Pokemon's body. The cloak is never shed.",
                   "evolution": {
                     "prev": [
                       "412",
@@ -22559,7 +22559,7 @@
                     "Speed": 85
                   },
                   "species": "Blossom Pokemon",
-                  "description": "If it senses strong sunlight, it opens its folded petals to absorb the sun\u2019s rays with its whole body.",
+                  "description": "If it senses strong sunlight, it opens its folded petals to absorb the sun's rays with its whole body.",
                   "evolution": {
                     "prev": [
                       "420",
@@ -22719,7 +22719,7 @@
                     "Speed": 115
                   },
                   "species": "Long Tail Pokemon",
-                  "description": "It uses its tails for everything. If it wraps both of its tails around you and gives you a squeeze, that\u2019s proof it really likes you.",
+                  "description": "It uses its tails for everything. If it wraps both of its tails around you and gives you a squeeze, that's proof it really likes you.",
                   "evolution": {
                     "prev": [
                       "190",
@@ -22831,7 +22831,7 @@
                     "Speed": 80
                   },
                   "species": "Blimp Pokemon",
-                  "description": "The raw material for the gas inside its body is souls. When its body starts to deflate, it\u2019s thought to carry away people and Pokemon.",
+                  "description": "The raw material for the gas inside its body is souls. When its body starts to deflate, it's thought to carry away people and Pokemon.",
                   "evolution": {
                     "prev": [
                       "425",
@@ -22885,7 +22885,7 @@
                     "Speed": 85
                   },
                   "species": "Rabbit Pokemon",
-                  "description": "The reason it keeps one ear rolled up is so it can launch a swift counterattack if it\u2019s attacked by an enemy.",
+                  "description": "The reason it keeps one ear rolled up is so it can launch a swift counterattack if it's attacked by an enemy.",
                   "evolution": {
                     "next": [
                       [
@@ -22942,7 +22942,7 @@
                     "Speed": 105
                   },
                   "species": "Rabbit Pokemon",
-                  "description": "It\u2019s notably wary and has a dislike of fighting, but at the same time, it can deliver powerful kicks with its lithe legs.",
+                  "description": "It's notably wary and has a dislike of fighting, but at the same time, it can deliver powerful kicks with its lithe legs.",
                   "evolution": {
                     "prev": [
                       "427",
@@ -23098,7 +23098,7 @@
                     "Speed": 85
                   },
                   "species": "Catty Pokemon",
-                  "description": "When it\u2019s happy, Glameow demonstrates beautiful movements of its tail, like a dancing ribbon.",
+                  "description": "When it's happy, Glameow demonstrates beautiful movements of its tail, like a dancing ribbon.",
                   "evolution": {
                     "next": [
                       [
@@ -23593,7 +23593,7 @@
                     "Speed": 30
                   },
                   "species": "Playhouse Pokemon",
-                  "description": "When it sees something round and white, Happiny puts it into the pouch on its stomach. It sometimes becomes overloaded and can\u2019t move.",
+                  "description": "When it sees something round and white, Happiny puts it into the pouch on its stomach. It sometimes becomes overloaded and can't move.",
                   "evolution": {
                     "next": [
                       [
@@ -23746,7 +23746,7 @@
                     "Speed": 42
                   },
                   "species": "Land Shark Pokemon",
-                  "description": "Its original home is an area much hotter than Alola. If you\u2019re planning to live with one, your heating bill will soar.",
+                  "description": "Its original home is an area much hotter than Alola. If you're planning to live with one, your heating bill will soar.",
                   "evolution": {
                     "next": [
                       [
@@ -23858,7 +23858,7 @@
                     "Speed": 102
                   },
                   "species": "Mach Pokemon",
-                  "description": "Its fine scales don\u2019t just reduce wind resistance\u2014their sharp edges also cause injury to any opponent who attacks it.",
+                  "description": "Its fine scales don't just reduce wind resistance\u2014their sharp edges also cause injury to any opponent who attacks it.",
                   "evolution": {
                     "prev": [
                       "444",
@@ -23965,7 +23965,7 @@
                     "Speed": 60
                   },
                   "species": "Emanation Pokemon",
-                  "description": "It uses waves called auras to communicate with others of its kind. It doesn\u2019t make any noise during this time, so its enemies can\u2019t detect it.",
+                  "description": "It uses waves called auras to communicate with others of its kind. It doesn't make any noise during this time, so its enemies can't detect it.",
                   "evolution": {
                     "next": [
                       [
@@ -24022,7 +24022,7 @@
                     "Speed": 90
                   },
                   "species": "Aura Pokemon",
-                  "description": "Lucario reads its opponent\u2019s feelings with its aura waves. It finds out things it would rather not know, so it gets stressed out easily.",
+                  "description": "Lucario reads its opponent's feelings with its aura waves. It finds out things it would rather not know, so it gets stressed out easily.",
                   "evolution": {
                     "prev": [
                       "447",
@@ -24935,7 +24935,7 @@
                     "Speed": 50
                   },
                   "species": "Vine Pokemon",
-                  "description": "Its vines grow so profusely that, in the warm season, you can\u2019t even see its eyes.",
+                  "description": "Its vines grow so profusely that, in the warm season, you can't even see its eyes.",
                   "evolution": {
                     "prev": [
                       "114",
@@ -25090,7 +25090,7 @@
                     "Speed": 80
                   },
                   "species": "Jubilee Pokemon",
-                  "description": "It shares many blessings with people who respect one another\u2019s rights and avoid needless strife.",
+                  "description": "It shares many blessings with people who respect one another's rights and avoid needless strife.",
                   "evolution": {
                     "prev": [
                       "176",
@@ -25250,7 +25250,7 @@
                     "Speed": 65
                   },
                   "species": "Fresh Snow Pokemon",
-                  "description": "It can instantaneously freeze any moisture that\u2019s around it, creating ice pellets to shoot at its prey.",
+                  "description": "It can instantaneously freeze any moisture that's around it, creating ice pellets to shoot at its prey.",
                   "evolution": {
                     "prev": [
                       "133",
@@ -25621,7 +25621,7 @@
                     "Speed": 110
                   },
                   "species": "Snow Land Pokemon",
-                  "description": "It\u2019s said that on nights of terrible blizzards, it comes down to human settlements. If you hear it knocking at your door, do not open it!",
+                  "description": "It's said that on nights of terrible blizzards, it comes down to human settlements. If you hear it knocking at your door, do not open it!",
                   "evolution": {
                     "prev": [
                       "361",
@@ -25755,7 +25755,7 @@
                     "Speed": 80
                   },
                   "species": "Emotion Pokemon",
-                  "description": "It sleeps at the bottom of a lake. Its spirit is said to leave its body to fly on the lake\u2019s surface.",
+                  "description": "It sleeps at the bottom of a lake. Its spirit is said to leave its body to fly on the lake's surface.",
                   "evolution": {},
                   "profile": {
                     "height": "0.3 m",
@@ -26062,7 +26062,7 @@
                     "Speed": 85
                   },
                   "species": "Lunar Pokemon",
-                  "description": "Those who sleep holding Cresselia\u2019s feather are assured of joyful dreams. It is said to represent the crescent moon.",
+                  "description": "Those who sleep holding Cresselia's feather are assured of joyful dreams. It is said to represent the crescent moon.",
                   "evolution": {},
                   "profile": {
                     "height": "1.5 m",
@@ -26311,7 +26311,7 @@
                     "Speed": 100
                   },
                   "species": "Victory Pokemon",
-                  "description": "When it shares the infinite energy it creates, that being\u2019s entire body will be overflowing with power.",
+                  "description": "When it shares the infinite energy it creates, that being's entire body will be overflowing with power.",
                   "evolution": {},
                   "profile": {
                     "height": "0.4 m",
@@ -26405,7 +26405,7 @@
                     "Speed": 83
                   },
                   "species": "Grass Snake Pokemon",
-                  "description": "When it gets dirty, its leaves can\u2019t be used in photosynthesis, so it always keeps itself clean.",
+                  "description": "When it gets dirty, its leaves can't be used in photosynthesis, so it always keeps itself clean.",
                   "evolution": {
                     "prev": [
                       "495",
@@ -26462,7 +26462,7 @@
                     "Speed": 113
                   },
                   "species": "Regal Pokemon",
-                  "description": "It can stop its opponents\u2019 movements with just a glare. It takes in solar energy and boosts it internally.",
+                  "description": "It can stop its opponents' movements with just a glare. It takes in solar energy and boosts it internally.",
                   "evolution": {
                     "prev": [
                       "496",
@@ -26831,7 +26831,7 @@
                     "Speed": 42
                   },
                   "species": "Scout Pokemon",
-                  "description": "Extremely cautious, one of them will always be on the lookout, but it won\u2019t notice a foe coming from behind.",
+                  "description": "Extremely cautious, one of them will always be on the lookout, but it won't notice a foe coming from behind.",
                   "evolution": {
                     "next": [
                       [
@@ -26941,7 +26941,7 @@
                     "Speed": 55
                   },
                   "species": "Puppy Pokemon",
-                  "description": "This Pokemon is popular with beginners because it\u2019s intelligent, obedient to its Trainer\u2019s commands, and easy to raise.",
+                  "description": "This Pokemon is popular with beginners because it's intelligent, obedient to its Trainer's commands, and easy to raise.",
                   "evolution": {
                     "next": [
                       [
@@ -27111,7 +27111,7 @@
                     "Speed": 66
                   },
                   "species": "Devious Pokemon",
-                  "description": "They steal from people for fun, but their victims can\u2019t help but forgive them. Their deceptively cute act is perfect.",
+                  "description": "They steal from people for fun, but their victims can't help but forgive them. Their deceptively cute act is perfect.",
                   "evolution": {
                     "next": [
                       [
@@ -27221,7 +27221,7 @@
                     "Speed": 64
                   },
                   "species": "Grass Monkey Pokemon",
-                  "description": "It\u2019s good at finding berries and gathers them from all over. It\u2019s kind enough to share them with friends.",
+                  "description": "It's good at finding berries and gathers them from all over. It's kind enough to share them with friends.",
                   "evolution": {
                     "next": [
                       [
@@ -27976,7 +27976,7 @@
                     "Speed": 20
                   },
                   "species": "Ore Pokemon",
-                  "description": "Its orange crystals are lumps of powerful energy. They\u2019re valuable, so Boldore is sometimes targeted for them.",
+                  "description": "Its orange crystals are lumps of powerful energy. They're valuable, so Boldore is sometimes targeted for them.",
                   "evolution": {
                     "prev": [
                       "524",
@@ -28036,7 +28036,7 @@
                     "Speed": 25
                   },
                   "species": "Compressed Pokemon",
-                  "description": "It absorbs rays of sunlight and shoots out energy. It\u2019s usually lurking deep beneath the surface.",
+                  "description": "It absorbs rays of sunlight and shoots out energy. It's usually lurking deep beneath the surface.",
                   "evolution": {
                     "prev": [
                       "525",
@@ -29209,7 +29209,7 @@
                     "Speed": 116
                   },
                   "species": "Windveiled Pokemon",
-                  "description": "Whimsicott doesn\u2019t live in a fixed location. It floats around on whirling winds, appearing all over the place to perform its mischief.",
+                  "description": "Whimsicott doesn't live in a fixed location. It floats around on whirling winds, appearing all over the place to perform its mischief.",
                   "evolution": {
                     "prev": [
                       "546",
@@ -29320,7 +29320,7 @@
                     "Speed": 90
                   },
                   "species": "Flowering Pokemon",
-                  "description": "It\u2019s well liked by other Pokemon because of its beauty. The flower on its head needs constant care, or it will soon wither and rot.",
+                  "description": "It's well liked by other Pokemon because of its beauty. The flower on its head needs constant care, or it will soon wither and rot.",
                   "evolution": {
                     "prev": [
                       "548",
@@ -29374,7 +29374,7 @@
                     "Speed": 98
                   },
                   "species": "Hostile Pokemon",
-                  "description": "When a school of Basculin appears in a lake, everything else disappears, except for Corphish and Crawdaunt. That\u2019s how violent Basculin are.",
+                  "description": "When a school of Basculin appears in a lake, everything else disappears, except for Corphish and Crawdaunt. That's how violent Basculin are.",
                   "evolution": {},
                   "profile": {
                     "height": "1 m",
@@ -29424,7 +29424,7 @@
                     "Speed": 65
                   },
                   "species": "Desert Croc Pokemon",
-                  "description": "Sandile\u2019s still not good at hunting, so it mostly eats things that have collapsed in the desert. It\u2019s called \u201cthe cleaner of the desert.\u201d",
+                  "description": "Sandile's still not good at hunting, so it mostly eats things that have collapsed in the desert. It's called \u201cthe cleaner of the desert.\u201d",
                   "evolution": {
                     "next": [
                       [
@@ -30236,7 +30236,7 @@
                     "Speed": 70
                   },
                   "species": "First Bird Pokemon",
-                  "description": "Restored from a fossil, this ancient bird Pokemon has wings but can\u2019t yet fly.",
+                  "description": "Restored from a fossil, this ancient bird Pokemon has wings but can't yet fly.",
                   "evolution": {
                     "next": [
                       [
@@ -30763,7 +30763,7 @@
                     "Speed": 65
                   },
                   "species": "Astral Body Pokemon",
-                  "description": "They can predict the future from the placement and movement of the stars. They can see Trainers\u2019 life spans.",
+                  "description": "They can predict the future from the placement and movement of the stars. They can see Trainers' life spans.",
                   "evolution": {
                     "prev": [
                       "575",
@@ -31157,7 +31157,7 @@
                     "Speed": 59
                   },
                   "species": "Icy Snow Pokemon",
-                  "description": "This hearty Pokemon survived the Ice Age. It\u2019s incredibly popular in very hot regions.",
+                  "description": "This hearty Pokemon survived the Ice Age. It's incredibly popular in very hot regions.",
                   "evolution": {
                     "prev": [
                       "582",
@@ -31217,7 +31217,7 @@
                     "Speed": 79
                   },
                   "species": "Snowstorm Pokemon",
-                  "description": "Vanilluxe is born when two Vanillish, half-melted by the day\u2019s light, stick to each other and freeze together in the cold return of night.",
+                  "description": "Vanilluxe is born when two Vanillish, half-melted by the day's light, stick to each other and freeze together in the cold return of night.",
                   "evolution": {
                     "prev": [
                       "583",
@@ -31272,7 +31272,7 @@
                     "Speed": 75
                   },
                   "species": "Season Pokemon",
-                  "description": "The turning of the seasons changes the color and scent of this Pokemon\u2019s fur. People use it to mark the seasons.",
+                  "description": "The turning of the seasons changes the color and scent of this Pokemon's fur. People use it to mark the seasons.",
                   "evolution": {
                     "next": [
                       [
@@ -31384,7 +31384,7 @@
                     "Speed": 103
                   },
                   "species": "Sky Squirrel Pokemon",
-                  "description": "As it flies, it scatters electricity around, so bird Pokemon keep their distance. That\u2019s why Emolga can keep all its food to itself.",
+                  "description": "As it flies, it scatters electricity around, so bird Pokemon keep their distance. That's why Emolga can keep all its food to itself.",
                   "evolution": {},
                   "profile": {
                     "height": "0.4 m",
@@ -31702,7 +31702,7 @@
                     "Speed": 60
                   },
                   "species": "Floating Pokemon",
-                  "description": "Fishermen are terrified of Jellicent. It\u2019s rumored to drag them into the sea and steal their lives away.",
+                  "description": "Fishermen are terrified of Jellicent. It's rumored to drag them into the sea and steal their lives away.",
                   "evolution": {
                     "prev": [
                       "592",
@@ -32076,7 +32076,7 @@
                     "Speed": 50
                   },
                   "species": "Gear Pokemon",
-                  "description": "A minigear and big gear comprise its body. If the minigear it launches at a foe doesn\u2019t return, it will die.",
+                  "description": "A minigear and big gear comprise its body. If the minigear it launches at a foe doesn't return, it will die.",
                   "evolution": {
                     "prev": [
                       "599",
@@ -32336,7 +32336,7 @@
                     "Speed": 30
                   },
                   "species": "Cerebral Pokemon",
-                  "description": "This Pokemon is shrouded in mystery. It\u2019s said to have appeared from a UFO that fell from the sky about 50 years ago.",
+                  "description": "This Pokemon is shrouded in mystery. It's said to have appeared from a UFO that fell from the sky about 50 years ago.",
                   "evolution": {
                     "next": [
                       [
@@ -33161,7 +33161,7 @@
                     "Speed": 105
                   },
                   "species": "Martial Arts Pokemon",
-                  "description": "When Mienshao lets out a bizarre wail, you\u2019re in danger. A flurry of kicks and chops too fast to see is about to be unleashed!",
+                  "description": "When Mienshao lets out a bizarre wail, you're in danger. A flurry of kicks and chops too fast to see is about to be unleashed!",
                   "evolution": {
                     "prev": [
                       "619",
@@ -33379,7 +33379,7 @@
                     "Speed": 60
                   },
                   "species": "Sharp Blade Pokemon",
-                  "description": "It follows Bisharp\u2019s orders to a tee when it attacks enemies. After slashing an opponent, Pawniard clangs both of its blades together.",
+                  "description": "It follows Bisharp's orders to a tee when it attacks enemies. After slashing an opponent, Pawniard clangs both of its blades together.",
                   "evolution": {
                     "next": [
                       [
@@ -33436,7 +33436,7 @@
                     "Speed": 70
                   },
                   "species": "Sword Blade Pokemon",
-                  "description": "It leads a group of Pawniard. Bisharp doesn\u2019t even change its expression when it deals the finishing blow to an opponent.",
+                  "description": "It leads a group of Pawniard. Bisharp doesn't even change its expression when it deals the finishing blow to an opponent.",
                   "evolution": {
                     "prev": [
                       "624",
@@ -33597,7 +33597,7 @@
                     "Speed": 80
                   },
                   "species": "Valiant Pokemon",
-                  "description": "Known as \u201cthe hero of the skies,\u201d this Pokemon is so proud and so brave that it will never retreat, even when it\u2019s injured.",
+                  "description": "Known as \u201cthe hero of the skies,\u201d this Pokemon is so proud and so brave that it will never retreat, even when it's injured.",
                   "evolution": {
                     "prev": [
                       "627",
@@ -33709,7 +33709,7 @@
                     "Speed": 80
                   },
                   "species": "Bone Vulture Pokemon",
-                  "description": "It\u2019s always searching for food for Vullaby. When it finds a weak Pokemon, Mandibuzz swoops it right off to its nest.",
+                  "description": "It's always searching for food for Vullaby. When it finds a weak Pokemon, Mandibuzz swoops it right off to its nest.",
                   "evolution": {
                     "prev": [
                       "629",
@@ -33863,7 +33863,7 @@
                     "Speed": 38
                   },
                   "species": "Irate Pokemon",
-                  "description": "Lacking sight, it\u2019s unaware of its surroundings, so it bumps into things and eats anything that moves.",
+                  "description": "Lacking sight, it's unaware of its surroundings, so it bumps into things and eats anything that moves.",
                   "evolution": {
                     "next": [
                       [
@@ -34333,7 +34333,7 @@
                     "Speed": 90
                   },
                   "species": "Vast White Pokemon",
-                  "description": "When Reshiram\u2019s tail flares, the heat energy moves the atmosphere and changes the world\u2019s weather.",
+                  "description": "When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather.",
                   "evolution": {},
                   "profile": {
                     "height": "3.2 m",
@@ -34630,7 +34630,7 @@
                     "Speed": 38
                   },
                   "species": "Spiny Nut Pokemon",
-                  "description": "Such a thick shell of wood covers its head and back that even a direct hit from a truck wouldn\u2019t faze it.",
+                  "description": "Such a thick shell of wood covers its head and back that even a direct hit from a truck wouldn't faze it.",
                   "evolution": {
                     "next": [
                       [
@@ -34682,7 +34682,7 @@
                     "Speed": 57
                   },
                   "species": "Spiny Armor Pokemon",
-                  "description": "They strengthen their lower bodies by running into one another. They are very kind and won\u2019t start fights.",
+                  "description": "They strengthen their lower bodies by running into one another. They are very kind and won't start fights.",
                   "evolution": {
                     "prev": [
                       "650",
@@ -35000,7 +35000,7 @@
                     "Speed": 97
                   },
                   "species": "Bubble Frog Pokemon",
-                  "description": "Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute\u2019s time.",
+                  "description": "Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute's time.",
                   "evolution": {
                     "prev": [
                       "656",
@@ -35057,7 +35057,7 @@
                     "Speed": 122
                   },
                   "species": "Ninja Pokemon",
-                  "description": "It appears and vanishes with a ninja\u2019s grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
+                  "description": "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
                   "evolution": {
                     "prev": [
                       "657",
@@ -35164,7 +35164,7 @@
                     "Speed": 78
                   },
                   "species": "Digging Pokemon",
-                  "description": "As powerful as an excavator, its ears can reduce dense bedrock to rubble. When it\u2019s finished digging, it lounges lazily.",
+                  "description": "As powerful as an excavator, its ears can reduce dense bedrock to rubble. When it's finished digging, it lounges lazily.",
                   "evolution": {
                     "prev": [
                       "659",
@@ -35435,7 +35435,7 @@
                     "Speed": 29
                   },
                   "species": "Scatterdust Pokemon",
-                  "description": "The beaks of bird Pokemon can\u2019t begin to scratch its stalwart body. To defend itself, it spews powder.",
+                  "description": "The beaks of bird Pokemon can't begin to scratch its stalwart body. To defend itself, it spews powder.",
                   "evolution": {
                     "prev": [
                       "664",
@@ -35492,7 +35492,7 @@
                     "Speed": 89
                   },
                   "species": "Scale Pokemon",
-                  "description": "The patterns on this Pokemon\u2019s wings depend on the climate and topography of its habitat. It scatters colorful scales.",
+                  "description": "The patterns on this Pokemon's wings depend on the climate and topography of its habitat. It scatters colorful scales.",
                   "evolution": {
                     "prev": [
                       "665",
@@ -35604,7 +35604,7 @@
                     "Speed": 106
                   },
                   "species": "Royal Pokemon",
-                  "description": "The temperature of its breath is over 10,000 degrees Fahrenheit, but Pyroar doesn\u2019t use it on its prey. This Pokemon prefers to eat raw meat.",
+                  "description": "The temperature of its breath is over 10,000 degrees Fahrenheit, but Pyroar doesn't use it on its prey. This Pokemon prefers to eat raw meat.",
                   "evolution": {
                     "prev": [
                       "667",
@@ -35658,7 +35658,7 @@
                     "Speed": 42
                   },
                   "species": "Single Bloom Pokemon",
-                  "description": "Flabebe wears a crown made from pollen it\u2019s collected from its flower. The crown has hidden healing properties.",
+                  "description": "Flabebe wears a crown made from pollen it's collected from its flower. The crown has hidden healing properties.",
                   "evolution": {
                     "next": [
                       [
@@ -35766,7 +35766,7 @@
                     "Speed": 75
                   },
                   "species": "Garden Pokemon",
-                  "description": "Its life can span several hundred years. It\u2019s said to devote its entire life to protecting gardens.",
+                  "description": "Its life can span several hundred years. It's said to devote its entire life to protecting gardens.",
                   "evolution": {
                     "prev": [
                       "670",
@@ -35816,7 +35816,7 @@
                     "Speed": 52
                   },
                   "species": "Mount Pokemon",
-                  "description": "If it has sunshine and water, it doesn\u2019t need to eat, because it can generate energy from the leaves on its back.",
+                  "description": "If it has sunshine and water, it doesn't need to eat, because it can generate energy from the leaves on its back.",
                   "evolution": {
                     "next": [
                       [
@@ -35918,7 +35918,7 @@
                     "Speed": 43
                   },
                   "species": "Playful Pokemon",
-                  "description": "It\u2019s desperate to intimidate its opponents. Be nice and pretend to be scared if you catch it glaring at you intensely.",
+                  "description": "It's desperate to intimidate its opponents. Be nice and pretend to be scared if you catch it glaring at you intensely.",
                   "evolution": {
                     "next": [
                       [
@@ -35976,7 +35976,7 @@
                     "Speed": 58
                   },
                   "species": "Daunting Pokemon",
-                  "description": "Pangoro is the type to talk with its fists. It doesn\u2019t say much as it pummels opponents with enough force to send a dump truck flying.",
+                  "description": "Pangoro is the type to talk with its fists. It doesn't say much as it pummels opponents with enough force to send a dump truck flying.",
                   "evolution": {
                     "prev": [
                       "674",
@@ -36183,7 +36183,7 @@
                     "Speed": 28
                   },
                   "species": "Sword Pokemon",
-                  "description": "If anyone dares to grab its hilt, it wraps a blue cloth around that person\u2019s arm and drains that person\u2019s life energy completely.",
+                  "description": "If anyone dares to grab its hilt, it wraps a blue cloth around that person's arm and drains that person's life energy completely.",
                   "evolution": {
                     "next": [
                       [
@@ -36485,7 +36485,7 @@
                     "Speed": 72
                   },
                   "species": "Meringue Pokemon",
-                  "description": "Its sense of smell is 100 million times better than a human\u2019s, so even the faintest scent tells it about everything in the area. It\u2019s like it can see with its nose!",
+                  "description": "Its sense of smell is 100 million times better than a human's, so even the faintest scent tells it about everything in the area. It's like it can see with its nose!",
                   "evolution": {
                     "prev": [
                       "684",
@@ -36707,7 +36707,7 @@
                     "Speed": 68
                   },
                   "species": "Collective Pokemon",
-                  "description": "Barbaracle\u2019s legs and hands have minds of their own, and they will move independently. But they usually follow the head\u2019s orders.",
+                  "description": "Barbaracle's legs and hands have minds of their own, and they will move independently. But they usually follow the head's orders.",
                   "evolution": {
                     "prev": [
                       "688",
@@ -36762,7 +36762,7 @@
                     "Speed": 30
                   },
                   "species": "Mock Kelp Pokemon",
-                  "description": "It\u2019s not good at swimming, so it clings to the seaweed. In the Alola region, it\u2019s often found near Dhelmise.",
+                  "description": "It's not good at swimming, so it clings to the seaweed. In the Alola region, it's often found near Dhelmise.",
                   "evolution": {
                     "next": [
                       [
@@ -36875,7 +36875,7 @@
                     "Speed": 44
                   },
                   "species": "Water Gun Pokemon",
-                  "description": "It moves around by jetting water from its right pincer. It has a poor sense of balance, so it\u2019s terrible at swimming straight.",
+                  "description": "It moves around by jetting water from its right pincer. It has a poor sense of balance, so it's terrible at swimming straight.",
                   "evolution": {
                     "next": [
                       [
@@ -36924,7 +36924,7 @@
                     "Speed": 59
                   },
                   "species": "Howitzer Pokemon",
-                  "description": "Its right arm is packed with meat. When its pincer falls off, it\u2019s exported to be used as a cooking ingredient.",
+                  "description": "Its right arm is packed with meat. When its pincer falls off, it's exported to be used as a cooking ingredient.",
                   "evolution": {
                     "prev": [
                       "692",
@@ -37086,7 +37086,7 @@
                     "Speed": 48
                   },
                   "species": "Royal Heir Pokemon",
-                  "description": "Tyrunt is spoiled and selfish. It may just be trying to frolic, but sometimes the ones it\u2019s trying to frolic with are gravely injured.",
+                  "description": "Tyrunt is spoiled and selfish. It may just be trying to frolic, but sometimes the ones it's trying to frolic with are gravely injured.",
                   "evolution": {
                     "next": [
                       [
@@ -37192,7 +37192,7 @@
                     "Speed": 46
                   },
                   "species": "Tundra Pokemon",
-                  "description": "Amaura was restored successfully, but it\u2019s not expected to live long because of the heat of the current environment.",
+                  "description": "Amaura was restored successfully, but it's not expected to live long because of the heat of the current environment.",
                   "evolution": {
                     "next": [
                       [
@@ -37295,7 +37295,7 @@
                     "Speed": 60
                   },
                   "species": "Intertwining Pokemon",
-                  "description": "Sylveon wraps its ribbonlike feelers around its Trainer\u2019s arm because this touch enables it to read its Trainer\u2019s feelings.",
+                  "description": "Sylveon wraps its ribbonlike feelers around its Trainer's arm because this touch enables it to read its Trainer's feelings.",
                   "evolution": {
                     "prev": [
                       "133",
@@ -37346,7 +37346,7 @@
                     "Speed": 118
                   },
                   "species": "Wrestling Pokemon",
-                  "description": "In combat, Hawlucha leaps nimbly about, taking advantage of its opponents\u2019 blind spots. It\u2019s also skilled at using superb submission holds.",
+                  "description": "In combat, Hawlucha leaps nimbly about, taking advantage of its opponents' blind spots. It's also skilled at using superb submission holds.",
                   "evolution": {},
                   "profile": {
                     "height": "0.8 m",
@@ -37447,7 +37447,7 @@
                     "Speed": 50
                   },
                   "species": "Jewel Pokemon",
-                  "description": "To keep the jewels on their bodies free of tarnish, packs of Carbink use their soft manes to polish one another\u2019s jewels.",
+                  "description": "To keep the jewels on their bodies free of tarnish, packs of Carbink use their soft manes to polish one another's jewels.",
                   "evolution": {},
                   "profile": {
                     "height": "0.3 m",
@@ -37493,7 +37493,7 @@
                     "Speed": 40
                   },
                   "species": "Soft Tissue Pokemon",
-                  "description": "Its body is mostly water. If it dries out, it will die, so it\u2019s always sitting with perfect stillness in the shade.",
+                  "description": "Its body is mostly water. If it dries out, it will die, so it's always sitting with perfect stillness in the shade.",
                   "evolution": {
                     "next": [
                       [
@@ -37549,7 +37549,7 @@
                     "Speed": 60
                   },
                   "species": "Soft Tissue Pokemon",
-                  "description": "Its entire body is covered with gooey mucus that can dissolve anything. Be sure to put gloves on if you\u2019re going to touch it.",
+                  "description": "Its entire body is covered with gooey mucus that can dissolve anything. Be sure to put gloves on if you're going to touch it.",
                   "evolution": {
                     "prev": [
                       "704",
@@ -37609,7 +37609,7 @@
                     "Speed": 80
                   },
                   "species": "Dragon Pokemon",
-                  "description": "Underneath its slimy skin is a thick layer of fat, and the combination of the two makes enemies\u2019 attacks slide right off.",
+                  "description": "Underneath its slimy skin is a thick layer of fat, and the combination of the two makes enemies' attacks slide right off.",
                   "evolution": {
                     "prev": [
                       "705",
@@ -38409,7 +38409,7 @@
                     "Speed": 42
                   },
                   "species": "Grass Quill Pokemon",
-                  "description": "It feels relaxed in tight, dark places and has been known to use its Trainer\u2019s pocket or bag as a nest.",
+                  "description": "It feels relaxed in tight, dark places and has been known to use its Trainer's pocket or bag as a nest.",
                   "evolution": {
                     "next": [
                       [
@@ -38621,7 +38621,7 @@
                     "Speed": 90
                   },
                   "species": "Fire Cat Pokemon",
-                  "description": "When its mane is standing on end, you can tell it\u2019s feeling good. When it isn\u2019t feeling well, its fur will lie down flat.",
+                  "description": "When its mane is standing on end, you can tell it's feeling good. When it isn't feeling well, its fur will lie down flat.",
                   "evolution": {
                     "prev": [
                       "725",
@@ -38728,7 +38728,7 @@
                     "Speed": 40
                   },
                   "species": "Sea Lion Pokemon",
-                  "description": "Popplio gets on top of its bouncy water balloons to jump higher. It\u2019s quite the acrobatic fighter!",
+                  "description": "Popplio gets on top of its bouncy water balloons to jump higher. It's quite the acrobatic fighter!",
                   "evolution": {
                     "next": [
                       [
@@ -39475,7 +39475,7 @@
                     "Speed": 84
                   },
                   "species": "Bee Fly Pokemon",
-                  "description": "Cutiefly can pick up the auras of living things. It skillfully reads those auras to predict its foes\u2019 movements and make fools of them.",
+                  "description": "Cutiefly can pick up the auras of living things. It skillfully reads those auras to predict its foes' movements and make fools of them.",
                   "evolution": {
                     "next": [
                       [
@@ -39588,7 +39588,7 @@
                     "Speed": 60
                   },
                   "species": "Puppy Pokemon",
-                  "description": "When it rubs the rocks on its neck against you, that\u2019s proof of its love for you. However, the rocks are sharp, so the gesture is quite painful!",
+                  "description": "When it rubs the rocks on its neck against you, that's proof of its love for you. However, the rocks are sharp, so the gesture is quite painful!",
                   "evolution": {
                     "next": [
                       [
@@ -39698,7 +39698,7 @@
                     "Speed": 40
                   },
                   "species": "Small Fry Pokemon",
-                  "description": "When it\u2019s in a jam, its shining eyes attract others of its kind. The light from its eyes is visible almost 25 miles away.",
+                  "description": "When it's in a jam, its shining eyes attract others of its kind. The light from its eyes is visible almost 25 miles away.",
                   "evolution": {},
                   "profile": {
                     "height": "0.2 m",
@@ -39740,7 +39740,7 @@
                     "Speed": 45
                   },
                   "species": "Brutal Star Pokemon",
-                  "description": "Aside from its head, its body parts regenerate quickly if they\u2019re cut off. After a good night\u2019s sleep, Mareanie is back to normal.",
+                  "description": "Aside from its head, its body parts regenerate quickly if they're cut off. After a good night's sleep, Mareanie is back to normal.",
                   "evolution": {
                     "next": [
                       [
@@ -39797,7 +39797,7 @@
                     "Speed": 35
                   },
                   "species": "Brutal Star Pokemon",
-                  "description": "With its 12 legs, it creates a dome to shelter within. The flow of the tides doesn\u2019t affect Toxapex in there, so it\u2019s very comfortable.",
+                  "description": "With its 12 legs, it creates a dome to shelter within. The flow of the tides doesn't affect Toxapex in there, so it's very comfortable.",
                   "evolution": {
                     "prev": [
                       "747",
@@ -40016,7 +40016,7 @@
                     "Speed": 42
                   },
                   "species": "Water Bubble Pokemon",
-                  "description": "It has a habit of storing things it values in its water bubble. If its Trainer doesn\u2019t watch out, Araquanid will try to put them in its bubble!",
+                  "description": "It has a habit of storing things it values in its water bubble. If its Trainer doesn't watch out, Araquanid will try to put them in its bubble!",
                   "evolution": {
                     "prev": [
                       "751",
@@ -40119,7 +40119,7 @@
                     "Speed": 45
                   },
                   "species": "Bloom Sickle Pokemon",
-                  "description": "As it slashes into its enemies, it looks like it\u2019s dancing. Its elegant appearance has led some to call it the most glamorous Grass Pokemon.",
+                  "description": "As it slashes into its enemies, it looks like it's dancing. Its elegant appearance has led some to call it the most glamorous Grass Pokemon.",
                   "evolution": {
                     "prev": [
                       "753",
@@ -40282,7 +40282,7 @@
                     "Speed": 77
                   },
                   "species": "Toxic Lizard Pokemon",
-                  "description": "It weakens opponents and sends them reeling with its poisonous gas. Salandit doesn\u2019t deal well with Spinda, since it\u2019s always reeling.",
+                  "description": "It weakens opponents and sends them reeling with its poisonous gas. Salandit doesn't deal well with Spinda, since it's always reeling.",
                   "evolution": {
                     "next": [
                       [
@@ -40336,7 +40336,7 @@
                     "Speed": 117
                   },
                   "species": "Toxic Lizard Pokemon",
-                  "description": "It punishes Salandit that couldn\u2019t bring it food with a fierce slap of its flame-spewing palm.",
+                  "description": "It punishes Salandit that couldn't bring it food with a fierce slap of its flame-spewing palm.",
                   "evolution": {
                     "prev": [
                       "757",
@@ -40499,7 +40499,7 @@
                     "Speed": 32
                   },
                   "species": "Fruit Pokemon",
-                  "description": "It tries to resist being swallowed by a bird Pokemon by spinning the sepals on its head. It\u2019s usually a fruitless attempt.",
+                  "description": "It tries to resist being swallowed by a bird Pokemon by spinning the sepals on its head. It's usually a fruitless attempt.",
                   "evolution": {
                     "next": [
                       [
@@ -40555,7 +40555,7 @@
                     "Speed": 62
                   },
                   "species": "Fruit Pokemon",
-                  "description": "It bounces around, swinging the sepals on its head with abandon. They\u2019re quite painful when they smack you!",
+                  "description": "It bounces around, swinging the sepals on its head with abandon. They're quite painful when they smack you!",
                   "evolution": {
                     "prev": [
                       "761",
@@ -40719,7 +40719,7 @@
                     "Speed": 60
                   },
                   "species": "Sage Pokemon",
-                  "description": "Oranguru don\u2019t get along with each other, so they\u2019re always engaging in battles of wits to decide which one is superior.",
+                  "description": "Oranguru don't get along with each other, so they're always engaging in battles of wits to decide which one is superior.",
                   "evolution": {},
                   "profile": {
                     "height": "1.5 m",
@@ -40912,7 +40912,7 @@
                     "Speed": 15
                   },
                   "species": "Sand Heap Pokemon",
-                  "description": "If you build sand mounds when you\u2019re playing, destroy them before you go home, or they may get possessed and become Sandygast.",
+                  "description": "If you build sand mounds when you're playing, destroy them before you go home, or they may get possessed and become Sandygast.",
                   "evolution": {
                     "next": [
                       [
@@ -41015,7 +41015,7 @@
                     "Speed": 5
                   },
                   "species": "Sea Cucumber Pokemon",
-                  "description": "Its entire body is covered in its own slime. If you accidentally step on one, you\u2019ll slip, and it will get mad and smack you!",
+                  "description": "Its entire body is covered in its own slime. If you accidentally step on one, you'll slip, and it will get mad and smack you!",
                   "evolution": {},
                   "profile": {
                     "height": "0.3 m",
@@ -41060,7 +41060,7 @@
                     "Speed": 59
                   },
                   "species": "Synthetic Pokemon",
-                  "description": "There\u2019s danger of its going on a rampage, so its true power is sealed away beneath its control mask.",
+                  "description": "There's danger of its going on a rampage, so its true power is sealed away beneath its control mask.",
                   "evolution": {
                     "next": [
                       [
@@ -41332,7 +41332,7 @@
                     "Speed": 96
                   },
                   "species": "Disguise Pokemon",
-                  "description": "A gust of wind revealed what hides under this Pokemon\u2019s rag to a passing Trainer, who went home and died painfully that very night.",
+                  "description": "A gust of wind revealed what hides under this Pokemon's rag to a passing Trainer, who went home and died painfully that very night.",
                   "evolution": {},
                   "profile": {
                     "height": "0.2 m",
@@ -41374,7 +41374,7 @@
                     "Speed": 92
                   },
                   "species": "Gnash Teeth Pokemon",
-                  "description": "Its skin is thick enough to fend off Mareanie\u2019s spikes. With its robust teeth, Bruxish crunches up the spikes and eats them.",
+                  "description": "Its skin is thick enough to fend off Mareanie's spikes. With its robust teeth, Bruxish crunches up the spikes and eats them.",
                   "evolution": {},
                   "profile": {
                     "height": "0.9 m",
@@ -41424,7 +41424,7 @@
                     "Speed": 36
                   },
                   "species": "Placid Pokemon",
-                  "description": "It appears in towns and plays with the children. Drampa will protect kids when they\u2019re in danger, so their moms don\u2019t have to worry.",
+                  "description": "It appears in towns and plays with the children. Drampa will protect kids when they're in danger, so their moms don't have to worry.",
                   "evolution": {},
                   "profile": {
                     "height": "3 m",
@@ -41573,7 +41573,7 @@
                     "Speed": 65
                   },
                   "species": "Scaly Pokemon",
-                  "description": "The scales it sheds can be molded and processed to make pots and pans. They conduct heat well, so they\u2019re a popular item.",
+                  "description": "The scales it sheds can be molded and processed to make pots and pans. They conduct heat well, so they're a popular item.",
                   "evolution": {
                     "prev": [
                       "782",
@@ -41781,7 +41781,7 @@
                     "Speed": 75
                   },
                   "species": "Land Spirit Pokemon",
-                  "description": "It makes ringing sounds with its tail to let others know where it is, avoiding unneeded conflicts. This guardian deity of Ula\u2019ula controls plants.",
+                  "description": "It makes ringing sounds with its tail to let others know where it is, avoiding unneeded conflicts. This guardian deity of Ula'ula controls plants.",
                   "evolution": {},
                   "profile": {
                     "height": "1.9 m",
@@ -41827,7 +41827,7 @@
                     "Speed": 85
                   },
                   "species": "Land Spirit Pokemon",
-                  "description": "Although it\u2019s called a guardian deity, terrible calamities sometimes befall those who recklessly approach Tapu Fini.",
+                  "description": "Although it's called a guardian deity, terrible calamities sometimes befall those who recklessly approach Tapu Fini.",
                   "evolution": {},
                   "profile": {
                     "height": "1.3 m",
@@ -41872,7 +41872,7 @@
                     "Speed": 37
                   },
                   "species": "Nebula Pokemon",
-                  "description": "Whether or not it\u2019s a Pokemon from this world is a mystery. When it\u2019s in a jam, it warps away to a safe place to hide.",
+                  "description": "Whether or not it's a Pokemon from this world is a mystery. When it's in a jam, it warps away to a safe place to hide.",
                   "evolution": {
                     "next": [
                       [
@@ -41977,7 +41977,7 @@
                     "Speed": 97
                   },
                   "species": "Sunne Pokemon",
-                  "description": "In writings from the distant past, it\u2019s called by the name \u201cthe beast that devours the sun.\u201d",
+                  "description": "In writings from the distant past, it's called by the name \u201cthe beast that devours the sun.\u201d",
                   "evolution": {
                     "prev": [
                       "790",
@@ -42155,7 +42155,7 @@
                     "Speed": 151
                   },
                   "species": "Lissome Pokemon",
-                  "description": "Although it\u2019s alien to this world and a danger here, it\u2019s apparently a common organism in the world where it normally lives.",
+                  "description": "Although it's alien to this world and a danger here, it's apparently a common organism in the world where it normally lives.",
                   "evolution": {},
                   "profile": {
                     "height": "1.8 m",
@@ -42196,7 +42196,7 @@
                     "Speed": 83
                   },
                   "species": "Glowing Pokemon",
-                  "description": "They\u2019ve been dubbed Ultra Beasts. Some of them stand unmoving, like trees, with their arms and legs stuck into the ground.",
+                  "description": "They've been dubbed Ultra Beasts. Some of them stand unmoving, like trees, with their arms and legs stuck into the ground.",
                   "evolution": {},
                   "profile": {
                     "height": "3.8 m",
@@ -42238,7 +42238,7 @@
                     "Speed": 61
                   },
                   "species": "Launch Pokemon",
-                  "description": "Although it\u2019s alien to this world and a danger here, it\u2019s apparently a common organism in the world where it normally lives.",
+                  "description": "Although it's alien to this world and a danger here, it's apparently a common organism in the world where it normally lives.",
                   "evolution": {},
                   "profile": {
                     "height": "9.2 m",
@@ -42280,7 +42280,7 @@
                     "Speed": 109
                   },
                   "species": "Drawn Sword Pokemon",
-                  "description": "Although it\u2019s alien to this world and a danger here, it\u2019s apparently a common organism in the world where it normally lives.",
+                  "description": "Although it's alien to this world and a danger here, it's apparently a common organism in the world where it normally lives.",
                   "evolution": {},
                   "profile": {
                     "height": "0.3 m",
@@ -42363,7 +42363,7 @@
                     "Speed": 79
                   },
                   "species": "Prism Pokemon",
-                  "description": "Light is the source of its energy. If it isn\u2019t devouring light, impurities build up in it and on it, and Necrozma darkens and stops moving.",
+                  "description": "Light is the source of its energy. If it isn't devouring light, impurities build up in it and on it, and Necrozma darkens and stops moving.",
                   "evolution": {},
                   "profile": {
                     "height": "2.4 m",
@@ -42584,7 +42584,7 @@
                     "Speed": 13
                   },
                   "species": "Rampart Pokemon",
-                  "description": "When stone walls started moving and attacking, the brute\u2019s true identity was this mysterious life-form, which brings to mind an Ultra Beast.",
+                  "description": "When stone walls started moving and attacking, the brute's true identity was this mysterious life-form, which brings to mind an Ultra Beast.",
                   "evolution": {},
                   "profile": {
                     "height": "5.5 m",
@@ -42626,7 +42626,7 @@
                     "Speed": 107
                   },
                   "species": "Fireworks Pokemon",
-                  "description": "A UB that appeared from an Ultra Wormhole, it causes explosions, then takes advantage of opponents\u2019 surprise to rob them of their vitality.",
+                  "description": "A UB that appeared from an Ultra Wormhole, it causes explosions, then takes advantage of opponents' surprise to rob them of their vitality.",
                   "evolution": {},
                   "profile": {
                     "height": "1.8 m",
@@ -42834,7 +42834,7 @@
                     "Grass"
                   ],
                   "species": "Beat Pokemon",
-                  "description": "When it\u2019s drumming out rapid beats in battle, it gets so caught up in the rhythm that it won\u2019t even notice that it\u2019s already knocked out its opponent.",
+                  "description": "When it's drumming out rapid beats in battle, it gets so caught up in the rhythm that it won't even notice that it's already knocked out its opponent.",
                   "evolution": {
                     "prev": [
                       "810",
@@ -42916,7 +42916,7 @@
                     "Fire"
                   ],
                   "species": "Rabbit Pokemon",
-                  "description": "It has special pads on the backs of its feet, and one on its nose. Once it\u2019s raring to fight, these pads radiate tremendous heat.",
+                  "description": "It has special pads on the backs of its feet, and one on its nose. Once it's raring to fight, these pads radiate tremendous heat.",
                   "evolution": {
                     "next": [
                       [
@@ -43000,7 +43000,7 @@
                     "Fire"
                   ],
                   "species": "Striker Pokemon",
-                  "description": "It\u2019s skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot.",
+                  "description": "It's skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot.",
                   "evolution": {
                     "prev": [
                       "814",
@@ -43122,7 +43122,7 @@
                     "Water"
                   ],
                   "species": "Secret Agent Pokemon",
-                  "description": "Its nictitating membranes let it pick out foes\u2019 weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3.",
+                  "description": "Its nictitating membranes let it pick out foes' weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3.",
                   "evolution": {
                     "prev": [
                       "817",
@@ -43160,7 +43160,7 @@
                     "Normal"
                   ],
                   "species": "Cheeky Pokemon",
-                  "description": "It eats berries nonstop\u2014a habit that has made it more resilient than it looks. It\u2019ll show up on farms, searching for yet more berries.",
+                  "description": "It eats berries nonstop\u2014a habit that has made it more resilient than it looks. It'll show up on farms, searching for yet more berries.",
                   "evolution": {
                     "next": [
                       [
@@ -43282,7 +43282,7 @@
                     "Flying"
                   ],
                   "species": "Raven Pokemon",
-                  "description": "The lessons of many harsh battles have taught it how to accurately judge an opponent\u2019s strength.",
+                  "description": "The lessons of many harsh battles have taught it how to accurately judge an opponent's strength.",
                   "evolution": {
                     "prev": [
                       "821",
@@ -43331,7 +43331,7 @@
                     "Steel"
                   ],
                   "species": "Raven Pokemon",
-                  "description": "With their great intellect and flying skills, these Pokemon very successfully act as the Galar region\u2019s airborne taxi service.",
+                  "description": "With their great intellect and flying skills, these Pokemon very successfully act as the Galar region's airborne taxi service.",
                   "evolution": {
                     "prev": [
                       "822",
@@ -43467,7 +43467,7 @@
                     "Psychic"
                   ],
                   "species": "Seven Spot Pokemon",
-                  "description": "It emits psychic energy to observe and study what\u2019s around it\u2014and what\u2019s around it can include things over six miles away.",
+                  "description": "It emits psychic energy to observe and study what's around it\u2014and what's around it can include things over six miles away.",
                   "evolution": {
                     "prev": [
                       "825",
@@ -43681,7 +43681,7 @@
                     "Normal"
                   ],
                   "species": "Sheep Pokemon",
-                  "description": "If its fleece grows too long, Wooloo won\u2019t be able to move. Cloth made with the wool of this Pokemon is surprisingly strong.",
+                  "description": "If its fleece grows too long, Wooloo won't be able to move. Cloth made with the wool of this Pokemon is surprisingly strong.",
                   "evolution": {
                     "next": [
                       [
@@ -44026,7 +44026,7 @@
                     "Fire"
                   ],
                   "species": "Coal Pokemon",
-                  "description": "While it\u2019s engaged in battle, its mountain of coal will burn bright red, sending off sparks that scorch the surrounding area.",
+                  "description": "While it's engaged in battle, its mountain of coal will burn bright red, sending off sparks that scorch the surrounding area.",
                   "evolution": {
                     "prev": [
                       "838",
@@ -44069,7 +44069,7 @@
                     "Dragon"
                   ],
                   "species": "Apple Core Pokemon",
-                  "description": "As soon as it\u2019s born, it burrows into an apple. Not only does the apple serve as its food source, but the flavor of the fruit determines its evolution.",
+                  "description": "As soon as it's born, it burrows into an apple. Not only does the apple serve as its food source, but the flavor of the fruit determines its evolution.",
                   "evolution": {
                     "next": [
                       [
@@ -44319,7 +44319,7 @@
                     "Water"
                   ],
                   "species": "Rush Pokemon",
-                  "description": "After it\u2019s eaten its fill, its movements become extremely sluggish. That\u2019s when Cramorant swallows it up.",
+                  "description": "After it's eaten its fill, its movements become extremely sluggish. That's when Cramorant swallows it up.",
                   "evolution": {
                     "next": [
                       [
@@ -44488,7 +44488,7 @@
                     "Bug"
                   ],
                   "species": "Radiator Pokemon",
-                  "description": "It wraps prey up with its heated body, cooking them in its coils. Once they\u2019re well-done, it will voraciously nibble them down to the last morsel.",
+                  "description": "It wraps prey up with its heated body, cooking them in its coils. Once they're well-done, it will voraciously nibble them down to the last morsel.",
                   "evolution": {
                     "next": [
                       [
@@ -44575,7 +44575,7 @@
                     "Fighting"
                   ],
                   "species": "Tantrum Pokemon",
-                  "description": "Its tentacles tear off easily, but it isn\u2019t alarmed when that happens\u2014it knows they\u2019ll grow back. It\u2019s about as smart as a three-year-old.",
+                  "description": "Its tentacles tear off easily, but it isn't alarmed when that happens\u2014it knows they'll grow back. It's about as smart as a three-year-old.",
                   "evolution": {
                     "next": [
                       [
@@ -44824,7 +44824,7 @@
                     "Fairy"
                   ],
                   "species": "Silent Pokemon",
-                  "description": "If you\u2019re too loud around it, you risk being torn apart by the claws on its tentacle. This Pokemon is also known as the Forest Witch.",
+                  "description": "If you're too loud around it, you risk being torn apart by the claws on its tentacle. This Pokemon is also known as the Forest Witch.",
                   "evolution": {
                     "prev": [
                       "857",
@@ -44867,7 +44867,7 @@
                     "Fairy"
                   ],
                   "species": "Wily Pokemon",
-                  "description": "It sneaks into people\u2019s homes, stealing things and feasting on the negative energy of the frustrated occupants.",
+                  "description": "It sneaks into people's homes, stealing things and feasting on the negative energy of the frustrated occupants.",
                   "evolution": {
                     "next": [
                       [
@@ -45088,7 +45088,7 @@
                     "Ghost"
                   ],
                   "species": "Coral Pokemon",
-                  "description": "Be cautious of the ectoplasmic body surrounding its soul. You\u2019ll become stiff as stone if you touch it.",
+                  "description": "Be cautious of the ectoplasmic body surrounding its soul. You'll become stiff as stone if you touch it.",
                   "evolution": {
                     "prev": [
                       "222",
@@ -45208,7 +45208,7 @@
                     "Ghost"
                   ],
                   "species": "Grudge Pokemon",
-                  "description": "Never touch its shadowlike body, or you\u2019ll be shown the horrific memories behind the picture carved into it.",
+                  "description": "Never touch its shadowlike body, or you'll be shown the horrific memories behind the picture carved into it.",
                   "evolution": {
                     "prev": [
                       "562",
@@ -45563,7 +45563,7 @@
                     "Dark"
                   ],
                   "species": "Two-Sided Pokemon",
-                  "description": "It carries electrically roasted seeds with it as if they\u2019re precious treasures. No matter how much it eats, it always gets hungry again in short order.",
+                  "description": "It carries electrically roasted seeds with it as if they're precious treasures. No matter how much it eats, it always gets hungry again in short order.",
                   "evolution": {},
                   "profile": {
                     "height": "0 m",
@@ -45746,7 +45746,7 @@
                     "Dragon"
                   ],
                   "species": "Fossil Pokemon",
-                  "description": "Its mighty legs are capable of running at speeds exceeding 40 mph, but this Pokemon can\u2019t breathe unless it\u2019s underwater.",
+                  "description": "Its mighty legs are capable of running at speeds exceeding 40 mph, but this Pokemon can't breathe unless it's underwater.",
                   "evolution": {},
                   "profile": {
                     "height": "2 m",
@@ -45905,7 +45905,7 @@
                     "Ghost"
                   ],
                   "species": "Caretaker Pokemon",
-                  "description": "Without a Dreepy to place on its head and care for, it gets so uneasy it\u2019ll try to substitute any Pokemon it finds for the missing Dreepy.",
+                  "description": "Without a Dreepy to place on its head and care for, it gets so uneasy it'll try to substitute any Pokemon it finds for the missing Dreepy.",
                   "evolution": {
                     "prev": [
                       "885",
@@ -45954,7 +45954,7 @@
                     "Ghost"
                   ],
                   "species": "Stealth Pokemon",
-                  "description": "Apparently the Dreepy inside Dragapult\u2019s horns eagerly look forward to being launched out at Mach speeds.",
+                  "description": "Apparently the Dreepy inside Dragapult's horns eagerly look forward to being launched out at Mach speeds.",
                   "evolution": {
                     "prev": [
                       "886",
@@ -45996,7 +45996,7 @@
                     "Fairy"
                   ],
                   "species": "Warrior Pokemon",
-                  "description": "This Pokemon has slumbered for many years. Some say it\u2019s Zamazenta\u2019s elder sister\u2014others say the two Pokemon are rivals.",
+                  "description": "This Pokemon has slumbered for many years. Some say it's Zamazenta's elder sister\u2014others say the two Pokemon are rivals.",
                   "evolution": {},
                   "profile": {
                     "height": "3 m",

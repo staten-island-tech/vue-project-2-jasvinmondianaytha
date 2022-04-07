@@ -5,16 +5,15 @@ const pokedex = createStore({
   state: {
     pokedex: [],
   },
-  computed: {
-    filledPokedex() {
-      const maxDex = this.pokedex.push(this.pokemons);
-      return maxDex;
-    },
-    Gen1() {
-      const firstGen = this.maxDex.filter((maxDex) => 1 <= maxDex.id <= 151);
+  getters: {
+    testDex() {
+      const testDex = Object.keys(pokemons).map((key) => [pokemons(key)]);
+      return testDex;
     },
   },
-  mutations: {},
+  mutations: {
+    changeGen() {},
+  },
   actions: {},
 });
 

@@ -18,7 +18,6 @@
   </div> -->
   <div v-if="!picked" class="pokebox">
     <h1>You did something wrong</h1>
-
   </div>
 </template>
 
@@ -26,11 +25,12 @@
 import DexCard from "../components/DexCard.vue";
 import pokemons from "../assets/pokemon.json";
 import Gen1 from "../components/Gen1.vue";
+import { useStore } from "vuex";
 export default {
   setup() {
-    const pokedex = [];
+    const pokedex = useStore();
     console.log(pokemons);
-    const firstGen = pokemons.filter((maxDex) => 1 <= maxDex.id <= 151);
+    console.log(pokedex);
     return pokemons;
   },
   components: {
