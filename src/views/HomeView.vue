@@ -1,5 +1,7 @@
 <script setup></script>
 
 <template>
-  <main></main>
+  <main>
+    <button class="login"></button>
+  </main>
 </template>
