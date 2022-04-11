@@ -6,6 +6,7 @@ import {
   signOut,
   onAuthStateChanged,
 } from "firebase/auth";
+import pokemons from "../assets/pokemon.json";
 
 const store = createStore({
   state: {
@@ -18,6 +19,12 @@ const store = createStore({
     },
     setAuthIsReady(state, payload) {
       state.authIsReady = payload;
+    },
+  },
+  getters: {
+    testDex() {
+      const testDex = Object.keys(pokemons).map((key) => [pokemons(key)]);
+      return textDex;
     },
   },
   actions: {

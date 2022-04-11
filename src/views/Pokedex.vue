@@ -1,24 +1,16 @@
 <template>
   <div class="generations">
-    <input
-      name="pick-gen"
-      type="radio"
-      id="gen1"
-      value="Gen1"
-      v-model="picked"
-    />
+    <input name="pick-gen" type="radio" id="gen1" value="Gen1" v-model="gen" />
     <label for="gen1">Gen 1</label>
     <br />
-    <span>Picked: {{ picked }}</span>
+    <span>Picked: {{ gen }}</span>
   </div>
   <br />
 
-  <!-- <div v-if="picked" class="pokebox">
+  <div v-if="gen" class="pokebox">
     <Gen1></Gen1>
-  </div> -->
-  <div v-if="!picked" class="pokebox">
-    <h1>You did something wrong</h1>
   </div>
+  <div v-if="!gen" class="pokebox">Select a gen</div>
 </template>
 
 <script>
@@ -28,14 +20,22 @@ import Gen1 from "../components/Gen1.vue";
 import { useStore } from "vuex";
 export default {
   setup() {
-    const pokedex = useStore();
-    console.log(pokemons);
-    console.log(pokedex);
+    const store = useStore();
+    console.log(store.getters);
+    console.log(textDex);
     return pokemons;
   },
   components: {
     DexCard,
     Gen1,
+  },
+  data() {
+    return {
+      gen: null,
+    };
+  },
+  computed: {
+    Gen1() {},
   },
 };
 </script>
