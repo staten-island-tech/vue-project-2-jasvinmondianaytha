@@ -15,26 +15,28 @@
 </template>
 
 <script>
+import { useFirebaseStore } from "@/stores/firebase-manager.js";
 import { ref } from "vue";
 import { useRouter } from "vue-router";
+
 export default {
   setup() {
-    const email = ref("");
-    const password = ref("");
-    const error = ref(null);
-    const router = useRouter();
+    const email = ref("")
+    const password = ref("")
+    const error = ref(null)
+    const store = useFirebaseStore()
+    const router = useRouter()
     const handleSubmit = async () => {
       try {
-        await store.dispatch("login", {
-          email: email.value,
-          password: password.value,
-        });
-        router.push("/");
+        await store.login(email.value, password.value)
+        router.push("/")
       } catch (err) {
-        error.value = err.message;
+        error.value = err.message
       }
-    };
-    return { handleSubmit, email, password, error };
-  },
-};
+    }
+    return {
+      handleSubmit, email, password, error
+    }
+  }
+}
 </script>
