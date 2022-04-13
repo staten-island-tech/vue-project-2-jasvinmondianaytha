@@ -1,11 +1,11 @@
 <template>
   <div class="pokebox">
     <DexCard
-      v-for="pokemon in pokemons"
-      :key="pokemon"
-      :name="pokemon.name.english"
-      :id="pokemon.id"
-      :sprite="pokemon.sprite"
+      v-for="gen1mon in gen1mons"
+      :key="gen1mon"
+      :name="gen1mon.name.english"
+      :id="gen1mon.id"
+      :sprite="gen1mon.sprite"
     ></DexCard>
   </div>
 </template>
@@ -18,6 +18,14 @@ export default {
     return pokemons;
   },
   components: { DexCard },
+  data() {
+    const gen1mons = this.pokemons.filter((pokemon) => pokemon.id < 152);
+    console.log(gen1mons);
+    return {
+      gen: null,
+      gen1mons,
+    };
+  },
 };
 </script>
 
