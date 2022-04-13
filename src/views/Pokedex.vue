@@ -20,9 +20,6 @@ import Gen1 from "../components/Gen1.vue";
 import { useStore } from "vuex";
 export default {
   setup() {
-    const store = useStore();
-    console.log(store.getters);
-    console.log(textDex);
     return pokemons;
   },
   components: {

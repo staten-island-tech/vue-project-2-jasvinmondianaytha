@@ -21,12 +21,6 @@ const store = createStore({
       state.authIsReady = payload;
     },
   },
-  getters: {
-    testDex() {
-      const testDex = Object.keys(pokemons).map((key) => [pokemons(key)]);
-      return textDex;
-    },
-  },
   actions: {
     async signup(context, { email, password }) {
       const response = await createUserWithEmailAndPassword(
