@@ -1,5 +1,5 @@
 <script>
-import { RouterLink, RouterView } from "vue-router";
+import { RouterLink } from "vue-router";
 import { useFirebaseStore } from "../stores/firebase-manager.js";
 
 export default {
@@ -15,6 +15,9 @@ export default {
     return {
       store, handleLogout
     }
+  },
+  components: {
+    RouterLink
   }
 }
 </script>
@@ -34,6 +37,11 @@ export default {
         <div class="nav-link-wrapper">
           <div class="nav-link">
             <RouterLink to="/about">ABOUT</RouterLink>
+          </div>
+        </div>
+        <div class="nav-link-wrapper">
+          <div class="nav-link">
+            <RouterLink to="/pokedex">POKÉDEX</RouterLink>
           </div>
         </div>
         <div class="nav-link-wrapper" v-if="!store.user">
@@ -103,9 +111,6 @@ export default {
   font-size: 1.5rem;
   text-decoration: none;
   color: inherit;
-}
-
-.nav-link * {
   transition: all 0.1s ease-out;
 }
 
