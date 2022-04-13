@@ -111,7 +111,7 @@ export default {
   font-size: 1.5rem;
   text-decoration: none;
   color: inherit;
-  transition: all 0.1s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 .nav-link *:hover {
