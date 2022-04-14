@@ -4,19 +4,12 @@
     <p class="pokedex-number">#{{ id }}</p>
     <h1 class="pokemon-name">{{ name }}</h1>
     <h2 class="pokemon-type">
-      <img
-        :src="
-          'https://play.pokemonshowdown.com/sprites/types/' + type1 + '.png'
-        "
-        :alt="type1"
-      />
-      <img
-        :src="
-          'https://play.pokemonshowdown.com/sprites/types/' + type2 + '.png'
-        "
-        :alt="type2"
-        v-if="type2"
-      />
+      <img :src="
+        'https://play.pokemonshowdown.com/sprites/types/' + type1 + '.png'
+      " :alt="type1" class="type" />
+      <img :src="
+        'https://play.pokemonshowdown.com/sprites/types/' + type2 + '.png'
+      " :alt="type2" v-if="type2" class="type" />
     </h2>
     <p></p>
   </div>
@@ -46,5 +39,9 @@ export default {
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
+}
+
+.type {
+  padding: 0.3rem;
 }
 </style>
