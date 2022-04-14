@@ -6,6 +6,7 @@ import {
   signOut,
   onAuthStateChanged,
 } from "firebase/auth";
+import { useRouter } from "vue-router";
 
 export const useFirebaseStore = defineStore({
   id: "firebase",
@@ -39,6 +40,19 @@ export const useFirebaseStore = defineStore({
     async logout() {
       await signOut(auth);
       this.setUser(null);
+    },
+    fetchUser() {
+      const router = useRouter();
+      auth.onAuthStateChanged(async (user) => {
+        if (user === null) {
+          this.setUser(null);
+        } else {
+          this.setUser(user);
+          if (router.isReady() && router.currentRoute.value.path === "/login") {
+            router.push("/");
+          }
+        }
+      });
     },
   },
 });

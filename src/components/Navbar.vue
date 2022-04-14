@@ -1,32 +1,39 @@
 <script>
 import { RouterLink } from "vue-router";
 import { useFirebaseStore } from "../stores/firebase-manager.js";
+import { onBeforeMount } from "vue";
 
 export default {
   setup() {
-    const store = useFirebaseStore()
+    const store = useFirebaseStore();
+    onBeforeMount(() => {
+      store.fetchUser();
+    });
     const handleLogout = async () => {
       try {
-        await store.logout()
+        await store.logout();
       } catch (err) {
-        console.log(err)
+        console.log(err);
       }
-    }
+    };
     return {
-      store, handleLogout
-    }
+      store,
+      handleLogout,
+    };
   },
   components: {
-    RouterLink
-  }
-}
+    RouterLink,
+  },
+};
 </script>
 
 <template>
   <div class="navbar">
     <div class="nav-container">
       <h1 class="nav-logo-wrapper">
-        <RouterLink to="/"><img src="@/assets/battler.png" alt="" class="nav-image" width="180" /></RouterLink>
+        <RouterLink to="/"
+          ><img src="@/assets/battler.png" alt="" class="nav-image" width="180"
+        /></RouterLink>
       </h1>
       <div class="nav-menu">
         <div class="nav-link-wrapper">
