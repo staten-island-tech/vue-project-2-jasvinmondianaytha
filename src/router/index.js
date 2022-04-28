@@ -32,6 +32,11 @@ const router = createRouter({
       name: "pokedex",
       component: () => import("@/views/Pokedex.vue"),
     },
+    {
+      path: "/tamagotchi",
+      name: "tamagotchi",
+      component: () => import("@/views/Tamagotchi.vue"),
+    },
   ],
 });
 

@@ -51,6 +51,11 @@ export default {
             <RouterLink to="/pokedex">POKÉDEX</RouterLink>
           </div>
         </div>
+        <div class="nav-link-wrapper">
+          <div class="nav-link">
+            <RouterLink to="/tamagotchi">TAMAGOTCHI</RouterLink>
+          </div>
+        </div>
         <div class="nav-link-wrapper" v-if="!store.user">
           <div class="nav-link">
             <RouterLink to="/login">LOGIN</RouterLink>
