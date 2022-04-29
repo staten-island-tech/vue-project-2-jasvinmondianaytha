@@ -1,34 +1,21 @@
 <template>
-  <Tamagotchi-Bar :percs="store.hunger" />
+  <Tamagotchi-Card />
 </template>
 
 <script>
 import { useTamagotchiStore } from "@/stores/tamagotchi.js";
-import TamagotchiBar from "../components/Tamagotchi-Bar.vue";
+import TamagotchiCard from "../components/Tamagotchi-Card.vue";
+
 export default {
   setup() {
     const store = useTamagotchiStore();
-    if (store.hunger <= 100) {
-      setInterval(() => {
-        store.hungry();
-      }, 1000);
-    }
+
     return { store };
   },
   components: {
-    TamagotchiBar,
+    TamagotchiCard,
   },
 };
 </script>
 
-<style>
-#greyBar {
-  width: 100%;
-  background-color: grey;
-}
-
-#greenBar {
-  height: 30px;
-  background-color: green;
-}
-</style>
+<style TamagotchiCard></style>

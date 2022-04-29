@@ -1,6 +1,6 @@
 <template>
   <div id="greyBar">
-    <div id="greenBar" v-bind:style="{ width: percs }">Hunger Bar</div>
+    <div id="greenBar" :style="'width:' + percs">{{ name }}</div>
   </div>
 </template>
 
@@ -10,9 +10,20 @@ export default {
     return {};
   },
   props: {
-    percs: Number,
+    name: String,
+    percs: String,
   },
 };
 </script>
 
-<style></style>
+<style scoped>
+#greyBar {
+  width: 100%;
+  background-color: grey;
+}
+
+#greenBar {
+  height: 30px;
+  background-color: green;
+}
+</style>
