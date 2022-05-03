@@ -43,7 +43,7 @@ export default {
         </div>
         <div class="nav-link-wrapper">
           <div class="nav-link">
-            <RouterLink to="/about">ABOUT</RouterLink>
+            <RouterLink to="/catch">CATCH</RouterLink>
           </div>
         </div>
         <div class="nav-link-wrapper">
