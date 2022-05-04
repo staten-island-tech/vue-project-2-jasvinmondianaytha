@@ -4,6 +4,7 @@ export const useTamagotchiStore = defineStore({
   id: "tamagotchi",
   state: () => ({
     name: "",
+    species: "",
     nature: "",
     id: null,
     type: [],
