@@ -1,6 +1,17 @@
-<script setup>
+<script>
 import { RouterView } from "vue-router";
 import Navbar from "@/components/Navbar.vue";
+import { usePokedexStore } from "@/stores/pokedex.js";
+
+export default {
+  setup() {
+    const store = usePokedexStore()
+    store.fetchAll();
+  },
+  components: {
+    RouterView, Navbar
+  },
+};
 </script>
 
 <template>

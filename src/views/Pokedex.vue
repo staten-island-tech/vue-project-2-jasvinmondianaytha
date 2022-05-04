@@ -24,7 +24,6 @@ import DexCard from "../components/DexCard.vue";
 export default {
   setup() {
     const store = usePokedexStore();
-    store.fetchAll();
     return { store };
   },
   components: {

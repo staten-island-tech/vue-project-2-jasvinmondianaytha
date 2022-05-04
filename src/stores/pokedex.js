@@ -33,6 +33,9 @@ export const usePokedexStore = defineStore({
           return this.pokemons;
       }
     },
+    getRandPoke() {
+      return this.pokemons[Math.floor(Math.random() * pokemons.length)];
+    },
   },
   actions: {
     fetchAll() {

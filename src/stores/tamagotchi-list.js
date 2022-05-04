@@ -3,6 +3,12 @@ import { defineStore } from "pinia";
 export const useTamagotchiListStore = defineStore({
   id: "tamagotchiList",
   state: () => ({
-    pets: [Bulbasaur],
+    pets: [],
   }),
+  actions: {
+    pushToParty(mon) {
+      this.pets.push(mon);
+      console.log(this.pets);
+    },
+  },
 });
