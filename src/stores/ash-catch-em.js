@@ -1,5 +1,6 @@
 import { defineStore } from "pinia";
 import { useTamagotchiListStore } from "./tamagotchi-list";
+import { catchRates } from "../assets/catch-rates.json";
 const listStore = useTamagotchiListStore();
 
 export const useCatchEm = defineStore({
@@ -69,10 +70,18 @@ export const useCatchEm = defineStore({
       if (Math.random() * 100 < 50) {
         console.log(this.pokemon);
         this.addToParty();
-      } else {
+      } else if (Math.random() * 100 < 40) {
         console.log("You didn't catch it");
+      } else {
+        console.log("It ran away lol");
       }
     },
+    pokeball(id) {
+      const poke = catchRates.find((ele) => ele.id == id);
+      const rate = (poke.rate * 100) / 255;
+      console.log(rate);
+    },
+    greatball() {},
     setMon(mon) {
       this.$reset();
       this.pokemon.species = mon.name.english;
