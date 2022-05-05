@@ -67,13 +67,12 @@ export const useCatchEm = defineStore({
         },
       },
     },
-    pokeball: null,
+    pokeball: "",
   }),
   getters: {},
   actions: {
     catch() {
       if (Math.random() * 100 < 50) {
-        console.log(this.pokemon);
         this.addToParty();
       } else if (Math.random() * 100 < 40) {
         console.log("You didn't catch it");
@@ -81,12 +80,9 @@ export const useCatchEm = defineStore({
         console.log("It ran away lol");
       }
     },
-    pokeball(id) {
-      const poke = catchRates.find((ele) => ele.id == id);
-      const rate = (poke.rate * 100) / 255;
-      console.log(rate);
+    setBall(ball) {
+      this.pokeball = ball;
     },
-    greatball() {},
     setMon(mon) {
       this.$reset();
       this.pokemon.species = mon.name.english;
@@ -102,15 +98,15 @@ export const useCatchEm = defineStore({
       const attr = {
         fullness: Math.floor(Math.random() * 5) + 10,
         hygiene: Math.floor(Math.random() * 5) + 10,
-        love: Math.floor(Math.random() * 5) + 10,
+        fun: Math.floor(Math.random() * 5) + 10,
         fatigue: Math.floor(Math.random() * 5) + 10,
       };
       this.pokemon.attributes.fullness.max = attr.fullness;
       this.pokemon.attributes.fullness.current = attr.fullness;
       this.pokemon.attributes.hygiene.max = attr.hygiene;
       this.pokemon.attributes.hygiene.current = attr.hygiene;
-      this.pokemon.attributes.love.max = attr.love;
-      this.pokemon.attributes.love.current = attr.love;
+      this.pokemon.attributes.fun.max = attr.fun;
+      this.pokemon.attributes.fun.current = attr.fun;
       this.pokemon.attributes.fatigue.max = attr.fatigue;
       this.pokemon.attributes.fatigue.current = 0;
     },

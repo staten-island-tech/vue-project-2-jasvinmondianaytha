@@ -8,7 +8,6 @@ export const useTamagotchiListStore = defineStore({
   actions: {
     pushToParty(mon) {
       this.pets.push(mon);
-      console.log(this.pets);
     },
   },
 });
