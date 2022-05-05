@@ -63,6 +63,7 @@ export const useCatchEm = defineStore({
         },
       },
     },
+    pokeball: null,
   }),
   getters: {},
   actions: {

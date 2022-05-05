@@ -8,7 +8,6 @@
       :sprite="randMon.sprite"
     />
     <button @click="catchStore.catch">Catch it</button>
-    <button @click="catchStore.pokeball">Catch it</button>
   </div>
 </template>
 

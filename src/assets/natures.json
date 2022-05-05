@@ -1,0 +1,102 @@
+{
+   "Adamant": {
+      "Increases": "Attack",
+      "Decreases": "Sp. Atk"
+   },
+   "Bashful": {
+      "Increases": "Sp. Atk",
+      "Decreases": "Sp. Atk"
+   },
+   "Bold": {
+      "Increases": "Defense",
+      "Decreases": "Attack"
+   },
+   "Brave": {
+      "Increases": "Attack",
+      "Decreases": "Speed"
+   },
+   "Calm": {
+      "Increases": "Sp. Def",
+      "Decreases": "Attack"
+   },
+   "Careful": {
+      "Increases": "Sp. Def",
+      "Decreases": "Sp. Atk"
+   },
+   "Docile": {
+      "Increases": "Defense",
+      "Decreases": "Defense"
+   },
+   "Gentle": {
+      "Increases": "Sp. Def",
+      "Decreases": "Defense"
+   },
+   "Hardy": {
+      "Increases": "Attack",
+      "Decreases": "Attack"
+   },
+   "Hasty": {
+      "Increases": "Speed",
+      "Decreases": "Defense"
+   },
+   "Impish": {
+      "Increases": "Defense",
+      "Decreases": "Sp. Atk"
+   },
+   "Jolly": {
+      "Increases": "Speed",
+      "Decreases": "Sp. Atk"
+   },
+   "Lax": {
+      "Increases": "Defense",
+      "Decreases": "Sp. Def"
+   },
+   "Lonely": {
+      "Increases": "Attack",
+      "Decreases": "Defense"
+   },
+   "Mild": {
+      "Increases": "Sp. Atk",
+      "Decreases": "Defense"
+   },
+   "Modest": {
+      "Increases": "Sp. Atk",
+      "Decreases": "Attack"
+   },
+   "Naive": {
+      "Increases": "Speed",
+      "Decreases": "Sp. Def"
+   },
+   "Naughty": {
+      "Increases": "Attack",
+      "Decreases": "Sp. Def"
+   },
+   "Quiet": {
+      "Increases": "Sp. Atk",
+      "Decreases": "Speed"
+   },
+   "Quirky": {
+      "Increases": "Sp. Def",
+      "Decreases": "Sp. Def"
+   },
+   "Rash": {
+      "Increases": "Sp. Atk",
+      "Decreases": "Sp. Def"
+   },
+   "Relaxed": {
+      "Increases": "Defense",
+      "Decreases": "Speed"
+   },
+   "Sassy": {
+      "Increases": "Sp. Def",
+      "Decreases": "Speed"
+   },
+   "Serious": {
+      "Increases": "Speed",
+      "Decreases": "Speed"
+   },
+   "Timid": {
+      "Increases": "Speed",
+      "Decreases": "Attack"
+   }
+}

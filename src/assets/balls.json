@@ -1,0 +1,29 @@
+{
+    "balls": {
+        "Poké Ball": {
+            "prob": 255,
+            "isMaster": false,
+            "id": 1
+        },
+        "Great Ball": {
+            "prob": 200,
+            "isMaster": false,
+            "id": 2
+        },
+        "Ultra Ball": {
+            "prob": 150,
+            "isMaster": false,
+            "id": 3
+        },
+        "Master Ball": {
+            "prob": 0,
+            "isMaster": true,
+            "id": 4
+        },
+        "Safari Ball": {
+            "prob": 155,
+            "isMaster": false,
+            "id": 5
+        }
+    }
+}
