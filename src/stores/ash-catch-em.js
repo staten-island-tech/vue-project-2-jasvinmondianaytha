@@ -45,19 +45,19 @@ export const useCatchEm = defineStore({
       },
       attributes: {
         fullness: {
-          max: Math.floor(Math.random() * 5) + 10,
+          max: null,
           current: null,
         },
         dirtiness: {
-          max: Math.floor(Math.random() * 5) + 10,
+          max: null,
           current: null,
         },
         love: {
-          max: Math.floor(Math.random() * 5) + 10,
+          max: null,
           current: null,
         },
         fatigue: {
-          max: Math.floor(Math.random() * 5) + 10,
+          max: null,
           current: null,
         },
       },
@@ -74,6 +74,7 @@ export const useCatchEm = defineStore({
       }
     },
     setMon(mon) {
+      this.$reset();
       this.pokemon.species = mon.name.english;
       this.pokemon.stats.hp.base = mon.base["HP"];
       this.pokemon.stats.atk.base = mon.base["Attack"];
@@ -81,6 +82,23 @@ export const useCatchEm = defineStore({
       this.pokemon.stats.spatk.base = mon.base["Sp. Attack"];
       this.pokemon.stats.spdef.base = mon.base["Sp. Defense"];
       this.pokemon.stats.speed.base = mon.base["Speed"];
+      this.genMon();
+    },
+    genMon() {
+      const attr = {
+        fullness: Math.floor(Math.random() * 5) + 10,
+        dirtiness: Math.floor(Math.random() * 5) + 10,
+        love: Math.floor(Math.random() * 5) + 10,
+        fatigue: Math.floor(Math.random() * 5) + 10,
+      };
+      this.pokemon.attributes.fullness.max = attr.fullness;
+      this.pokemon.attributes.fullness.current = attr.fullness;
+      this.pokemon.attributes.dirtiness.max = attr.dirtiness;
+      this.pokemon.attributes.dirtiness.current = attr.dirtiness;
+      this.pokemon.attributes.love.max = attr.love;
+      this.pokemon.attributes.love.current = attr.love;
+      this.pokemon.attributes.fatigue.max = attr.fatigue;
+      this.pokemon.attributes.fatigue.current = 0;
     },
     addToParty() {
       listStore.pushToParty(this.pokemon);
