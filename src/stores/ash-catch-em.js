@@ -49,15 +49,19 @@ export const useCatchEm = defineStore({
           max: null,
           current: null,
         },
-        dirtiness: {
+        hygiene: {
           max: null,
           current: null,
         },
-        love: {
+        fun: {
           max: null,
           current: null,
         },
         fatigue: {
+          max: null,
+          current: null,
+        },
+        social: {
           max: null,
           current: null,
         },
@@ -97,14 +101,14 @@ export const useCatchEm = defineStore({
     genMon() {
       const attr = {
         fullness: Math.floor(Math.random() * 5) + 10,
-        dirtiness: Math.floor(Math.random() * 5) + 10,
+        hygiene: Math.floor(Math.random() * 5) + 10,
         love: Math.floor(Math.random() * 5) + 10,
         fatigue: Math.floor(Math.random() * 5) + 10,
       };
       this.pokemon.attributes.fullness.max = attr.fullness;
       this.pokemon.attributes.fullness.current = attr.fullness;
-      this.pokemon.attributes.dirtiness.max = attr.dirtiness;
-      this.pokemon.attributes.dirtiness.current = attr.dirtiness;
+      this.pokemon.attributes.hygiene.max = attr.hygiene;
+      this.pokemon.attributes.hygiene.current = attr.hygiene;
       this.pokemon.attributes.love.max = attr.love;
       this.pokemon.attributes.love.current = attr.love;
       this.pokemon.attributes.fatigue.max = attr.fatigue;
