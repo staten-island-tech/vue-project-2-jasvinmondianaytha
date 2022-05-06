@@ -1,11 +1,15 @@
 <template>
   <div>
     <h1>Catch some of these hands</h1>
-    <Catch-Card :name="randMon.name.english" :type1="randMon.type[0]" :type2="randMon.type[1]"
-      :sprite="randMon.sprite" />
+    <Catch-Card
+      :name="randMon.name.english"
+      :type1="randMon.type[0]"
+      :type2="randMon.type[1]"
+      :sprite="randMon.sprite"
+    />
     <button @click="catchStore.catch()">Catch it</button>
     <select v-model="catchStore.pokeball">
-      <option v-for="ball in balls"> {{ ball.name }}</option>
+      <option v-for="ball in balls" :key="ball">{{ ball.name }}</option>
     </select>
   </div>
 </template>
@@ -29,5 +33,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

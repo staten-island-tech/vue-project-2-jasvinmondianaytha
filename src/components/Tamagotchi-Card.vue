@@ -2,7 +2,9 @@
   <div>
     <img :src="sprite" class="pokemon-sprite" />
     <Tamagotchi-Bar :percs="store.hungerBar" name="Hunger" />
-    <Tamagotchi-Bar :percs="store.happinessBar" name="Happiness" />
+    <Tamagotchi-Bar :percs="store.hygieneBar" name="Hygiene" />
+    <Tamagotchi-Bar :percs="store.loveBar" name="Love" />
+    <Tamagotchi-Bar :percs="store.funBar" name="Fun" />
     <Tamagotchi-Bar :percs="store.energyBar" name="Energy" />
   </div>
 </template>

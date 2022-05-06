@@ -45,7 +45,7 @@ export const useCatchEm = defineStore({
         },
       },
       attributes: {
-        fullness: {
+        hunger: {
           max: null,
           current: null,
         },
@@ -53,15 +53,15 @@ export const useCatchEm = defineStore({
           max: null,
           current: null,
         },
+        love: {
+          max: null,
+          current: null,
+        },
         fun: {
           max: null,
           current: null,
         },
-        fatigue: {
-          max: null,
-          current: null,
-        },
-        social: {
+        energy: {
           max: null,
           current: null,
         },
@@ -96,19 +96,21 @@ export const useCatchEm = defineStore({
     },
     genMon() {
       const attr = {
-        fullness: Math.floor(Math.random() * 5) + 10,
+        hunger: Math.floor(Math.random() * 5) + 10,
         hygiene: Math.floor(Math.random() * 5) + 10,
-        fun: Math.floor(Math.random() * 5) + 10,
-        fatigue: Math.floor(Math.random() * 5) + 10,
+        love: Math.floor(Math.random() * 5) + 10,
+        energy: Math.floor(Math.random() * 5) + 10,
       };
-      this.pokemon.attributes.fullness.max = attr.fullness;
-      this.pokemon.attributes.fullness.current = attr.fullness;
+      this.pokemon.attributes.hunger.max = attr.hunger;
+      this.pokemon.attributes.hunger.current = attr.hunger;
       this.pokemon.attributes.hygiene.max = attr.hygiene;
       this.pokemon.attributes.hygiene.current = attr.hygiene;
+      this.pokemon.attributes.love.max = attr.love;
+      this.pokemon.attributes.love.current = attr.love;
       this.pokemon.attributes.fun.max = attr.fun;
       this.pokemon.attributes.fun.current = attr.fun;
-      this.pokemon.attributes.fatigue.max = attr.fatigue;
-      this.pokemon.attributes.fatigue.current = 0;
+      this.pokemon.attributes.energy.max = attr.energy;
+      this.pokemon.attributes.energy.current = 0;
     },
     addToParty() {
       listStore.pushToParty(this.pokemon);
