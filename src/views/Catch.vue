@@ -19,13 +19,15 @@ import { useCatchEm } from "../stores/ash-catch-em";
 import { usePokedexStore } from "../stores/pokedex";
 import CatchCard from "../components/Catch-Card.vue";
 import { balls } from "@/assets/balls.json";
+import { catchRates } from "../assets/catch-rates.json";
 export default {
   setup() {
     const pokedexStore = usePokedexStore();
     const catchStore = useCatchEm();
     const randMon = pokedexStore.getRandPoke;
     catchStore.setMon(randMon);
-    return { pokedexStore, randMon, catchStore, balls };
+
+    return { pokedexStore, randMon, catchStore, balls, catchRates };
   },
   components: {
     CatchCard,
