@@ -121,6 +121,7 @@ export default {
 
 .nav-link a {
   font-size: 1.5rem;
+  font-weight: 600;
   text-decoration: none;
   color: inherit;
   transition: all 0.2s ease-out;
