@@ -73,19 +73,28 @@ export const useCatchEm = defineStore({
   getters: {},
   actions: {
     catch() {
-      if (Math.random() * 100 < 50) {
+      if (!this.pokeball) return;
+      if (this.pokeball === "Master Ball") {
         this.addToParty();
-      } else if (Math.random() * 100 < 40) {
-        console.log("You didn't catch it");
       } else {
-        console.log("It ran away lol");
-      }
-    },
-    catch1() {
-      if (this.pokeball == balls[0].name) {
-        if (Math.floor(Math.random() * 255) <= 255) {
+        const r1 = this.genR1(this.pokeball);
+        if (this.getCatchRate() < r1) {
+          console.log("fyu");
         }
       }
+    },
+    getCatchRate() {
+      return catchRates.find((obj) => {
+        return obj.id == this.pokemon.id;
+      }).rate;
+    },
+    genR1(ball) {
+      return Math.floor(
+        Math.random() *
+          balls.find((obj) => {
+            return obj.name === ball;
+          }).prob
+      );
     },
     setBall(ball) {
       this.pokeball = ball;
@@ -93,6 +102,7 @@ export const useCatchEm = defineStore({
     setMon(mon) {
       this.$reset();
       this.pokemon.species = mon.name.english;
+      this.pokemon.id = mon.id;
       this.pokemon.stats.hp.base = mon.base["HP"];
       this.pokemon.stats.atk.base = mon.base["Attack"];
       this.pokemon.stats.def.base = mon.base["Defense"];

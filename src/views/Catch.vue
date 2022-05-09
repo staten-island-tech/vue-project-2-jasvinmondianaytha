@@ -8,6 +8,7 @@
       :sprite="randMon.sprite"
     />
     <button @click="catchStore.catch()">Catch it</button>
+    <button @click="catchStore.pokeball()">Catch it (1)</button>
     <select v-model="catchStore.pokeball">
       <option v-for="ball in balls" :key="ball">{{ ball.name }}</option>
     </select>
