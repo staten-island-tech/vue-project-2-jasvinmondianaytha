@@ -10,29 +10,29 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: "/about",
-      name: "about",
-      component: () => import("../views/AboutView.vue"),
-    },
-    {
-      path: "/game",
-      name: "game",
-      component: () => import("../views/Game.vue"),
+      path: "/Catch",
+      name: "Catch",
+      component: () => import("@/views/Catch.vue"),
     },
     {
       path: "/login",
       name: "login",
-      component: () => import("../views/Login.vue"),
+      component: () => import("@/views/AccountManagement/Login.vue"),
     },
     {
       path: "/signup",
       name: "signup",
-      component: () => import("../views/Signup.vue"),
+      component: () => import("@/views/AccountManagement/Signup.vue"),
     },
     {
       path: "/pokedex",
       name: "pokedex",
-      component: () => import("../views/Pokedex.vue"),
+      component: () => import("@/views/Pokedex.vue"),
+    },
+    {
+      path: "/tamagotchi",
+      name: "tamagotchi",
+      component: () => import("@/views/Tamagotchi.vue"),
     },
   ],
 });

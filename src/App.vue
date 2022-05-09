@@ -1,12 +1,23 @@
-<script setup>
-import { RouterLink, RouterView } from "vue-router";
+<script>
+import { RouterView } from "vue-router";
 import Navbar from "@/components/Navbar.vue";
+import { usePokedexStore } from "@/stores/pokedex.js";
+
+export default {
+  setup() {
+    const store = usePokedexStore()
+    store.fetchAll();
+  },
+  components: {
+    RouterView, Navbar
+  },
+};
 </script>
 
 <template>
   <header>
     <div class="wrapper">
-      <Navbar></Navbar>
+      <Navbar />
     </div>
   </header>
 

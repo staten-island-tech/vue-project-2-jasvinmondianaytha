@@ -1,20 +1,28 @@
 <script>
-import { useStore } from "vuex";
-import { computed } from "vue";
-import { useRouter } from "vue-router";
+import { RouterLink } from "vue-router";
+import { useFirebaseStore } from "../stores/firebase-manager.js";
+import { onBeforeMount } from "vue";
+
 export default {
   setup() {
-    const store = useStore();
-    const router = useRouter();
-    const handleClick = () => {
-      store.dispatch("logout");
-      router.push("/login");
+    const store = useFirebaseStore();
+    onBeforeMount(() => {
+      store.fetchUser();
+    });
+    const handleLogout = async () => {
+      try {
+        await store.logout();
+      } catch (err) {
+        console.log(err);
+      }
     };
     return {
-      handleClick,
-      user: computed(() => store.state.user),
-      authIsReady: computed(() => store.state.authIsReady),
+      store,
+      handleLogout,
     };
+  },
+  components: {
+    RouterLink,
   },
 };
 </script>
@@ -23,7 +31,7 @@ export default {
   <div class="navbar">
     <div class="nav-container">
       <h1 class="nav-logo-wrapper">
-        <RouterLink to="/game"
+        <RouterLink to="/"
           ><img src="@/assets/battler.png" alt="" class="nav-image" width="180"
         /></RouterLink>
       </h1>
@@ -35,27 +43,33 @@ export default {
         </div>
         <div class="nav-link-wrapper">
           <div class="nav-link">
-            <RouterLink to="/about">ABOUT</RouterLink>
+            <RouterLink to="/catch">CATCH</RouterLink>
           </div>
         </div>
         <div class="nav-link-wrapper">
           <div class="nav-link">
-            <RouterLink to="/pokedex">POKEDEX</RouterLink>
+            <RouterLink to="/pokedex">POKÉDEX</RouterLink>
           </div>
         </div>
-        <div v-if="!user" class="nav-link-wrapper" id="logged-out">
+        <div class="nav-link-wrapper">
+          <div class="nav-link">
+            <RouterLink to="/tamagotchi">TAMAGOTCHI</RouterLink>
+          </div>
+        </div>
+        <div class="nav-link-wrapper" v-if="!store.user">
           <div class="nav-link">
             <RouterLink to="/login">LOGIN</RouterLink>
           </div>
         </div>
-        <div v-if="!user" class="nav-link-wrapper" id="logged-out">
+        <div class="nav-link-wrapper" v-if="!store.user">
           <div class="nav-link">
             <RouterLink to="/signup">SIGN UP</RouterLink>
           </div>
         </div>
-        <div v-if="user" class="nav-link-wrapper" id="logged=in">
-          <h2 v-if="user">Logged in as {{ user.email }}</h2>
-          <p class="logout" @click="handleClick">LOGOUT</p>
+        <div class="nav-link-wrapper" v-if="store.user">
+          <div class="nav-link">
+            <a class="logout" @click="handleLogout()">LOG OUT</a>
+          </div>
         </div>
       </div>
     </div>
@@ -71,9 +85,11 @@ export default {
   letter-spacing: 0.1rem;
   background-color: aliceblue;
 }
+
 .nav-logo-wrapper {
   margin-bottom: 1rem;
 }
+
 .nav-container {
   display: flex;
   margin-right: 0;
@@ -83,30 +99,38 @@ export default {
   border-bottom: 0.1rem solid var(--yellow);
   letter-spacing: 0.125rem;
 }
+
 .nav-menu {
   display: flex;
   align-items: center;
   flex: 0 0 auto;
 }
+
 .nav-link-wrapper {
   display: inline-block;
   margin-right: 0.7rem;
   margin-bottom: -0.2rem;
   margin-left: 0.7rem;
 }
+
 .nav-link {
   text-transform: uppercase;
   padding: 1.5rem 1rem 1rem;
   border-bottom: 0.3rem solid transparent;
 }
+
 .nav-link a {
   font-size: 1.5rem;
   text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease-out;
 }
+
+.nav-link *:hover {
+  color: purple;
+}
+
 .logout {
   cursor: pointer;
-}
-.logout:hover {
-  text-decoration: underline;
 }
 </style>

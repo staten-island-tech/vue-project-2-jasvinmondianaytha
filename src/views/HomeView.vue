@@ -1,7 +1,7 @@
-<script setup>
-import PokeInfo from "../components/PokeInfo.vue";
-</script>
+<script></script>
 
 <template>
-  <main><PokeInfo></PokeInfo></main>
+  <main></main>
 </template>
+
+<style></style>

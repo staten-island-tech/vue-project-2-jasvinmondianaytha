@@ -1,46 +1,39 @@
 <template>
-  <h1 v-if="!gen" class="pokebox">Select a gen</h1>
-  <div class="generations">
-    <input name="pick-gen" type="radio" id="gen1" value="Gen 1" v-model="gen" />
-    <label for="gen1">Gen 1</label>
-    <br />
-    <span v-if="gen">Selected {{ gen }}</span>
+  <div class="selections">
+    <p class="sel" id="0" @click="store.setGen(0)">All</p>
+    <p class="sel" v-for="n in 8" :key="n" :id="n" @click="store.setGen(n)">
+      {{ n }}
+    </p>
   </div>
-  <br />
-  <div v-if="gen" class="pokebox">
-    <Gen1></Gen1>
+  <div class="pokedex">
+    <DexCard
+      v-for="pokemon in store.gen"
+      :key="pokemon.name"
+      :id="pokemon.id"
+      :name="pokemon.name.english"
+      :type1="pokemon.type[0]"
+      :type2="pokemon.type[1]"
+      :sprite="pokemon.sprite"
+    />
   </div>
-  <button class="test" @click="Gen1()">TEST</button>
 </template>
 
 <script>
+import { usePokedexStore } from "@/stores/pokedex.js";
 import DexCard from "../components/DexCard.vue";
-import pokemons from "../assets/pokemon.json";
-import Gen1 from "../components/Gen1.vue";
 export default {
   setup() {
-    console.log(pokemons.pokemons);
-    return pokemons;
+    const store = usePokedexStore();
+    return { store };
   },
   components: {
     DexCard,
-    Gen1,
-  },
-  data() {
-    const gen1mons = this.pokemons.filter((pokemon) => pokemon.id < 152);
-    console.log(gen1mons);
-    return {
-      gen: null,
-    };
-  },
-  methods: {
-    Gen1() {},
   },
 };
 </script>
 
-<style>
-.pokebox {
+<style scoped>
+.pokedex {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
