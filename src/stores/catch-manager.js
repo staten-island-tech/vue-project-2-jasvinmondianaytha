@@ -1,5 +1,6 @@
 import { defineStore } from "pinia";
 import { useGenerateStore } from "./generate-mon";
+import { useFirebaseStore } from "./firebase-store";
 import { balls } from "@/assets/json/balls.json";
 
 export const useCatchStore = defineStore({
@@ -25,6 +26,7 @@ export const useCatchStore = defineStore({
     catchHandler() {
       if (this.catchCheck()) {
         useGenerateStore().finishMon();
+        useFirebaseStore().saveData();
       }
     },
     applyStatus(st) {

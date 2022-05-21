@@ -36,9 +36,17 @@ export const useFirebaseStore = defineStore({
       const docSnap = await getDoc(docRef);
       if (docSnap.exists()) {
         useBoxStore().box = docSnap.data().pokemons;
-        this.timeSaved = docSnap.data().timeSaved;
       } else {
         console.log("No such document!");
+      }
+    },
+    async returnInitTime() {
+      const docRef = doc(db, "users", this.user.uid);
+      const docSnap = await getDoc(docRef);
+      if (docSnap.exists()) {
+        return docSnap.data().timeSaved;
+      } else {
+        console.log("NO");
       }
     },
     async signup(email, password, username) {
@@ -68,8 +76,10 @@ export const useFirebaseStore = defineStore({
       auth.onAuthStateChanged(async (user) => {
         if (user === null) {
           this.setUser(null);
+          this.setAuthIsReady(true);
         } else {
           this.setUser(user);
+          this.setAuthIsReady(true);
           this.loadData();
           if (
             router.isReady() &&

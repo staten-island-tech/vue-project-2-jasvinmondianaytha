@@ -1,11 +1,13 @@
 <script>
 import { RouterLink, RouterView } from 'vue-router'
 import Navbar from './components/Navbar.vue';
-import { useFirebaseStore } from "./stores/firebase-store";
+import { useFirebaseStore } from './stores/firebase-store';
 
 export default {
   setup() {
-    useFirebaseStore().fetchUser();
+    const store = useFirebaseStore();
+    store.fetchUser()
+    return {store}
   },
   components: {
     RouterLink, RouterView, Navbar
@@ -14,7 +16,7 @@ export default {
 </script>
 
 <template>
-<div class="inner-app">
+<div class="inner-app" v-if="store.authIsReady">
   <header>
     <h1 class="lab-heading">Professor Oak's Laboratory</h1>
     <div class="wrapper">

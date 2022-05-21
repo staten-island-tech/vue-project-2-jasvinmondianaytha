@@ -18,3 +18,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url("/background.webp");
 }
+:root {
+  --dark-blue: #151c47;
+  --light-blue: #58a3ff;
+}
