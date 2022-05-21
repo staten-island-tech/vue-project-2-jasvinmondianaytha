@@ -1,6 +1,16 @@
-<script setup>
+<script>
 import { RouterLink, RouterView } from 'vue-router'
 import Navbar from './components/Navbar.vue';
+import { useFirebaseStore } from "./stores/firebase-store";
+
+export default {
+  setup() {
+    useFirebaseStore().fetchUser();
+  },
+  components: {
+    RouterLink, RouterView, Navbar
+  }
+}
 </script>
 
 <template>

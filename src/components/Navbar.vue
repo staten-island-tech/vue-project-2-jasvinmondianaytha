@@ -1,13 +1,28 @@
 <template>
   <nav>
     <span>[ </span>
-    <RouterLink to="/">Home</RouterLink><span> | </span>
-    <RouterLink to="/about">About</RouterLink><span> | </span>
-    <RouterLink to="/safari">Safari</RouterLink><span> | </span>
-    <RouterLink to="/box">Box</RouterLink>
+    <span><RouterLink to="/">Home</RouterLink></span>
+    <span><span> | </span><RouterLink to="/about">About</RouterLink></span>
+    <span><span> | </span><RouterLink to="/safari">Safari</RouterLink></span>
+    <span><span> | </span><RouterLink to="/box">Box</RouterLink></span>
+    <span v-if="!firebaseStore.user"><span> | </span><RouterLink to="/login">Log In</RouterLink></span>
+    <span v-if="!firebaseStore.user"><span> | </span><RouterLink to="/signup">Sign Up</RouterLink></span>
+    <span v-if="firebaseStore.user"><span> | </span><a class="click" @click="firebaseStore.logout()">Log Out</a></span>
     <span> ]</span>
   </nav>
 </template>
+
+<script>
+import { useFirebaseStore } from "@/stores/firebase-store.js"
+import { useBoxStore } from "../stores/box-store"
+export default {
+  setup() {
+    const firebaseStore = useFirebaseStore()
+    const boxStore = useBoxStore()
+    return {firebaseStore, boxStore}
+  }
+}
+</script>
 
 <style scoped>
 nav {
@@ -16,5 +31,15 @@ nav {
 }
 nav * {
   font-size: 1.5rem;
+}
+a, a:visited {
+  color: inherit;
+  text-decoration: none;
+ }
+a:hover, a:active, a.router-link-active {
+  color: #58a3ff;
+}
+.click {
+  cursor: pointer;
 }
 </style>
