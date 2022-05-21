@@ -22,17 +22,17 @@
             "id": 3
         },
         {
-            "name": "Master Ball",
-            "prob": 0,
-            "value": 12,
-            "isMaster": true,
-            "id": 4
-        },
-        {
             "name": "Safari Ball",
             "prob": 155,
             "value": 12,
             "isMaster": false,
+            "id": 4
+        },
+        {
+            "name": "Master Ball",
+            "prob": 0,
+            "value": 12,
+            "isMaster": true,
             "id": 5
         }
     ]

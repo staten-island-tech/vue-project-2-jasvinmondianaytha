@@ -1,23 +1,16 @@
-<script>
-import { RouterView } from "vue-router";
-import Navbar from "@/components/Navbar.vue";
-import { usePokedexStore } from "@/stores/pokedex.js";
-
-export default {
-  setup() {
-    const store = usePokedexStore()
-    store.fetchAll();
-  },
-  components: {
-    RouterView, Navbar
-  },
-};
+<script setup>
+import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
   <header>
+
     <div class="wrapper">
-      <Navbar />
+
+      <nav>
+        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/about">About</RouterLink>
+      </nav>
     </div>
   </header>
 
@@ -25,5 +18,5 @@ export default {
 </template>
 
 <style>
-@import "@/assets/base.css";
+@import '@/assets/base.css';
 </style>
