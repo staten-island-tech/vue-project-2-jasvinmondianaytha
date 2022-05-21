@@ -1,22 +1,41 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import Navbar from './components/Navbar.vue';
 </script>
 
 <template>
+<div class="inner-app">
   <header>
-
+    <h1 class="lab-heading">Professor Oak's Laboratory</h1>
     <div class="wrapper">
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
+      <Navbar/>
     </div>
   </header>
-
-  <RouterView />
+  <hr class="break">
+  <RouterView class="inner-view"/>
+</div>
 </template>
 
 <style>
 @import '@/assets/base.css';
+.lab-heading {
+  font-size: 2rem;
+  text-align: center;
+}
+.break {
+  margin: 1rem;
+  color: #58a3ff;
+}
+.inner-app {
+  background-color: #020827;
+  width: 80%;
+  margin:auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 0.1rem solid;
+  border-color: #58a3ff
+}
+.inner-view {
+  padding: 1rem;
+}
 </style>
