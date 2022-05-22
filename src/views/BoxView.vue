@@ -25,6 +25,7 @@ export default {
         const store = useBoxStore();
         const monStore = useMonStore();
         store.applyDecs();
+        setInterval(store.applyDecs, 10000)
         return { store, monStore };
     },
     components: { CatchCard, BoxEntry, DetailCard },

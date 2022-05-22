@@ -1,12 +1,13 @@
 import { defineStore } from "pinia";
 import { useGenerateStore } from "./generate-mon";
 import { useFirebaseStore } from "./firebase-store";
+import { useMessageStore } from "./message-log";
 import { balls } from "@/assets/json/balls.json";
 
 export const useCatchStore = defineStore({
   id: "catcher",
   state: () => ({
-    selectedBall: 1,
+    selectedBall: 4,
     status: null,
     catchRate: 0,
     angerCount: 0,
@@ -25,6 +26,9 @@ export const useCatchStore = defineStore({
       } else {
         this.angerCount += addAnger;
       }
+      this.eatCount = 0;
+      useMessageStore().pushMessage("You threw a ROCK!");
+      this.monTurn();
     },
     throwBait() {
       this.catchRate = Math.floor(this.catchRate / 2);
@@ -34,6 +38,13 @@ export const useCatchStore = defineStore({
       } else {
         this.eatCount += addEat;
       }
+      this.angerCount = 0;
+      useMessageStore().pushMessage("You threw BAIT!");
+      this.monTurn();
+    },
+    runAway() {
+      useMessageStore().pushMessage("You ran away!");
+      useGenerateStore().reset();
     },
     catchCheck() {
       if (this.selectedBall === 5) return true;
@@ -52,12 +63,46 @@ export const useCatchStore = defineStore({
       return false;
     },
     catchHandler() {
-      console.log(this.catchRate);
+      useMessageStore().pushMessage("You threw a BALL!");
       if (this.catchCheck()) {
         useGenerateStore().finishMon();
         useFirebaseStore().saveData();
       } else {
-        console.log("FAILLED");
+        this.monTurn();
+      }
+    },
+    monTurn() {
+      let X = (useGenerateStore().pokemon.stats.spe.actual % 256) * 2;
+      if (X > 255) {
+        useMessageStore().pushMessage("The pokemon ran away!");
+        useGenerateStore().reset();
+      }
+      if (this.angerCount > 0) {
+        if (X * 2 > 255) {
+          X = 255;
+        } else {
+          X = X * 2;
+        }
+      } else if (this.eatCount > 0) {
+        X = X / 4;
+      }
+      const R = Math.floor(Math.random() * 256);
+      if (R < X) {
+        useMessageStore().pushMessage("The pokemon ran away!");
+        useGenerateStore().reset();
+      }
+
+      console.log(this.angerCount, this.eatCount, this.catchRate);
+      if (this.angerCount > 0) {
+        if (this.angerCount - 1 <= 0) {
+          this.angerCount = 0;
+          useGenerateStore().setCatchRate();
+        } else {
+          this.angerCount -= 1;
+        }
+      }
+      if (this.eatCount > 0) {
+        this.eatCount -= 1;
       }
     },
     applyStatus(st) {

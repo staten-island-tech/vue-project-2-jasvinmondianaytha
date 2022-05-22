@@ -1,6 +1,7 @@
 import { defineStore } from "pinia";
 import { useBoxStore } from "./box-store";
 import { useCatchStore } from "./catch-manager";
+import { useMessageStore } from "./message-log";
 import { catchRates } from "@/assets/json/catch-rates.json";
 import "node:crypto";
 import * as dex from "@/assets/json/pokedex.json";
@@ -21,33 +22,34 @@ export const useGenerateStore = defineStore({
       stats: {
         hp: {
           ev: 0,
-          iv: Math.floor(Math.random() * 31),
+          iv: Math.floor(Math.random() * 15),
           base: 0,
         },
         atk: {
           ev: 0,
-          iv: Math.floor(Math.random() * 31),
+          iv: Math.floor(Math.random() * 15),
           base: 0,
         },
         def: {
           ev: 0,
-          iv: Math.floor(Math.random() * 31),
+          iv: Math.floor(Math.random() * 15),
           base: 0,
         },
         spa: {
           ev: 0,
-          iv: Math.floor(Math.random() * 31),
+          iv: Math.floor(Math.random() * 15),
           base: 0,
         },
         spd: {
           ev: 0,
-          iv: Math.floor(Math.random() * 31),
+          iv: Math.floor(Math.random() * 15),
           base: 0,
         },
         spe: {
           ev: 0,
-          iv: Math.floor(Math.random() * 31),
+          iv: Math.floor(Math.random() * 15),
           base: 0,
+          actual: 0,
         },
       },
       attributes: {
@@ -90,8 +92,17 @@ export const useGenerateStore = defineStore({
         for (const stat in this.pokemon.stats) {
           this.pokemon.stats[stat].base = rMon.baseStats[stat];
         }
-        useCatchStore().catchRate = catchRates[this.pokemon.num - 1].rate;
+        this.setCatchRate();
+        this.pokemon.stats.spe.actual = returnStat(
+          this.pokemon.stats.spe.base,
+          this.pokemon.stats.spe.iv,
+          30
+        );
+        useMessageStore().pushMessage(`You encountered a ${this.pokemon.species.toUpperCase()}!`);
       }
+    },
+    setCatchRate() {
+      useCatchStore().catchRate = catchRates[this.pokemon.num - 1].rate;
     },
     finishMon() {
       const rMon = Object.values(dex).find((ele) => ele.name === this.pokemon.species);
@@ -123,11 +134,18 @@ export const useGenerateStore = defineStore({
       useBoxStore().box.push(this.pokemon);
       console.log(useBoxStore().box);
 
+      this.reset();
+    },
+    reset() {
       this.$reset();
       this.setMon();
     },
   },
 });
+
+function returnStat(base, dv, lvl) {
+  return ((base + dv) * 2 * lvl) / 100 + 5;
+}
 
 function setGender(mon) {
   if (mon.genderRatio) {

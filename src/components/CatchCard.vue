@@ -21,7 +21,7 @@ export default {
   width: fit-content;
   margin: auto;
   border: 1px solid;
-  border-color: #d4ebff;
+  border-color: var(--light-blue);
 }
 .image {
   width: 20rem;
