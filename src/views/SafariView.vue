@@ -18,6 +18,7 @@
 </style>
 
 <script>
+import { useMessageStore } from "../stores/message-log";
 import { useGenerateStore } from "../stores/generate-mon";
 import InnerSafari from "../components/InnerSafari.vue";
 import MessageLog from "../components/MessageLog.vue";
@@ -25,6 +26,7 @@ import MessageLog from "../components/MessageLog.vue";
 export default {
     setup() {
         const genStore = useGenerateStore();
+        useMessageStore().clearMessages();
         genStore.setMon();
     },
     components: { InnerSafari, MessageLog }

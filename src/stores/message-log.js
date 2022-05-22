@@ -12,5 +12,8 @@ export const useMessageStore = defineStore({
         message: mes,
       });
     },
+    clearMessages() {
+      this.messages = [];
+    },
   },
 });
