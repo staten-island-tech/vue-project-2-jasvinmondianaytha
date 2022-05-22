@@ -18,7 +18,7 @@ export default {
 <template>
 <div class="inner-app" v-if="store.authIsReady">
   <header>
-    <h1 class="lab-heading">Professor Oak's Laboratory</h1>
+    <h1 class="lab-heading">Fuschia City's Safari Zone</h1>
     <div class="wrapper">
       <Navbar/>
     </div>
