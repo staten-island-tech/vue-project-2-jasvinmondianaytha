@@ -10,9 +10,22 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: "/Catch",
-      name: "Catch",
-      component: () => import("@/views/Catch.vue"),
+      path: "/about",
+      name: "about",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/AboutView.vue"),
+    },
+    {
+      path: "/safari",
+      name: "safari",
+      component: () => import("@/views/SafariView.vue"),
+    },
+    {
+      path: "/box",
+      name: "box",
+      component: () => import("@/views/BoxView.vue"),
     },
     {
       path: "/login",
@@ -23,16 +36,6 @@ const router = createRouter({
       path: "/signup",
       name: "signup",
       component: () => import("@/views/AccountManagement/Signup.vue"),
-    },
-    {
-      path: "/pokedex",
-      name: "pokedex",
-      component: () => import("@/views/Pokedex.vue"),
-    },
-    {
-      path: "/tamagotchi",
-      name: "tamagotchi",
-      component: () => import("@/views/Tamagotchi.vue"),
     },
   ],
 });

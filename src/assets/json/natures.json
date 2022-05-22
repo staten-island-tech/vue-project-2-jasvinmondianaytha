@@ -1,0 +1,127 @@
+[
+ {
+   "Nature": "Adamant",
+   "Increases": "Attack",
+   "Decreases": "Sp. Atk"
+ },
+ {
+   "Nature": "Bashful",
+   "Increases": "Sp. Atk",
+   "Decreases": "Sp. Atk"
+ },
+ {
+   "Nature": "Bold",
+   "Increases": "Defense",
+   "Decreases": "Attack"
+ },
+ {
+   "Nature": "Brave",
+   "Increases": "Attack",
+   "Decreases": "Speed"
+ },
+ {
+   "Nature": "Calm",
+   "Increases": "Sp. Def",
+   "Decreases": "Attack"
+ },
+ {
+   "Nature": "Careful",
+   "Increases": "Sp. Def",
+   "Decreases": "Sp. Atk"
+ },
+ {
+   "Nature": "Docile",
+   "Increases": "Defense",
+   "Decreases": "Defense"
+ },
+ {
+   "Nature": "Gentle",
+   "Increases": "Sp. Def",
+   "Decreases": "Defense"
+ },
+ {
+   "Nature": "Hardy",
+   "Increases": "Attack",
+   "Decreases": "Attack"
+ },
+ {
+   "Nature": "Hasty",
+   "Increases": "Speed",
+   "Decreases": "Defense"
+ },
+ {
+   "Nature": "Impish",
+   "Increases": "Defense",
+   "Decreases": "Sp. Atk"
+ },
+ {
+   "Nature": "Jolly",
+   "Increases": "Speed",
+   "Decreases": "Sp. Atk"
+ },
+ {
+   "Nature": "Lax",
+   "Increases": "Defense",
+   "Decreases": "Sp. Def"
+ },
+ {
+   "Nature": "Lonely",
+   "Increases": "Attack",
+   "Decreases": "Defense"
+ },
+ {
+   "Nature": "Mild",
+   "Increases": "Sp. Atk",
+   "Decreases": "Defense"
+ },
+ {
+   "Nature": "Modest",
+   "Increases": "Sp. Atk",
+   "Decreases": "Attack"
+ },
+ {
+   "Nature": "Naive",
+   "Increases": "Speed",
+   "Decreases": "Sp. Def"
+ },
+ {
+   "Nature": "Naughty",
+   "Increases": "Attack",
+   "Decreases": "Sp. Def"
+ },
+ {
+   "Nature": "Quiet",
+   "Increases": "Sp. Atk",
+   "Decreases": "Speed"
+ },
+ {
+   "Nature": "Quirky",
+   "Increases": "Sp. Def",
+   "Decreases": "Sp. Def"
+ },
+ {
+   "Nature": "Rash",
+   "Increases": "Sp. Atk",
+   "Decreases": "Sp. Def"
+ },
+ {
+   "Nature": "Relaxed",
+   "Increases": "Defense",
+   "Decreases": "Speed"
+ },
+ {
+   "Nature": "Sassy",
+   "Increases": "Sp. Def",
+   "Decreases": "Speed"
+ },
+ {
+   "Nature": "Serious",
+   "Increases": "Speed",
+   "Decreases": "Speed"
+ },
+ {
+   "Nature": "Timid",
+   "Increases": "Speed",
+   "Decreases": "Attack"
+ }
+]
