@@ -23,7 +23,7 @@ export const useBoxStore = defineStore({
         })
         .then((dat) => {
           if (dat) {
-            useFirebaseStore().saveData();
+            useFirebaseStore().saveTime();
           } else {
             throw new Error();
           }

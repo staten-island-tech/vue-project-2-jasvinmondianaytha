@@ -42,11 +42,13 @@ import { useGenerateStore } from "../stores/generate-mon";
 import { balls } from "@/assets/json/balls.json"
 import { useCatchStore } from "../stores/catch-manager";
 import CatchCard from "../components/CatchCard.vue";
+
 export default {
     setup() {
         const genStore = useGenerateStore();
         const catchStore = useCatchStore();
         genStore.setMon();
+        
         return { genStore, balls, catchStore };
     },
     components: { CatchCard }

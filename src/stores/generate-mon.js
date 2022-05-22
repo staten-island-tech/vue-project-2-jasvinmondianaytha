@@ -1,5 +1,7 @@
 import { defineStore } from "pinia";
 import { useBoxStore } from "./box-store";
+import { useCatchStore } from "./catch-manager";
+import { catchRates } from "@/assets/json/catch-rates.json";
 import "node:crypto";
 import * as dex from "@/assets/json/pokedex.json";
 import * as natures from "@/assets/json/natures.json";
@@ -82,16 +84,17 @@ export const useGenerateStore = defineStore({
         this.setMon();
       } else {
         this.pokemon.species = rMon.name;
+        this.pokemon.num = rMon.num;
         const sprite = Object.keys(dex)[id];
         this.pokemon.sprite = `https://play.pokemonshowdown.com/sprites/gen1/${sprite}.png`;
         for (const stat in this.pokemon.stats) {
           this.pokemon.stats[stat].base = rMon.baseStats[stat];
         }
+        useCatchStore().catchRate = catchRates[this.pokemon.num - 1].rate;
       }
     },
     finishMon() {
       const rMon = Object.values(dex).find((ele) => ele.name === this.pokemon.species);
-      this.pokemon.num = rMon.num;
       this.pokemon.type = rMon.types;
 
       this.pokemon.gender = setGender(rMon);

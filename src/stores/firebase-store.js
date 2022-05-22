@@ -28,6 +28,11 @@ export const useFirebaseStore = defineStore({
       await setDoc(doc(db, "users", this.user.uid), {
         uid: this.user.uid,
         pokemons: useBoxStore().box,
+      });
+    },
+    async saveTime() {
+      await updateDoc(doc(db, "users", this.user.uid), {
+        pokemons: useBoxStore().box,
         timeSaved: serverTimestamp(),
       });
     },
@@ -44,6 +49,9 @@ export const useFirebaseStore = defineStore({
       const docRef = doc(db, "users", this.user.uid);
       const docSnap = await getDoc(docRef);
       if (docSnap.exists()) {
+        if (!docSnap.data().timeSaved) {
+          this.saveTime();
+        }
         return docSnap.data().timeSaved;
       } else {
         console.log("NO");
