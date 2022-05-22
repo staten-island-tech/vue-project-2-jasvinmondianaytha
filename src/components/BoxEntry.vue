@@ -8,20 +8,21 @@
       <div class="gender" id="neutral" v-else>⚲</div>
     </td>
     <td>{{mon.nature}}</td>
-    <td><a class="detail" @click="monStore.setMon(mon.id)">Details</a></td>
+    <td><a class="detail" @click="store.setMon(id)">Details</a></td>
   </tr>  
 </template>
 
 <script>
-import {useMonStore} from "@/stores/mon-store";
+import { useBoxStore } from "../stores/box-store";
 
 export default {
   setup() {
-    const monStore = useMonStore();
-    return {monStore}
+    const store = useBoxStore();
+    return {store}
   },
   props: {
-    mon: Object
+    mon: Object,
+    id: Number
   },
 }
 </script>

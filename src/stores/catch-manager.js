@@ -65,6 +65,7 @@ export const useCatchStore = defineStore({
     catchHandler() {
       useMessageStore().pushMessage("You threw a BALL!");
       if (this.catchCheck()) {
+        useMessageStore().pushMessage("You caught the pokemon!");
         useGenerateStore().finishMon();
         useFirebaseStore().saveData();
       } else {

@@ -1,11 +1,11 @@
 <template>
   <div class="modal-container">
       <div class="modal-top-bar">
-        <div class="pkmn-name">{{store.pokemon.species}}</div>
+        <div class="pkmn-name">{{store.box[store.selectedMon].species}}</div>
         <div class="close-btn" @click="store.clearMon()">✖</div>
       </div>
       <div class="modal-content">
-        <InnerDetailCard :mon="store.pokemon"/>
+        <InnerDetailCard :mon="store.box[store.selectedMon]" :id="store.selectedMon"/>
       </div>
     </div>
   <div class="modal-mask" @click="store.clearMon()">
@@ -13,13 +13,13 @@
 </template>
 
 <script>
-import { useMonStore } from "../stores/mon-store";
+import { useBoxStore } from "../stores/box-store";
 import InnerDetailCard from "./InnerDetailCard.vue";
 import { useFirebaseStore } from "../stores/firebase-store";
 
 export default {
     setup() {
-        const store = useMonStore();
+        const store = useBoxStore();
         const firebaseStore = useFirebaseStore();
         return { store, firebaseStore };
     },
@@ -42,9 +42,9 @@ export default {
   z-index: 2;
   background-color: var(--dark-blue);
   top: calc(50% - 30rem);
-  left: calc(50% - 40rem);
-  width: 80rem;
-  height: 60rem;
+  left: calc(50% - 30rem);
+  width: 60rem;
+  height: 45rem;
   border: 1px solid;
   border-color: var(--light-blue);
 }
@@ -54,6 +54,7 @@ export default {
   border-color: var(--light-blue);
   padding-left: 3px;
   display: flex;
+  background-color: var(--mid-blue);
 }
 .pkmn-name {
   margin-right: auto;
@@ -74,7 +75,7 @@ export default {
   margin-right: 0.3rem;
   margin-bottom: 0.3rem;
   border-color: var(--light-blue);
-  height: 95%;
-  padding: 0.3rem;
+  height: 93.5%;
+  padding: 0.5rem;
 }
 </style>

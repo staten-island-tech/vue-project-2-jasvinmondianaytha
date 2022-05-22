@@ -131,7 +131,6 @@ h3 {
 }
 .button-text {
   font-size: 1.3rem;
-  /* font-family: 'Times New Roman', Times, serif; */
 }
 .button:hover {
   background-color: var(--light-blue);

@@ -7,9 +7,9 @@
         <th>Gender</th>
         <th>Nature</th>
       </tr>
-      <BoxEntry v-for="mon in store.box" :mon="mon" :key="mon.uuid"/>
+      <BoxEntry v-for="(mon, id) in store.box" :id="id" :mon="mon" :key="mon.uuid"/>
     </table>
-    <DetailCard v-if="monStore.pokemon"/>
+    <DetailCard v-if="store.selectedMon !== null"/>
   </div>
 </template>
 
@@ -18,15 +18,13 @@ import { useBoxStore } from "../stores/box-store";
 import CatchCard from "../components/CatchCard.vue";
 import BoxEntry from "../components/BoxEntry.vue";
 import DetailCard from "../components/DetailCard.vue";
-import {useMonStore} from "@/stores/mon-store";
 
 export default {
     setup() {
         const store = useBoxStore();
-        const monStore = useMonStore();
         store.applyDecs();
-        setInterval(store.applyDecs, 10000)
-        return { store, monStore };
+        setInterval(store.applyDecs, 20000)
+        return { store };
     },
     components: { CatchCard, BoxEntry, DetailCard },
 }
