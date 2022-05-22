@@ -54,6 +54,7 @@ export const useFirebaseStore = defineStore({
       if (res) {
         this.setUser(res.user);
         updateProfile(this.user, { displayName: username.value });
+        this.setAuthIsReady(true);
       } else {
         throw new Error("Could not complete signup");
       }
@@ -63,8 +64,9 @@ export const useFirebaseStore = defineStore({
       if (res) {
         this.setUser(res.user);
         this.loadData();
+        this.setAuthIsReady(true);
       } else {
-        throw new Error("Could not complete signup");
+        throw new Error("Could not complete login");
       }
     },
     async logout() {
@@ -79,7 +81,6 @@ export const useFirebaseStore = defineStore({
           this.setAuthIsReady(true);
         } else {
           this.setUser(user);
-          this.setAuthIsReady(true);
           this.loadData();
           if (
             router.isReady() &&
@@ -88,6 +89,7 @@ export const useFirebaseStore = defineStore({
           ) {
             router.push("/");
           }
+          this.setAuthIsReady(true);
         }
       });
     },

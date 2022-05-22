@@ -6,8 +6,6 @@
       </div>
       <div class="modal-content">
         <InnerDetailCard :mon="store.pokemon"/>
-        <button @click="store.dec(firebaseStore.user.uid)">DEC</button>
-        <button @click="firebaseStore.saveData()">SAVE</button>
       </div>
     </div>
   <div class="modal-mask" @click="store.clearMon()">

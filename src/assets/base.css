@@ -11,7 +11,10 @@ body {
   color: white;
   transition: color 0.5s, background-color 0.5s;
   line-height: 1.6;
-  font-family: serif;
+  font-family: "Verdana",
+    "Arial",
+    "Helvetica",
+    sans-serif;
   font-size: 15px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -21,4 +24,5 @@ body {
 :root {
   --dark-blue: #151c47;
   --light-blue: #58a3ff;
+  --mid-blue: #262d56;
 }

@@ -3,8 +3,8 @@
     <span>[ </span>
     <span><RouterLink to="/">Home</RouterLink></span>
     <span><span> | </span><RouterLink to="/about">About</RouterLink></span>
-    <span><span> | </span><RouterLink to="/safari">Safari</RouterLink></span>
-    <span v-if="boxStore.box.length > 0"><span> | </span><RouterLink to="/box">Box</RouterLink></span>
+    <span v-if="firebaseStore.user"><span> | </span><RouterLink to="/safari">Safari</RouterLink></span>
+    <span v-if="boxStore.box.length > 0 && firebaseStore.user"><span> | </span><RouterLink to="/box">Box</RouterLink></span>
     <span v-if="!firebaseStore.user"><span> | </span><RouterLink to="/login">Log In</RouterLink></span>
     <span v-if="!firebaseStore.user"><span> | </span><RouterLink to="/signup">Sign Up</RouterLink></span>
     <span v-if="firebaseStore.user"><span> | </span><a class="click" @click="firebaseStore.logout()">Log Out</a></span>
