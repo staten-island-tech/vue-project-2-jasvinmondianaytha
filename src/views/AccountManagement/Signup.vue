@@ -1,51 +1,71 @@
 <template>
-<div class="form-wrapper">
-  <h3>Sign Up</h3>
-  <form @submit.prevent="handleSubmit" class="block-container">
-    <div class="block-body">
-      <dl class="form-row">
-        <dt>
-          <div class="label-wrapper">
-            <label for="email">Email: </label>
-          </div>
-        </dt>
+  <div class="form-wrapper">
+    <h3>Sign Up</h3>
+    <form @submit.prevent="handleSubmit" class="block-container">
+      <div class="block-body">
+        <dl class="form-row">
+          <dt>
+            <div class="label-wrapper">
+              <label for="email">Email: </label>
+            </div>
+          </dt>
+          <dd>
+            <input
+              class="input"
+              type="email"
+              name="email"
+              v-model="email"
+              required
+            />
+          </dd>
+        </dl>
+        <dl class="form-row">
+          <dt>
+            <div class="label-wrapper">
+              <label for="username">Username: </label>
+            </div>
+          </dt>
+          <dd>
+            <input
+              class="input"
+              type="username"
+              name="username"
+              v-model="username"
+              required
+            />
+          </dd>
+        </dl>
+        <dl class="form-row">
+          <dt>
+            <div class="label-wrapper">
+              <label for="password">Password: </label>
+            </div>
+          </dt>
+          <dd>
+            <input
+              class="input"
+              type="password"
+              name="password"
+              v-model="password"
+              required
+            />
+          </dd>
+        </dl>
+      </div>
+      <dl class="form-row form-submit-row">
         <dd>
-          <input class="input" type="email" name="email" v-model="email" required />
+          <div class="form-submit-row-main">
+            <div class="form-submit-row-controls">
+              <button class="button">
+                <span class="button-text">SIGN UP</span>
+              </button>
+              <div v-if="error">{{ error }}</div>
+            </div>
+          </div>
         </dd>
       </dl>
-      <dl class="form-row">
-        <dt>
-          <div class="label-wrapper">
-            <label for="username">Username: </label>
-          </div>
-        </dt>
-        <dd>
-          <input class="input" type="username" name="username" v-model="username" required />
-        </dd>
-      </dl>
-      <dl class="form-row">
-        <dt>
-          <div class="label-wrapper">
-            <label for="password">Password: </label>
-          </div>
-        </dt>
-        <dd>
-          <input class="input" type="password" name="password" v-model="password" required />
-        </dd>
-      </dl>
-    </div>
-    <dl class="form-row form-submit-row">
-      <dd>
-        <div class="form-submit-row-main">
-          <div class="form-submit-row-controls">
-          <button class="button"><span class="button-text">LOG IN</span></button>
-          <div v-if="error">{{ error }}</div>
-        </div>
-        </div>
-      </dd>
-    </dl>
-  </form>
-</div>
+    </form>
+  </div>
 </template>
 
 <style scoped>
@@ -54,7 +74,7 @@ h3 {
 }
 .form-wrapper {
   margin: auto;
-  width: 80%
+  width: 80%;
 }
 .block-container {
   border: 1px solid;
@@ -87,7 +107,8 @@ h3 {
   width: 67%;
   padding: 15px 10px 15px 10px;
 }
-.form-row dd, .form-row dt {
+.form-row dd,
+.form-row dt {
   display: table-cell;
   vertical-align: top;
 }
@@ -121,7 +142,7 @@ h3 {
   padding-top: 8px;
   padding-bottom: 8px;
   margin-left: 10px;
-  margin-right: 10px; 
+  margin-right: 10px;
 }
 .button {
   border: 1px solid;
@@ -154,24 +175,28 @@ import { ref } from "vue";
 import { useFirebaseStore } from "@/stores/firebase-store";
 import { useRouter } from "vue-router";
 export default {
-    setup() {
-        const store = useFirebaseStore();
-        const email = ref("");
-        const password = ref("");
-        const username = ref("");
-        const error = ref(null);
-        const router = useRouter();
-        const handleSubmit = async () => {
-            try {
-                await store.signup(email, password, username)
-                router.push("/")
-            } catch (err) {
-                error.value = err.message;
-            }
-        }
-        return {
-            handleSubmit, email, password, error, username
-        }
-    }
-}
+  setup() {
+    const store = useFirebaseStore();
+    const email = ref("");
+    const password = ref("");
+    const username = ref("");
+    const error = ref(null);
+    const router = useRouter();
+    const handleSubmit = async () => {
+      try {
+        await store.signup(email, password, username);
+        router.push("/");
+      } catch (err) {
+        error.value = err.message;
+      }
+    };
+    return {
+      handleSubmit,
+      email,
+      password,
+      error,
+      username,
+    };
+  },
+};
 </script>
