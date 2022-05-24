@@ -132,7 +132,6 @@ export const useGenerateStore = defineStore({
       }
 
       useBoxStore().box.push(this.pokemon);
-      console.log(useBoxStore().box);
 
       this.reset();
     },

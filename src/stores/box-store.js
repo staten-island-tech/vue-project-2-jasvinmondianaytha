@@ -44,6 +44,12 @@ export const useBoxStore = defineStore({
       useFirebaseStore().saveData();
     },
     train(id) {
+      if (
+        this.box[id].attributes.hygiene.current == 0 ||
+        this.box[id].attributes.energy.current == 0
+      ) {
+        return false;
+      }
       this.box[id].attributes.fun.current = Math.min(
         this.box[id].attributes.fun.max,
         this.box[id].attributes.fun.current + 10
