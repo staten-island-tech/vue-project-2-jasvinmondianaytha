@@ -49,9 +49,6 @@ export const useFirebaseStore = defineStore({
       const docRef = doc(db, "users", this.user.uid);
       const docSnap = await getDoc(docRef);
       if (docSnap.exists()) {
-        if (!docSnap.data().timeSaved) {
-          this.saveTime();
-        }
         return docSnap.data().timeSaved;
       } else {
         console.log("NO");
