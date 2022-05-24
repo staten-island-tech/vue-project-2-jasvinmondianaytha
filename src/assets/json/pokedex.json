@@ -2509,6 +2509,42 @@
       "Graveler-Alola"
     ]
   },
+  "golem": {
+    "num": 76,
+    "name": "Golem",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 130,
+      "spa": 55,
+      "spd": 65,
+      "spe": 45
+    },
+    "abilities": {
+      "0": "Rock Head",
+      "1": "Sturdy",
+      "H": "Sand Veil"
+    },
+    "heightm": 1.4,
+    "weightkg": 300,
+    "color": "Brown",
+    "prevo": "Graveler",
+    "evoType": "trade",
+    "eggGroups": [
+      "Mineral"
+    ],
+    "otherFormes": [
+      "Golem-Alola"
+    ],
+    "formeOrder": [
+      "Golem",
+      "Golem-Alola"
+    ]
+  },
   "ponyta": {
     "num": 77,
     "name": "Ponyta",

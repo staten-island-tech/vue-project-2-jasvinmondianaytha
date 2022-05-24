@@ -23,7 +23,7 @@ export default {
     setup() {
         const store = useBoxStore();
         store.applyDecs();
-        setInterval(store.applyDecs, 20000)
+        // setInterval(store.applyDecs, 20000)
         return { store };
     },
     components: { CatchCard, BoxEntry, DetailCard },

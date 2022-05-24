@@ -33,7 +33,7 @@ export const useFirebaseStore = defineStore({
     async saveTime() {
       await updateDoc(doc(db, "users", this.user.uid), {
         pokemons: useBoxStore().box,
-        timeSaved: serverTimestamp(),
+        timeSaved: Math.floor(Date.now() / 1000),
       });
     },
     async loadData() {

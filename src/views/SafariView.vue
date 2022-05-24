@@ -18,13 +18,11 @@
 </style>
 
 <script>
-import { useMessageStore } from "../stores/message-log";
 import InnerSafari from "../components/InnerSafari.vue";
 import MessageLog from "../components/MessageLog.vue";
 
 export default {
     setup() {
-        useMessageStore().clearMessages();
     },
     components: { InnerSafari, MessageLog }
 }

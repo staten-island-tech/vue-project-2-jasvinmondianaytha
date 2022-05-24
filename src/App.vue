@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-<div class="inner-app" v-if="store.authIsReady">
+<div class="inner-app">
   <header>
     <h1 class="lab-heading">Safari Zone</h1>
     <div class="wrapper">

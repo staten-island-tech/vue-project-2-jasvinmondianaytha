@@ -1,25 +1,24 @@
 <template>
   <div class="inner">
-    <CatchCard :name="genStore.pokemon.species" :sprite="genStore.pokemon.sprite"></CatchCard>
+    <CatchCard :name="store.pokemon.name" :sprite="store.pokemon.sprite"></CatchCard>
   <div class="buttons">
-    <button @click="catchStore.catchHandler()">Throw Ball</button>
-    <button @click="catchStore.throwRock()">Throw Rock</button>
-    <button @click="catchStore.throwBait()">Throw Bait</button>
-    <button @click="catchStore.runAway()">Run Away</button>
+    <button @click="store.catchHandler()">Throw Ball</button>
+    <button @click="store.throwRock()">Throw Rock</button>
+    <button @click="store.throwBait()">Throw Bait</button>
+    <button @click="store.runAway()">Run Away</button>
   </div>
   </div>
 </template>
 
 <script>
-import { useGenerateStore } from "@/stores/generate-mon";
-import { useCatchStore } from "@/stores/catch-manager";
 import CatchCard from "@/components/CatchCard.vue";
+import { useCatchStore } from "../stores/catch-manager";
 
 export default {
   setup() {
-    const genStore = useGenerateStore();
-    const catchStore = useCatchStore();
-    return { genStore, catchStore }
+    const store = useCatchStore()
+    store.genPokemon()
+    return {store}
   },
   components: {
     CatchCard
