@@ -1,7 +1,7 @@
 <template>
 <div class="safari">
   <InnerSafari/>
-  <MessageLog/>
+  <MessageLog class="msg"/>
 </div>
 </template>
 
@@ -14,7 +14,12 @@
     align-items: center;
   }
 }
-
+@media (max-width: 1023px) {
+  .msg {
+    margin: auto;
+    margin-top: 1rem;
+  }
+}
 </style>
 
 <script>

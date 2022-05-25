@@ -117,4 +117,32 @@ button:hover {
 .release button {
   width: fit-content;
 }
+@media (max-width: 501px) {
+  .mon-img-wrapper {
+    grid-area: 1 / 1 / 3 / 3;
+  }
+}
+@media (max-width: 413px) {
+
+.mon-img-wrapper {
+    display: flex;
+    justify-content: start;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .mon-img {
+    width: 12rem;
+    display: flex;
+  }
+  .button {
+    width: 9rem;
+    margin: 1rem;
+  }
+  .attributes {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    grid-area: 2 / 1 / 3 / 3;
+  }
+}
 </style>

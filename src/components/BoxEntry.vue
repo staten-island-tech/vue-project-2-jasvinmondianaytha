@@ -1,13 +1,13 @@
 <template>
   <tr>
-    <td><img :src="mon.sprite" alt=""></td>
+    <td><img :src="mon.sprite" :alt="mon.species + 'in box'"></td>
     <td>{{mon.species}}</td>
-    <td>
+    <td class="gend">
       <div class="gender" id="male" v-if="mon.gender == 'M'">♂</div>
       <div class="gender" id="female" v-else-if="mon.gender == 'F'">♀</div>
       <div class="gender" id="neutral" v-else>⚲</div>
     </td>
-    <td>{{mon.nature}}</td>
+    <td class="nat">{{mon.nature}}</td>
     <td><a class="detail" @click="store.setMon(id)">Details</a></td>
   </tr>  
 </template>
@@ -53,5 +53,10 @@ tr, td {
 }
 .attr th {
   border: 1px solid;
+}
+@media (max-width: 415px) {
+  .gend, .nat {
+    display: none;
+  }
 }
 </style>

@@ -1,6 +1,7 @@
 <script setup></script>
 
 <template>
+<div class="abt">
   <main>Welcome to the Safari Zone!</main>
 
   <p>
@@ -38,14 +39,11 @@
   <p>They die</p>
 
   <h2>What</h2>
+</div>
 </template>
 
 <style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+.abt * {
+  font-size: 1.2rem;
 }
 </style>

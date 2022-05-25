@@ -26,6 +26,7 @@ export default {
 <style scoped>
 .name {
   text-align: center;
+  font-size: 1.2rem;
 }
 ol {
   list-style-type: none;

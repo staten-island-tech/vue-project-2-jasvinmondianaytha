@@ -4,8 +4,8 @@
       <tr>
         <th>Image</th>
         <th>Species</th>
-        <th>Gender</th>
-        <th>Nature</th>
+        <th class="gend">Gender</th>
+        <th class="nat">Nature</th>
       </tr>
       <BoxEntry v-for="(mon, id) in store.box" :id="id" :mon="mon" :key="mon.uuid"/>
     </table>
@@ -40,5 +40,10 @@ export default {
   border: 1px solid;
   font-size: 1.5rem;
   padding: 0.5rem;
+}
+@media (max-width: 415px) {
+  .gend, .nat {
+    display: none;
+  }
 }
 </style>

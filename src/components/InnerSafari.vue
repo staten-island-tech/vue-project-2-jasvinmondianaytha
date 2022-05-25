@@ -41,12 +41,7 @@ export default {
   text-align: center;
   width: fit-content;
 }
-@media (max-width: 1024px) {
-  .buttons {
-    margin:auto;
-    margin-top: 1rem
-  }
-}
+
 .buttons button {
   border: 1px solid;
   border-color: var(--light-blue);
@@ -68,4 +63,11 @@ export default {
   background-color: var(--light-blue);
   color: white;
 }
+@media (max-width: 429px) {
+  .buttons {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 </style>

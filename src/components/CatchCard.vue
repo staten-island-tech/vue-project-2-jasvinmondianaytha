@@ -1,6 +1,6 @@
 <template>
   <figure class="card">
-    <img class="image" :src="sprite" :alt="name">
+    <img class="image" :src="sprite" :alt="name + 'in safari'">
     <figcaption class="name">{{name}}</figcaption>
   </figure>
 </template>

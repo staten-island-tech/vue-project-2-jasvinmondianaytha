@@ -78,4 +78,12 @@ export default {
   height: 93.5%;
   padding: 0.5rem;
 }
+@media (max-width: 595px) {
+  .modal-container {
+    width: 98%;
+    height: 98%;
+    left: calc(50% - 49%);
+    top: calc(50% - 49%);
+  }
+}
 </style>

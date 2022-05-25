@@ -26,6 +26,11 @@
   margin-right: 1rem;
   color: rgb(236, 197, 122)
 }
+@media (max-width: 551px) {
+  .message-log {
+    width: 100%;
+  }
+}
 </style>
 
 <script>

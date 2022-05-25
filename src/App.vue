@@ -50,4 +50,9 @@ export default {
 .inner-view {
   padding: 1rem;
 }
+@media (max-width: 639px) {
+  .inner-app {
+    width: 100%;
+  }  
+}
 </style>
