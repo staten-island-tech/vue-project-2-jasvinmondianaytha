@@ -16,6 +16,7 @@ export const useBoxStore = defineStore({
     },
     feed(id) {
       this.box[id].attributes.fullness.current = this.box[id].attributes.fullness.max;
+      getCurrentTime();
       useFirebaseStore().saveData();
     },
     play(id) {

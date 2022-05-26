@@ -93,7 +93,6 @@ export const useCatchStore = defineStore({
         useGenerateStore().reset();
       }
 
-      console.log(this.angerCount, this.eatCount, this.catchRate);
       if (this.angerCount > 0) {
         if (this.angerCount - 1 <= 0) {
           this.angerCount = 0;
