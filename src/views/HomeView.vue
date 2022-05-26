@@ -11,7 +11,7 @@
   </p>
   <p></p>
   <img
-    src="https://archives.bulbagarden.net/media/upload/5/5c/FL_Safari_Zone.png"
+    src="/FL_Safari_Zone.png"
   />
   <p>
     This is a simulation of the safari zone from the generation one pokemon
