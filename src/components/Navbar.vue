@@ -24,7 +24,7 @@
     >
     <span v-if="firebaseStore.user"
       ><span> | </span
-      ><a class="click" @click="firebaseStore.homeRoute()">Log Out</a></span
+      ><a class="click" @click="firebaseStore.logout()">Log Out</a></span
     >
     <span> ]</span>
   </nav>
